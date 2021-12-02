@@ -1,0 +1,10 @@
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\bin\Release\Server.exe.config
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\bin\Release\Server.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\bin\Release\Server.pdb
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.csproj.AssemblyReference.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.UDP_Server.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.Properties.Resources.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.csproj.GenerateResource.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.csproj.CoreCompileInputs.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.pdb

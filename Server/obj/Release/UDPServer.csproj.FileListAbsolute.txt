@@ -1,0 +1,70 @@
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\bin\Release\Server.exe.config
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\bin\Release\Server.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\bin\Release\Server.pdb
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\bin\Release\Newtonsoft.Json.dll
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\bin\Release\Newtonsoft.Json.xml
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\UDPServer.csproj.AssemblyReference.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.Properties.Resources.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\UDPServer.csproj.GenerateResource.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\UDPServer.csproj.CoreCompileInputs.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\UDPServer.csproj.CopyComplete
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.pdb
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\-n-Socket\Server\obj\Release\Server.UDPServerForm.resources
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\bin\Release\Server.exe.config
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\bin\Release\Server.exe
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\bin\Release\Server.pdb
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\bin\Release\Newtonsoft.Json.dll
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\bin\Release\Newtonsoft.Json.xml
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\UDPServer.csprojAssemblyReference.cache
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\Server.AddPlaceForm.resources
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\Server.Form_Server.resources
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\Server.Properties.Resources.resources
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\UDPServer.csproj.GenerateResource.cache
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\UDPServer.csproj.CoreCompileInputs.cache
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\UDPServer.csproj.CopyComplete
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\Server.exe
+G:\study\cntt\N2\hk1\mang may tinh\project\project_Socket\Server\obj\Release\Server.pdb
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\bin\Release\Server.exe.config
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\bin\Release\Server.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\bin\Release\Server.pdb
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\bin\Release\Newtonsoft.Json.dll
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\bin\Release\Newtonsoft.Json.xml
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\UDPServer.csproj.AssemblyReference.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\Server.AddPlaceForm.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\Server.Form_Server.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\Server.Properties.Resources.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\UDPServer.csproj.GenerateResource.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\UDPServer.csproj.CoreCompileInputs.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\UDPServer.csproj.CopyComplete
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\Server.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Server\obj\Release\Server.pdb
+D:\Môn học\Mạng máy tính\project_Socket\Server\bin\Release\Server.exe.config
+D:\Môn học\Mạng máy tính\project_Socket\Server\bin\Release\Server.exe
+D:\Môn học\Mạng máy tính\project_Socket\Server\bin\Release\Server.pdb
+D:\Môn học\Mạng máy tính\project_Socket\Server\bin\Release\Newtonsoft.Json.dll
+D:\Môn học\Mạng máy tính\project_Socket\Server\bin\Release\Newtonsoft.Json.xml
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\UDPServer.csproj.AssemblyReference.cache
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\UDPServer.csproj.SuggestedBindingRedirects.cache
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\Server.AddPlaceForm.resources
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\Server.Form_Server.resources
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\Server.Properties.Resources.resources
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\UDPServer.csproj.GenerateResource.cache
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\UDPServer.csproj.CoreCompileInputs.cache
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\UDPServer.csproj.CopyComplete
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\Server.exe
+D:\Môn học\Mạng máy tính\project_Socket\Server\obj\Release\Server.pdb
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\bin\Release\Server.exe.config
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\bin\Release\Server.exe
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\bin\Release\Server.pdb
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\bin\Release\Newtonsoft.Json.dll
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\bin\Release\Newtonsoft.Json.xml
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\UDPServer.csprojAssemblyReference.cache
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\Server.AddPlaceForm.resources
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\Server.Form_Server.resources
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\Server.Properties.Resources.resources
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\UDPServer.csproj.GenerateResource.cache
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\UDPServer.csproj.CoreCompileInputs.cache
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\UDPServer.csproj.CopyComplete
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\Server.exe
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\Server.pdb

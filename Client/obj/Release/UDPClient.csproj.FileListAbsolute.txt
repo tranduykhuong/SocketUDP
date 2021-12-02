@@ -1,0 +1,50 @@
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\bin\Release\Client.exe.config
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\bin\Release\Client.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\bin\Release\Client.pdb
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\bin\Release\Newtonsoft.Json.dll
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\bin\Release\Newtonsoft.Json.xml
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\UDPClient.csproj.AssemblyReference.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\Client.Client.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\Client.Resource1.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\Client.ResultForm.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\Client.SearchForm.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\Client.Properties.Resources.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\UDPClient.csproj.GenerateResource.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\UDPClient.csproj.CoreCompileInputs.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\UDPClient.csproj.CopyComplete
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\Client.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\doanSocket\Client\obj\Release\Client.pdb
+D:\Môn học\Mạng máy tính\project_Socket\Client\bin\Release\Client.exe.config
+D:\Môn học\Mạng máy tính\project_Socket\Client\bin\Release\Client.exe
+D:\Môn học\Mạng máy tính\project_Socket\Client\bin\Release\Client.pdb
+D:\Môn học\Mạng máy tính\project_Socket\Client\bin\Release\Newtonsoft.Json.dll
+D:\Môn học\Mạng máy tính\project_Socket\Client\bin\Release\Newtonsoft.Json.xml
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\UDPClient.csproj.AssemblyReference.cache
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\UDPClient.csproj.SuggestedBindingRedirects.cache
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\Client.Client.resources
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\Client.Resource1.resources
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\Client.ResultForm.resources
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\Client.SearchForm.resources
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\Client.Properties.Resources.resources
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\UDPClient.csproj.GenerateResource.cache
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\UDPClient.csproj.CoreCompileInputs.cache
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\UDPClient.csproj.CopyComplete
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\Client.exe
+D:\Môn học\Mạng máy tính\project_Socket\Client\obj\Release\Client.pdb
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\UDPClient.csprojAssemblyReference.cache
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\Client.Client.resources
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\Client.Resource1.resources
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\Client.ResultForm.resources
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\Client.SearchForm.resources
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\Client.Properties.Resources.resources
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\UDPClient.csproj.GenerateResource.cache
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\UDPClient.csproj.CoreCompileInputs.cache
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\Client.exe
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\Client.pdb
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\bin\Release\Client.exe.config
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\bin\Release\Client.exe
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\bin\Release\Client.pdb
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\bin\Release\Newtonsoft.Json.dll
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\bin\Release\Newtonsoft.Json.xml
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\UDPClient.csproj.CopyComplete
+G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Client\obj\Release\Client.ZoomPictureForm.resources
