@@ -42,9 +42,10 @@ namespace Client
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(139, 81);
+            this.label1.Location = new System.Drawing.Point(104, 66);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(87, 19);
+            this.label1.Size = new System.Drawing.Size(73, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "IP Address";
             // 
@@ -52,19 +53,20 @@ namespace Client
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(139, 121);
+            this.label2.Location = new System.Drawing.Point(104, 98);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 19);
+            this.label2.Size = new System.Drawing.Size(34, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Port";
             // 
             // IPAdd
             // 
             this.IPAdd.ForeColor = System.Drawing.Color.Gray;
-            this.IPAdd.Location = new System.Drawing.Point(260, 78);
-            this.IPAdd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.IPAdd.Location = new System.Drawing.Point(195, 63);
+            this.IPAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.IPAdd.Name = "IPAdd";
-            this.IPAdd.Size = new System.Drawing.Size(217, 22);
+            this.IPAdd.Size = new System.Drawing.Size(164, 20);
             this.IPAdd.TabIndex = 2;
             this.IPAdd.TabStop = false;
             this.IPAdd.Text = "Input IPAdd...";
@@ -74,10 +76,10 @@ namespace Client
             // Port
             // 
             this.Port.ForeColor = System.Drawing.Color.Gray;
-            this.Port.Location = new System.Drawing.Point(260, 117);
-            this.Port.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Port.Location = new System.Drawing.Point(195, 95);
+            this.Port.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Port.Name = "Port";
-            this.Port.Size = new System.Drawing.Size(169, 22);
+            this.Port.Size = new System.Drawing.Size(128, 20);
             this.Port.TabIndex = 3;
             this.Port.TabStop = false;
             this.Port.Text = "Input Port...";
@@ -88,10 +90,10 @@ namespace Client
             // 
             this.Automatic.AutoSize = true;
             this.Automatic.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Automatic.Location = new System.Drawing.Point(260, 156);
-            this.Automatic.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Automatic.Location = new System.Drawing.Point(195, 127);
+            this.Automatic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Automatic.Name = "Automatic";
-            this.Automatic.Size = new System.Drawing.Size(108, 23);
+            this.Automatic.Size = new System.Drawing.Size(91, 21);
             this.Automatic.TabIndex = 4;
             this.Automatic.TabStop = false;
             this.Automatic.Text = "Automatic";
@@ -101,10 +103,10 @@ namespace Client
             // connect
             // 
             this.connect.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.connect.Location = new System.Drawing.Point(143, 212);
-            this.connect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.connect.Location = new System.Drawing.Point(107, 172);
+            this.connect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.connect.Name = "connect";
-            this.connect.Size = new System.Drawing.Size(129, 30);
+            this.connect.Size = new System.Drawing.Size(97, 24);
             this.connect.TabIndex = 5;
             this.connect.TabStop = false;
             this.connect.Text = "Connect";
@@ -115,10 +117,10 @@ namespace Client
             // 
             this.disconnect.Enabled = false;
             this.disconnect.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.disconnect.Location = new System.Drawing.Point(348, 212);
-            this.disconnect.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.disconnect.Location = new System.Drawing.Point(261, 172);
+            this.disconnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.disconnect.Name = "disconnect";
-            this.disconnect.Size = new System.Drawing.Size(129, 30);
+            this.disconnect.Size = new System.Drawing.Size(97, 24);
             this.disconnect.TabIndex = 6;
             this.disconnect.TabStop = false;
             this.disconnect.Text = "Disconnect";
@@ -127,9 +129,10 @@ namespace Client
             // 
             // Client
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(619, 334);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(464, 271);
             this.Controls.Add(this.disconnect);
             this.Controls.Add(this.connect);
             this.Controls.Add(this.Automatic);
@@ -138,7 +141,7 @@ namespace Client
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Client";

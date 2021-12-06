@@ -24,7 +24,7 @@ namespace Client
         private string Maso = "";
         private string vitri = "";
         private string mota = "";
-        //private string img = "";
+        public string[] imgs;
 
         public UDP_client cli
         {
@@ -49,18 +49,10 @@ namespace Client
             set { mota = value; }
         }
 
-        //public string IMG
-        //{
-        //    set { img = value; }
-        //}
-
         private void ResultForm_Load(object sender, EventArgs e)
         {
-            //TopMost = false;
+            this.Top = 10;
             string[] s = vitri.Split(',');
-            //MessageBox.Show(ten);
-            //tendiadiem.Cursor = Cursors.Arrow;
-
 
             tendiadiem.Text = ten;
             
@@ -68,13 +60,40 @@ namespace Client
             vido.Text = s[0];
             kinhdo.Text = s[1];
             motadiadiem.Text = mota;
+
+            // Lấy danh sách image
+            listImg.View = View.LargeIcon;
+
+            listImg.Columns.Add("Spacecraft", 150);
+            listImg.AutoResizeColumn(0, ColumnHeaderAutoResizeStyle.HeaderSize);
+            ImageList imgList = new ImageList();
+            imgList.ImageSize = new Size(250, 140);
+
+            for (int i = 0; i < imgs.Length; i++) 
+            {
+                byte[] NewBytes = Convert.FromBase64String(imgs[i]);
+                MemoryStream ms1 = new MemoryStream(NewBytes);
+                Image image = Image.FromStream(ms1);
+
+                imgList.Images.Add(image);
+                listImg.Items.Add("", i);
+            }
+            listImg.LargeImageList = imgList;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void listImg_MouseClick(object sender, MouseEventArgs e)
         {
-            ZoomPictureForm f = new ZoomPictureForm();
-            f.hinhanh = pictureBox1.Image;
-            f.Show();
+            for (var i = 0; i < listImg.Items.Count; i++)
+            {
+                if (listImg.Items[i].Selected == true)
+                {
+                    ZoomPictureForm f = new ZoomPictureForm();
+                    f.imgArr = imgs;
+                    f.index = i;
+                    f.Show();
+                }
+            }
+            //MessageBox.Show(selected);
         }
     }
 }

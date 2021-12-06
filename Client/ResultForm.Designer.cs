@@ -30,7 +30,6 @@ namespace Client
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResultForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.vido = new System.Windows.Forms.RichTextBox();
             this.kinhdo = new System.Windows.Forms.RichTextBox();
@@ -40,23 +39,12 @@ namespace Client
             this.label1 = new System.Windows.Forms.Label();
             this.tendiadiem = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.listImg = new System.Windows.Forms.ListView();
             this.groupbox = new System.Windows.Forms.GroupBox();
             this.motadiadiem = new System.Windows.Forms.RichTextBox();
             this.listimage = new System.Windows.Forms.ImageList(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupbox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -69,12 +57,12 @@ namespace Client
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.tendiadiem);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(9, 10);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox1.Size = new System.Drawing.Size(564, 169);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(423, 137);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin";
@@ -83,10 +71,11 @@ namespace Client
             // 
             this.vido.Cursor = System.Windows.Forms.Cursors.No;
             this.vido.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vido.Location = new System.Drawing.Point(417, 120);
+            this.vido.Location = new System.Drawing.Point(313, 98);
+            this.vido.Margin = new System.Windows.Forms.Padding(2);
             this.vido.Name = "vido";
             this.vido.ReadOnly = true;
-            this.vido.Size = new System.Drawing.Size(100, 28);
+            this.vido.Size = new System.Drawing.Size(76, 24);
             this.vido.TabIndex = 7;
             this.vido.TabStop = false;
             this.vido.Text = "";
@@ -95,10 +84,11 @@ namespace Client
             // 
             this.kinhdo.Cursor = System.Windows.Forms.Cursors.No;
             this.kinhdo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kinhdo.Location = new System.Drawing.Point(226, 120);
+            this.kinhdo.Location = new System.Drawing.Point(170, 98);
+            this.kinhdo.Margin = new System.Windows.Forms.Padding(2);
             this.kinhdo.Name = "kinhdo";
             this.kinhdo.ReadOnly = true;
-            this.kinhdo.Size = new System.Drawing.Size(100, 28);
+            this.kinhdo.Size = new System.Drawing.Size(76, 24);
             this.kinhdo.TabIndex = 6;
             this.kinhdo.TabStop = false;
             this.kinhdo.Text = "";
@@ -107,10 +97,11 @@ namespace Client
             // 
             this.masodiadiem.Cursor = System.Windows.Forms.Cursors.Default;
             this.masodiadiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.masodiadiem.Location = new System.Drawing.Point(40, 120);
+            this.masodiadiem.Location = new System.Drawing.Point(30, 98);
+            this.masodiadiem.Margin = new System.Windows.Forms.Padding(2);
             this.masodiadiem.Name = "masodiadiem";
             this.masodiadiem.ReadOnly = true;
-            this.masodiadiem.Size = new System.Drawing.Size(79, 28);
+            this.masodiadiem.Size = new System.Drawing.Size(60, 24);
             this.masodiadiem.TabIndex = 5;
             this.masodiadiem.TabStop = false;
             this.masodiadiem.Text = "";
@@ -119,9 +110,10 @@ namespace Client
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(437, 97);
+            this.label3.Location = new System.Drawing.Point(327, 79);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 20);
+            this.label3.Size = new System.Drawing.Size(47, 17);
             this.label3.TabIndex = 4;
             this.label3.Tag = "";
             this.label3.Text = "Vĩ Độ";
@@ -130,9 +122,10 @@ namespace Client
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(238, 97);
+            this.label2.Location = new System.Drawing.Point(175, 79);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 20);
+            this.label2.Size = new System.Drawing.Size(65, 17);
             this.label2.TabIndex = 3;
             this.label2.Tag = "";
             this.label2.Text = "Kinh Độ";
@@ -141,9 +134,10 @@ namespace Client
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(48, 97);
+            this.label1.Location = new System.Drawing.Point(33, 79);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 20);
+            this.label1.Size = new System.Drawing.Size(53, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "Mã Số";
             // 
@@ -152,91 +146,45 @@ namespace Client
             this.tendiadiem.AutoSize = true;
             this.tendiadiem.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tendiadiem.ForeColor = System.Drawing.Color.Indigo;
-            this.tendiadiem.Location = new System.Drawing.Point(35, 38);
-            this.tendiadiem.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.tendiadiem.Location = new System.Drawing.Point(26, 31);
             this.tendiadiem.Name = "tendiadiem";
-            this.tendiadiem.Size = new System.Drawing.Size(124, 29);
+            this.tendiadiem.Size = new System.Drawing.Size(96, 23);
             this.tendiadiem.TabIndex = 1;
             this.tendiadiem.Text = "KDL Đà Lạt";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.pictureBox6);
-            this.groupBox2.Controls.Add(this.pictureBox5);
-            this.groupBox2.Controls.Add(this.pictureBox4);
-            this.groupBox2.Controls.Add(this.pictureBox3);
-            this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(581, 12);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Controls.Add(this.listImg);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(436, 10);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox2.Size = new System.Drawing.Size(536, 623);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(329, 454);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Hình ảnh";
             // 
-            // pictureBox6
+            // listImg
             // 
-            this.pictureBox6.Location = new System.Drawing.Point(310, 374);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(219, 145);
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Location = new System.Drawing.Point(6, 374);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(219, 145);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Location = new System.Drawing.Point(310, 197);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(220, 143);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Location = new System.Drawing.Point(6, 197);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(220, 143);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(310, 26);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(219, 143);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(6, 24);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(220, 143);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.listImg.BackColor = System.Drawing.Color.AliceBlue;
+            this.listImg.HideSelection = false;
+            this.listImg.Location = new System.Drawing.Point(5, 24);
+            this.listImg.Name = "listImg";
+            this.listImg.Size = new System.Drawing.Size(319, 420);
+            this.listImg.TabIndex = 0;
+            this.listImg.UseCompatibleStateImageBehavior = false;
+            this.listImg.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listImg_MouseClick);
             // 
             // groupbox
             // 
             this.groupbox.Controls.Add(this.motadiadiem);
-            this.groupbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupbox.Location = new System.Drawing.Point(12, 185);
-            this.groupbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupbox.Location = new System.Drawing.Point(9, 150);
+            this.groupbox.Margin = new System.Windows.Forms.Padding(2);
             this.groupbox.Name = "groupbox";
-            this.groupbox.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupbox.Size = new System.Drawing.Size(564, 450);
+            this.groupbox.Padding = new System.Windows.Forms.Padding(2);
+            this.groupbox.Size = new System.Drawing.Size(423, 314);
             this.groupbox.TabIndex = 2;
             this.groupbox.TabStop = false;
             this.groupbox.Text = "Mô tả";
@@ -244,10 +192,11 @@ namespace Client
             // motadiadiem
             // 
             this.motadiadiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.motadiadiem.Location = new System.Drawing.Point(6, 24);
+            this.motadiadiem.Location = new System.Drawing.Point(4, 20);
+            this.motadiadiem.Margin = new System.Windows.Forms.Padding(2);
             this.motadiadiem.Name = "motadiadiem";
             this.motadiadiem.ReadOnly = true;
-            this.motadiadiem.Size = new System.Drawing.Size(552, 443);
+            this.motadiadiem.Size = new System.Drawing.Size(415, 284);
             this.motadiadiem.TabIndex = 0;
             this.motadiadiem.TabStop = false;
             this.motadiadiem.Text = "";
@@ -260,15 +209,15 @@ namespace Client
             // 
             // ResultForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1131, 647);
+            this.ClientSize = new System.Drawing.Size(776, 470);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupbox);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "ResultForm";
@@ -278,12 +227,6 @@ namespace Client
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupbox.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -295,10 +238,6 @@ namespace Client
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupbox;
         private System.Windows.Forms.Label tendiadiem;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.RichTextBox motadiadiem;
         private System.Windows.Forms.RichTextBox kinhdo;
         private System.Windows.Forms.RichTextBox masodiadiem;
@@ -306,8 +245,7 @@ namespace Client
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RichTextBox vido;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.ImageList listimage;
+        private System.Windows.Forms.ListView listImg;
     }
 }

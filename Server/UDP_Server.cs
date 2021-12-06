@@ -2,19 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
-
 using Newtonsoft;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-
 using System.IO;
 using System.Threading;
 using System.Windows.Forms;
-using System.Drawing.Imaging;
-using System.Drawing;
 
 namespace UDP_Server
 {
@@ -28,19 +23,9 @@ namespace UDP_Server
         private byte[] request;
         private int buffer_size;
         private RichTextBox ConsoleServer, ClientStatus;
-        public void Stop()
-        {
-            foreach (EndPoint e in ClientEndPoints)
-            {
-                string stop = "Dong Sever";
-                byte[] response = Encoding.UTF8.GetBytes(stop);
-                ServerSocket.BeginSendTo(response, 0, response.Length, SocketFlags.None, e, new AsyncCallback(SendCallback), null);
-            }
-            UDPinvoke_ConsoleStatus("Server Stopped", ConsoleServer);
-            // bộ đếm thời gian
-            ServerSocket.Shutdown(SocketShutdown.Both);
-            ServerSocket.Close();
-        }
+        private System.Windows.Forms.Timer eventOff = new System.Windows.Forms.Timer();
+        private int count;
+
         public UDPServer(IPAddress ip, int port, int buf, RichTextBox listClient, RichTextBox consoleServer)
         {
             IP = ip;
@@ -73,14 +58,44 @@ namespace UDP_Server
             }
 
             UDPinvoke_ConsoleStatus("Server is running...", ConsoleServer);
-            ServerSocket.BeginReceiveFrom(request, 0, buffer_size, SocketFlags.None, ref emip, ReceiveCallback, null);
+
+            string none = "";
+            ServerSocket.BeginReceiveFrom(request, 0, buffer_size, SocketFlags.None, ref emip, 
+                new AsyncCallback(ReceiveCallback), none);
+        }
+
+        // Send dữ liệu
+        private void SendData(string dataSend, string data)
+        {
+            byte[] resData = Encoding.UTF8.GetBytes(dataSend);
+            ServerSocket.BeginSendTo(resData, 0, resData.Length, SocketFlags.None, emip,
+                        new AsyncCallback(SendCallback), dataSend);
+            
+            ServerSocket.BeginReceiveFrom(request, 0, buffer_size, SocketFlags.None, ref emip,
+                        new AsyncCallback(ReceiveCallback), data);
+        }
+
+        // Tạo gói tin
+        private string createPackage(string data, int _byte)
+        {
+            string dataSend;
+            if (_byte + 50000 >= data.Length)
+            {
+                dataSend = data.Substring(_byte);
+            }
+            else
+            {
+                dataSend = data.Substring(_byte, 50000);
+            }
+            
+            return dataSend;
         }
 
         private void ReceiveCallback(IAsyncResult AR)
         {
             int rcvSize;
             emip = new IPEndPoint(IPAddress.Any, 0);
-
+         
             try
             {
                 DateTime time = DateTime.Now;
@@ -90,7 +105,6 @@ namespace UDP_Server
             }
             catch (Exception)
             {
-                //UDPinvoke_ClientStatus("Client disconnected\n", ConsoleServer);
                 ClientEndPoints.Remove(emip);
                 return;
             }
@@ -102,107 +116,185 @@ namespace UDP_Server
             byte[] req = new byte[rcvSize];
             Array.Copy(request, req, rcvSize);
             string jsonReq = Encoding.UTF8.GetString(req);
-
+            
             Dictionary<string, string> Objs = new Dictionary<string, string>();
             Objs = JsonConvert.DeserializeObject<Dictionary<string, string>>(jsonReq);
-
+            //MessageBox.Show(Objs["proceed"]);
             try
             {
-                if (Objs.ContainsKey("proceed") == false) return;
-
-                // {"proceed": "option", "codePro": "01"}
-                if (Objs["proceed"] == "option")
+                // Nhận dữ liệu lỗi
+                if (Objs.ContainsKey("proceed") == false)
                 {
-                    if (Objs["codePro"] == "")  // Lấy tỉnh
-                    {
-                        string responseStr = fetch_OptionProvinces();
-                        responseStr = "{\"proceed\":\"option\",\"type\":\"province\",\"data\":" + responseStr + "}";
+                    SendData("{}", "");
+                    return;
+                }
 
-                        byte[] resData = Encoding.UTF8.GetBytes(responseStr);
-                        ServerSocket.BeginSendTo(resData, 0, resData.Length, SocketFlags.None, emip,
-                            new AsyncCallback(SendCallback), null);
+                // "{ "proceed": "optionPro","byte":"-1"}"
+                if (Objs["proceed"] == "optionPro")
+                {
+                    if (Objs["byte"].ToString() == "-1")
+                    {
+                        string data = fetch_OptionProvinces();
+                        string responseStr = "{\"proceed\":\"optionPro\",\"data\":" + data + "}";
+
+                        string responseSize = "{\"proceed\":\"optionPro\",\"totalBytes\":\"" + responseStr.Length.ToString() + "\"}";
+
+                        SendData(responseSize, data);
                     }
-                    else                        // Lấy huyện/quận
+                    else
                     {
-                        string responseStr = fetch_OptionDistricts(Objs["codePro"]);
-                        string resData = "{\"proceed\":\"option\",\"type\":\"district\",\"data\":" + responseStr + "}";
+                        string responseStr = "{\"proceed\":\"optionPro\",\"data\":" + AR.AsyncState.ToString() + "}";
+                        string dataPack = createPackage(responseStr, Int32.Parse(Objs["byte"].ToString()));
 
-                        byte[] response = Encoding.UTF8.GetBytes(resData);
-                        ServerSocket.BeginSendTo(response, 0, response.Length, SocketFlags.None, emip,
-                            new AsyncCallback(SendCallback), null);
+                        SendData(dataPack, AR.AsyncState.ToString());
                     }
                 }
 
-                // {"proceed": "filter", "codePro": "01", "codeDis": "0101"}
+                // "{ "proceed": "optionDis","byte":"-1", "codePro": "01"}"
+                else if (Objs["proceed"] == "optionDis")
+                {
+                    if (Objs["byte"].ToString() == "-1")
+                    {
+                        string data = fetch_OptionDistricts(Objs["codePro"]);
+                        string responseStr = "{\"proceed\":\"optionDis\",\"data\":" + data + "}";
+
+                        string responseSize = "{\"proceed\":\"optionDis\",\"totalBytes\":\"" + responseStr.Length.ToString() + "\"}";
+
+                        SendData(responseSize, data);
+                    }
+                    else
+                    {
+                        string responseStr = "{\"proceed\":\"optionDis\",\"data\":" + AR.AsyncState.ToString() + "}";
+                        string dataPack = createPackage(responseStr, Int32.Parse(Objs["byte"].ToString()));
+                        
+                        SendData(dataPack, AR.AsyncState.ToString());
+                    }                    
+                }
+
+                // {"proceed": "filter","byte":"-1", "codePro": "01", "codeDis": "0101"}
                 else if (Objs["proceed"] == "filter")
                 {
-                    // request bị lỗi codePro
-                    if (Objs["codePro"] == "") return;
+                    if (Objs["byte"] == "-1")
+                    {
+                        // request bị lỗi codePro
+                        if (Objs["codePro"] == "") return;
 
-                    int codeP = Int32.Parse(Objs["codePro"]);
-                    int codeD;
-                    if (Objs["codeDis"] != "")
-                        codeD = Int32.Parse(Objs["codeDis"]);
-                    else codeD = 0;
+                        int codeP = Int32.Parse(Objs["codePro"]);
+                        int codeD;
+                        if (Objs["codeDis"] != "")
+                            codeD = Int32.Parse(Objs["codeDis"]);
+                        else codeD = 0;
 
-                    string responseStr = fetch_Places(codeP, codeD);
-                    if (responseStr == "")
-                        responseStr = "{}";
-                    string resData = "{\"proceed\":\"filter\",\"data\":" + responseStr + "}";
+                        string data = fetch_Places(codeP, codeD);
 
-                    byte[] response = Encoding.UTF8.GetBytes(resData);
-                    ServerSocket.BeginSendTo(response, 0, response.Length, SocketFlags.None, emip,
-                        new AsyncCallback(SendCallback), null);
+                        if (data == "")
+                            data = "{}";
+
+                        string responseStr = "{\"proceed\":\"filter\",\"data\":" + data + "}";
+
+                        string responseSize = "{\"proceed\":\"filter\",\"totalBytes\":\"" + responseStr.Length.ToString() + "\"}";
+                        
+                        SendData(responseSize, data);
+                    }
+                    else
+                    {
+                        string responseStr = "{\"proceed\":\"filter\",\"data\":" + AR.AsyncState.ToString() + "}";
+                        string dataPack = createPackage(responseStr, Int32.Parse(Objs["byte"].ToString()));
+                        
+                        SendData(dataPack, AR.AsyncState.ToString());
+                    }
                 }
 
-                // {"proceed": "search", "key": "KDL"}
+                // {"proceed": "search", "byte":"-1", "key": "KDL"}
                 else if (Objs["proceed"] == "search")
                 {
-                    string responseStr = search_place(Objs["key"]);
-                    if (responseStr == "")
-                        responseStr = "{}";
-                    string resData = "{\"proceed\":\"search\",\"data\":" + responseStr + "}";
+                    if (Objs["byte"] == "-1")
+                    {
+                        string data = search_place(Objs["key"]);
+                        if (data == "")
+                            data = "{}";
 
-                    byte[] response = Encoding.UTF8.GetBytes(resData);
-                    ServerSocket.BeginSendTo(response, 0, response.Length, SocketFlags.None, emip,
-                        new AsyncCallback(SendCallback), null);
+                        string responseStr = "{\"proceed\":\"search\",\"data\":" + data + "}";
+
+                        string responseSize = "{\"proceed\":\"filter\",\"totalBytes\":\"" + responseStr.Length.ToString() + "\"}";
+
+                        SendData(responseSize, data);
+                    }
+                    else
+                    {
+                        string responseStr = "{\"proceed\":\"search\",\"data\":" + AR.AsyncState.ToString() + "}";
+                        string dataPack = createPackage(responseStr, Int32.Parse(Objs["byte"].ToString()));
+
+                        SendData(dataPack, AR.AsyncState.ToString());
+                    }
                 }
 
-                // {"proceed": "detail", "code": "010101"}
+                // {"proceed": "detail", "byte":"-1", "code": "010101"}
                 else if (Objs["proceed"] == "detail")
-                {   
-                    string responseStr = fetch_Detail(Objs["code"]);
-                    if (responseStr == null)
-                        responseStr = "{}";
-                    string resData = "{\"proceed\":\"detail\",\"data\":" + responseStr + "}";
-                    byte[] response = Encoding.UTF8.GetBytes(resData);
-                    ServerSocket.BeginSendTo(response, 0, response.Length, SocketFlags.None, emip,
-                        new AsyncCallback(SendCallback), null);
+                {
+                    if (Objs["byte"] == "-1")
+                    {
+                        string data = fetch_Detail(Objs["code"]);
+                        if (data == "")
+                            data = "{}";
+                        string responseStr = "{\"proceed\":\"detail\",\"data\":" + data + "}";
+
+                        string responseSize = "{\"proceed\":\"detail\",\"totalBytes\":\"" + responseStr.Length.ToString() + "\"}";
+
+                        SendData(responseSize, data);
+                    }
+                    else
+                    {
+                        string responseStr = "{\"proceed\":\"detail\",\"data\":" + AR.AsyncState.ToString() + "}";
+                        string dataPack = createPackage(responseStr, Int32.Parse(Objs["byte"].ToString()));
+
+                        SendData(dataPack, AR.AsyncState.ToString());
+                    }
                 }
 
-                // {"proceed": "img", "code": "01010101"}
+                // {"proceed": "img","byte":"-1", "code": "01010101"}
                 else if (Objs["proceed"] == "img")
                 {
-                    string responseStr = fetch_Image(Objs["code"]);
-                    if (responseStr == null)
-                        responseStr = "{}";
-                    string resData = "{\"proceed\":\"img\",\"data\":" + responseStr + "}";
-                    byte[] response = Encoding.UTF8.GetBytes(resData);
-                    ServerSocket.BeginSendTo(response, 0, response.Length, SocketFlags.None, emip,
-                        new AsyncCallback(SendCallback), null);
+                    if (Objs["byte"] == "-1")
+                    {
+                        string data = fetch_Image(Objs["code"]);
+                        if (data == "")
+                            data = "";
+
+                        string responseStr = "{\"proceed\":\"img\",\"data\":\"" + data + "\"}";
+
+                        string responseSize = "{\"proceed\":\"img\",\"totalBytes\":\"" + responseStr.Length.ToString() + "\"}";
+
+                        SendData(responseSize, data);
+                    }
+                    else
+                    {
+                        string responseStr = "{\"proceed\":\"img\",\"data\":\"" + AR.AsyncState.ToString() + "\"}";
+                        string dataPack = createPackage(responseStr, Int32.Parse(Objs["byte"].ToString()));
+
+                        SendData(dataPack, AR.AsyncState.ToString());
+                    }
+                  
                 }
 
                 else if (Objs["proceed"] == "clientClose")
                 {
                     ClientEndPoints.Remove(emip);
+                    
                     UDPinvoke_ClientStatus(emip.ToString() + " closed at " + DateTime.Now + "\n", ClientStatus);
+                    ServerSocket.BeginReceiveFrom(request, 0, buffer_size, SocketFlags.None, ref emip, ReceiveCallback, null);
                 }
             }
-            catch (SocketException) { }
-            catch (ObjectDisposedException) { } 
+            catch (SocketException ex) 
+            {
+                MessageBox.Show(ex.Message);
+            }
+            catch (ObjectDisposedException ex) 
+            {
+                MessageBox.Show(ex.Message);
+            } 
 
             Array.Clear(request, 0, buffer_size);
-            ServerSocket.BeginReceiveFrom(request, 0, buffer_size, SocketFlags.None, ref emip, ReceiveCallback, null);
             return;
         }
 
@@ -219,6 +311,41 @@ namespace UDP_Server
             catch (ObjectDisposedException except)
             {
                 MessageBox.Show(except.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        public void Stop()
+        {
+            eventOff.Tick += new EventHandler(SendResponseClose);
+            eventOff.Start();
+            eventOff.Interval = 1000;
+            UDPinvoke_ConsoleStatus("Server is closing...!", ConsoleServer);
+
+            count = 3;
+        }
+
+        // Gửi phản hồi khi server đóng
+        private void SendResponseClose(object sender, EventArgs e)
+        {
+            count--;
+         
+            if (count == 0)
+            {
+                eventOff.Stop();
+                eventOff.Tick -= SendResponseClose;
+                string stopMess = "{\"proceed\":\"serverClose\"}";
+                byte[] response = Encoding.UTF8.GetBytes(stopMess);
+                foreach (EndPoint endp in ClientEndPoints)
+                {
+                    ServerSocket.BeginSendTo(response, 0, response.Length, SocketFlags.None, endp, new AsyncCallback(SendCallback), endp);
+                }
+                UDPinvoke_ConsoleStatus("Server stopped!", ConsoleServer);
+
+                ClientStatus.Clear();
+                ClientEndPoints.Clear();
+                ServerSocket.Shutdown(SocketShutdown.Both);
+                ServerSocket.Close();
+                GC.Collect();
             }
         }
 
@@ -244,6 +371,10 @@ namespace UDP_Server
             }
         }
 
+
+        /***********************
+         * FETCH DATABASE
+         * *********************/
         // Fetch dữ liệu từ Database
         private static JObject fetch_Database(string filename = "tourist.json")
         {
@@ -385,15 +516,8 @@ namespace UDP_Server
             if (File.Exists(@"Database/img/" + codeImg + ".png") == false)
                 return "";
 
-            //byte[] imgArr = System.IO.File.ReadAllBytes("Database/img/" + codeImg + ".png");
-            //string imgStr = Convert.ToBase64String(imgArr);
-
-            MemoryStream msImg = new MemoryStream();
-            Bitmap bmImg = new Bitmap("Database/img/" + codeImg + ".png");
-            bmImg.Save(msImg, ImageFormat.Jpeg); // nén về JPEG
-            string imgStr = msImg.ToArray().ToString();
-            bmImg.Dispose();
-            msImg.Close();
+            byte[] imgArr = System.IO.File.ReadAllBytes("Database/img/" + codeImg + ".png");
+            string imgStr = Convert.ToBase64String(imgArr);
 
             return imgStr;
         }
@@ -441,7 +565,7 @@ namespace UDP_Server
                         }
 
                         if (cnt / (double)keys.Length >= 0.5
-                            || cnt / (double)DB[codeP]["district"][0][codeD]["travel"][0][codeT]["nameSlug"].ToString().Split(' ').Length >= 0.5)
+                            || cnt / (double)DB[codeP]["district"][0][codeD]["travel"][0][codeT]["nameSlug"].ToString().Split(' ').Length > 0.5)
                         {
                             Dictionary<string, string> detail = new Dictionary<string, string>();
 

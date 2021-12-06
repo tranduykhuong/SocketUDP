@@ -32,9 +32,11 @@ namespace Client
             }
         }
 
+        // Check connection
         private bool connect()
         {
             ClientSocket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+
             if (ClientSocket == null)
             {
                 MessageBox.Show("Client cannot create socket !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -43,7 +45,12 @@ namespace Client
 
             ClientSocket.Connect(IpAdd, port);
 
-            if (!(ClientSocket.Connected))
+            try
+            {
+                SendRequest("{}");
+                ReceiveData();
+            }
+            catch (SocketException)
             {
                 MessageBox.Show("Client cannot connect to server !", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
@@ -66,68 +73,98 @@ namespace Client
 
         public void requestOption_Provinces()
         {
-            string req = "{ \"proceed\": \"option\", \"codePro\": \"\"}";
+            string req = "{ \"proceed\": \"optionPro\",\"byte\":\"-1\"}";
             SendRequest(req);
         }
 
         public void requestOption_Districts(string codeD)
         {
-            string req = "{ \"proceed\": \"option\", \"codePro\": \"" + codeD + "\"}";
+            string req = "{ \"proceed\": \"optionDis\",\"byte\":\"-1\", \"codePro\": \"" + codeD + "\"}";
+            
             SendRequest(req);
         }
-
         public void requestPlacesList_Filter(string pro, string dis)
         {
-            string req = "{\"proceed\": \"filter\", \"codePro\":\"" + pro + "\", \"codeDis\": \"" + dis + "\"}";
+            string req = "{\"proceed\": \"filter\",\"byte\":\"-1\", \"codePro\":\"" + pro + "\", \"codeDis\": \"" + dis + "\"}";
             SendRequest(req);
         }
         public void requestPlacesList_Search(string tourist_area)
         {
-            string req = "{\"proceed\": \"search\", \"key\":\"" + tourist_area + "\"}";
+            string req = "{\"proceed\": \"search\",\"byte\":\"-1\",\"key\":\"" + tourist_area + "\"}";
             SendRequest(req);
         }
         public void requestPlacesList_Detail(string code)
         {
-            string req = "{\"proceed\": \"detail\", \"code\":\"" + code + "\"}";
+            string req = "{\"proceed\": \"detail\",\"byte\":\"-1\", \"code\":\"" + code + "\"}";
             SendRequest(req);
         }
         public void requestPlacesList_Image(string code)
         {
-            string req = "{\"proceed\": \"img\", \"code\":\"" + code + "\"}";
+            string req = "{\"proceed\": \"img\",\"byte\":\"-1\", \"code\":\"" + code + "\"}";
             SendRequest(req);
+        }
+
+        // Nhận dữ liệu của gói tin
+        private string ReceiveData()
+        {
+            IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);
+            EndPoint remote = (EndPoint)sender;
+            byte[] resBuff = new byte[buff_size];
+
+            int nBytes = ClientSocket.ReceiveFrom(resBuff, ref remote);
+            
+            byte[] bytes = new byte[nBytes];
+            Array.Copy(resBuff, bytes, nBytes);
+
+            JObject Objs = JObject.Parse(Encoding.UTF8.GetString(bytes));
+
+            if (!Objs.ContainsKey("totalBytes"))
+                return Objs.ToString();
+
+            int totalBytes = Int32.Parse(Objs["totalBytes"].ToString());
+            string data = "";
+            
+            int byteCur = 0;
+            while (byteCur < totalBytes)
+            {
+                string req = "{\"proceed\":\"" + Objs["proceed"].ToString() + "\",\"byte\":\"" + byteCur.ToString() + "\"}";
+                Thread.Sleep(1);
+
+                SendRequest(req);
+
+                resBuff = new byte[buff_size];
+                nBytes = ClientSocket.ReceiveFrom(resBuff, ref remote);
+                
+                bytes = new byte[nBytes];
+                Array.Copy(resBuff, bytes, nBytes);
+                data += Encoding.UTF8.GetString(bytes);
+
+                byteCur = byteCur + Encoding.UTF8.GetString(bytes).Length;
+            }
+            
+            return data;
         }
 
         public void ReceiveResponse()
         {
             try
             {
-                IPEndPoint sender = new IPEndPoint(IPAddress.Any, 0);
-                EndPoint remote = (EndPoint)sender;
-                byte[] resBuff = new byte[buff_size];
-                int bytes = ClientSocket.ReceiveFrom(resBuff, ref remote);
-
-                byte[] data = new byte[bytes];
-                Array.Copy(resBuff, data, bytes);
-                string response = Encoding.UTF8.GetString(data);
+                string response = ReceiveData();
                 //MessageBox.Show(response);
+
                 JObject Objs = JObject.Parse(response);
-                //MessageBox.Show(Objs.ToString());
-                //MessageBox.Show(Objs["data"].ToString(), remote.ToString());
 
                 if (Objs.ContainsKey("proceed") == false) return;
 
-                if (Objs["proceed"].ToString() == "option")
+                if (Objs["proceed"].ToString() == "optionPro")
                 {
-                    if (Objs["type"].ToString() == "province")
-                    {
-                        provinces = new Dictionary<string, string>();
-                        provinces = JsonConvert.DeserializeObject<Dictionary<string, string>>(Objs["data"].ToString());
-                    }
-                    else if (Objs["type"].ToString() == "district")
-                    {
-                        districts = new Dictionary<string, string>();
-                        districts = JsonConvert.DeserializeObject<Dictionary<string, string>>(Objs["data"].ToString());
-                    }
+                    provinces = new Dictionary<string, string>();
+                    provinces = JsonConvert.DeserializeObject<Dictionary<string, string>>(Objs["data"].ToString());
+                }
+                else if (Objs["proceed"].ToString() == "optionDis")
+                {
+                    districts = new Dictionary<string, string>();
+                    districts = JsonConvert.DeserializeObject<Dictionary<string, string>>(Objs["data"].ToString());
                 }
                 else if (Objs["proceed"].ToString() == "filter")
                 {
@@ -143,15 +180,20 @@ namespace Client
                 }
                 else if (Objs["proceed"].ToString() == "detail")
                 {
-                    location= new Dictionary<string, string>();
+                    location = new Dictionary<string, string>();
                     location = JsonConvert.DeserializeObject<Dictionary<string, string>>(Objs["data"].ToString());
                 }
-                //else if (Objs["proceed"].ToString() == "img")
-                //{
-                //    image = "";
-                //    MessageBox.Show("Chính");
-                //    image = JsonConvert.DeserializeObject<string>(Objs["data"].ToString());
-                //}
+                else if (Objs["proceed"].ToString() == "img")
+                {
+                    image = Objs["data"].ToString();
+                }
+                else if (Objs["proceed"].ToString() == "serverClose")
+                {
+                    MessageBox.Show("Server closed!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    disconnect();
+                    Application.Restart();
+                }
             }
             catch { }
         }
@@ -162,8 +204,11 @@ namespace Client
             {
                 string sendClose = "{ \"proceed\": \"clientClose\"}";
                 SendRequest(sendClose);
+
                 ClientSocket.Shutdown(SocketShutdown.Both);
                 ClientSocket.Disconnect(false);
+                ClientSocket.Close();
+                ClientSocket = null;
                 GC.Collect();
             }
             catch { };

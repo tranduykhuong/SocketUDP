@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net;
 using System.Text.RegularExpressions;
+using System.IO;
+
 namespace Server
 {
 
@@ -135,7 +137,7 @@ namespace Server
                 return;
             }
 
-            server = new UDP_Server.UDPServer(IPAddress.Parse(ipAddress.Text), Int32.Parse(Port.Text.ToString()), 8096,
+            server = new UDP_Server.UDPServer(IPAddress.Parse(ipAddress.Text), Int32.Parse(Port.Text.ToString()), 1232402,
                 clientStatus, consoleServer);
             server.run();
             addPlaceToolStripMenuItem.Enabled = true;
@@ -146,7 +148,9 @@ namespace Server
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Thông tin về giao thức UDP");
+            MessageBox.Show("Chương trình DU LỊCH BỐN PHƯƠNG" +
+                "\nVersion: 1.0.0" +
+                "\nCopyRight: @Mạnh Khương, Hữu Chính, Duy Khương");
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -177,11 +181,12 @@ namespace Server
             }
         }
 
-        private void Restart_Click(object sender, EventArgs e)
+        private async void Restart_Click(object sender, EventArgs e)
         {
             if(server != null)
             {
                 Stop_Click(sender, e);
+                await Task.Delay(3000);
                 Run_Click(sender, e);
             }
         }

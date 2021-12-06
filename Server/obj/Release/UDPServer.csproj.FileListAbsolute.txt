@@ -68,3 +68,17 @@ G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\UDPServer.c
 G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\UDPServer.csproj.CopyComplete
 G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\Server.exe
 G:\study\cntt\N2\hk1\mang may tinh\project_Socket\Server\obj\Release\Server.pdb
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\bin\Release\Server.exe.config
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\bin\Release\Server.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\bin\Release\Server.pdb
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\bin\Release\Newtonsoft.Json.dll
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\bin\Release\Newtonsoft.Json.xml
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\UDPServer.csproj.AssemblyReference.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\Server.AddPlaceForm.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\Server.Form_Server.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\Server.Properties.Resources.resources
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\UDPServer.csproj.GenerateResource.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\UDPServer.csproj.CoreCompileInputs.cache
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\UDPServer.csproj.CopyComplete
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\Server.exe
+F:\HK1 nam 2\Network Computer\DO AN SOCKET\project_Socket\Server\obj\Release\Server.pdb

@@ -4,6 +4,7 @@ using Newtonsoft.Json.Linq;
 using System.Text;
 using System.Drawing;
 using System.Threading;
+using System;
 
 namespace Client
 {
@@ -51,6 +52,7 @@ namespace Client
             {
                 optionProvince.Items.Add(province.Key);
             }
+            
         }
 
         private void picturesearchBox_Click(object sender, System.EventArgs e)
@@ -89,6 +91,7 @@ namespace Client
             string codeT = client.provinces[optionProvince.Text];
             client.requestOption_Districts(codeT);
             client.ReceiveResponse();
+            //MessageBox.Show("huyen");
 
             foreach (var district in client.districts)
             {
@@ -101,6 +104,7 @@ namespace Client
             string codeP = "0";
             if (optionProvince.Text != "")
                 codeP = client.provinces[optionProvince.Text];
+
             string codeD = "0";
             if (optionDistrict.Text != "")
                 codeD = client.districts[optionDistrict.Text];
@@ -129,45 +133,85 @@ namespace Client
             }
         }
 
-        private void dataTable_SelectedIndexChanged(object sender, System.EventArgs e)
+        private void dataTable_MouseClick(object sender, MouseEventArgs e)
         {
-            ListView lv = sender as ListView;
-            if (lv.SelectedItems.Count > 0)
+            string selected = "";
+            for (var i = 0; i < dataTable.Items.Count; i++)
             {
-                ListViewItem item = lv.SelectedItems[0];
-                string codeL = "";
-                if (item.Text != "")
-                    codeL = item.Text;
+                if (dataTable.Items[i].Selected == true)
+                {
+                    selected = i.ToString();
+                    string codeL = "";
+                    if (dataTable.Items[i].Text != "")
+                        codeL = dataTable.Items[i].Text;
 
-                client.requestPlacesList_Detail(codeL);
-                client.ReceiveResponse();
+                    client.requestPlacesList_Detail(codeL);
+                    client.ReceiveResponse();
 
-                ResultForm f = new ResultForm();
-                f.cli = client;
-                f.Ten = client.location["name"].ToString();
-                f.MaSo = client.location["code"].ToString();
-                f.ViTri = client.location["coord"].ToString();
-                f.MoTa = client.location["description"].ToString();
-                //f.TopLevel = true;
-                //Thread.Sleep(1000);
+                    ResultForm f = new ResultForm();
+                    f.cli = client;
+                    f.Ten = client.location["name"].ToString();
+                    f.MaSo = client.location["code"].ToString();
+                    f.ViTri = client.location["coord"].ToString();
+                    f.MoTa = client.location["description"].ToString();
 
-                //AddOwnedForm(this);
-                //f.TopMost = true;
-                f.Show();
-                //Thread.Sleep(1000);
-                //f.TopMost = false;
-                //RemoveOwnedForm(f);
+                    int nImg = Int32.Parse(client.location["img"].ToString());
+                    f.imgs = new string[nImg];
 
+                    for (int k = 1; k <= nImg; k++)
+                    {
+                        client.requestPlacesList_Image(client.location["code"].ToString() + "0" + k.ToString());
+                        client.ReceiveResponse();
 
-                //string codeI = codeL + "01";
-                //MessageBox.Show(codeI);
-
-                //client.requestPlacesList_Image(codeI);
-                //client.ReceiveResponse();
-
-                //f.IMG = client.image;
-
+                        f.imgs[k - 1] = client.image;
+                    }
+                    f.Show();
+                    dataTable.Items[i].ForeColor = Color.DarkSlateBlue;
+                    
+                    this.Top = 0;
+                }
             }
+            //MessageBox.Show(selected);
+        }
+
+        private void pictureresetBox_Click(object sender, EventArgs e)
+        {
+            optionDistrict.Text = "";
+            optionProvince.Text = "";
+            diadiem.Text = "Nhập địa điểm du lịch";
+            diadiem.ForeColor = Color.Gray;
+            diadiem_Leave(sender, e);
+            dataTable.Items.Clear();
+        }
+
+        private void pictureresetBox_MouseHover(object sender, System.EventArgs e)
+        {
+            pictureresetBox.BackColor = Color.Cyan;
+        }
+
+        private void pictureresetBox_MouseLeave(object sender, System.EventArgs e)
+        {
+            pictureresetBox.BackColor = Color.LightCyan;
+        }
+
+        private void picturesearchBox_MouseHover(object sender, System.EventArgs e)
+        {
+            picturesearchBox.BackColor = Color.Cyan;
+        }
+
+        private void picturesearchBox_MouseLeave(object sender, System.EventArgs e)
+        {
+            picturesearchBox.BackColor = Color.LightCyan;
+        }
+
+        private void optionProvince_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
+        }
+
+        private void optionDistrict_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

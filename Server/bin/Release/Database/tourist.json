@@ -14,7 +14,7 @@
             {
               "010101": {
                 "name": "Chợ nổi Long Xuyên",
-				"nameSlug": "CHO NOI LONG XUYEN",
+                "nameSlug": "CHO NOI LONG XUYEN",
                 "coord": [
                   "10°38'B",
                   "105°44'Đ"
@@ -29,7 +29,7 @@
                 ]
               },
               "codeCurrent": "010102"
-			}
+            }
           ]
         },
         "0102": {
@@ -5444,7 +5444,23 @@
           "code": "4102",
           "travel": [
             {
-              "codeCurrent": "410201"
+              "410201": {
+                "name": "Du lịch Biển Tân Thành",
+                "nameSlug": "DU LICH BIEN TAN THANH",
+                "coord": [
+                  "10°29'B",
+                  "106°78'Đ"
+                ],
+                "description": "Nếu bình chọn một khu du lịch “quốc dân” của Tiền Giang. Biển Tân Thành rất xứng đáng chiếm vị trí đầu bảng. Chẳng ai dại gì từ chối không gian biển xanh bao la. Cơ hội check-in với những đồi cát đen – đẹp – lạ cùng những bữa hải sản tươi ngon. Có biển xanh, gió mát, đồi cát trải dài cùng hải sản giá rẻ ngon “quên lối về”, biển Tân Thành Tiền Giang đang ngày một chứng minh được những nét hấp dẫn.",
+                "code": "410201",
+                "img": [
+                  "Database/img/41020101.png",
+                  "Database/img/41020102.png",
+                  "Database/img/41020103.png",
+                  "Database/img/41020104.png"
+                ]
+              },
+              "codeCurrent": "410202"
             }
           ]
         },
@@ -6667,7 +6683,22 @@
           "code": "5005",
           "travel": [
             {
-              "codeCurrent": "500501"
+              "500501": {
+                "name": "Du lịch Biển Cồn Đen",
+                "nameSlug": "DU LICH BIEN CON DEN",
+                "coord": [
+                  "20°48'B",
+                  "106°60'Đ"
+                ],
+                "description": "Còn gì tuyệt hơn khi những buổi chiều được tản bộ dọc bãi biển Cồn Đen Thái Bình. Ngắm những đợt sóng vỗ bờ trắng xóa, những dải thông xanh mướt cũng đung đưa theo làn gió biển. Không khí cũng dịu mát hơn hẳn! Hay thả mình xuống dòng nước biển mát lạnh giữa tiết trời oi nóng của hè này thì còn gì bằng!  Đây là một địa điểm du lịch Thái Bình không nên bỏ lỡ.",
+                "code": "500501",
+                "img": [
+                  "Database/img/50050101.png",
+                  "Database/img/50050102.png",
+                  "Database/img/50050103.png"
+                ]
+              },
+              "codeCurrent": "500502"
             }
           ]
         },
@@ -6743,7 +6774,22 @@
           "code": "5103",
           "travel": [
             {
-              "codeCurrent": "510301"
+              "510301": {
+                "name": "Du lịch Bãi tắm Rào Àn",
+                "nameSlug": "DU LICH BAI TAM RAO AN",
+                "coord": [
+                  "18°41'B",
+                  "108°22'Đ"
+                ],
+                "description": "Từ Hà Tĩnh về phía Tây hơn 100 km, bãi tắm đội 9 - Rào An thuộc xã Sơn Kim 1, huyện Hương Sơn luôn thu hút du khách và người dân địa phương đến nghỉ mát vui chơi vào dịp cuối tuần. Thời điểm thích hợp đến bãi tắm là từ tháng 4 đến tháng 8. Ngoài bãi tắm đội 9, trong khu này còn có thác Bạc, du khách không chỉ được tận hưởng bầu không khí trong lành, nguồn nước mát lạnh mà còn có cảm giác gần gũi thiên nhiên. Ở đây, du khách có thể cắm trại hoặc nghỉ ngơi bên các nhà chòi nhỏ mà không phải mất phí, khi nô đùa chán chê du khách cũng có thể bày tiệc nướng và có những phút giây thư giãn cùng nhau",
+                "code": "510301",
+                "img": [
+                  "Database/img/51030101.png",
+                  "Database/img/51030102.png",
+                  "Database/img/51030103.png"
+                ]
+              },
+              "codeCurrent": "510302"
             }
           ]
         },
@@ -6809,7 +6855,23 @@
           "code": "5109",
           "travel": [
             {
-              "codeCurrent": "510901"
+              "510901": {
+                "name": "Du lịch KDL Quỳnh Viên",
+                "nameSlug": "DU LICH KDL QUYNH VIEN",
+                "coord": [
+                  "18°46'B",
+                  "105°93'Đ"
+                ],
+                "description": "Nằm bên bờ biển Thạch Hải, huyện Thạch Hà, cách Thiên Cầm khoảng 25 km về phía bắc. Chỉ mất khoảng 10 phút đi xe máy từ Tp Hà Tĩnh, các bạn có thể đến được khu du lịch Quỳnh Viên.",
+                "code": "510901",
+                "img": [
+                  "Database/img/51090101.png",
+                  "Database/img/51090102.png",
+                  "Database/img/51090103.png",
+                  "Database/img/51090104.png"
+                ]
+              },
+              "codeCurrent": "510902"
             }
           ]
         },
@@ -6907,7 +6969,23 @@
           "code": "5204",
           "travel": [
             {
-              "codeCurrent": "520401"
+              "520401": {
+                "name": "Du lịch Vịnh Vĩnh Hy",
+                "nameSlug": "DU LICH VINH VINH HY",
+                "coord": [
+                  "11°71'B",
+                  "109°20'Đ"
+                ],
+                "description": "Vịnh Vĩnh Hy hay đầm Vĩnh Hy là một vịnh nhỏ nằm ở xã Vĩnh Hải, huyện Ninh Hải, tỉnh Ninh Thuận, Việt Nam Nằm về phía đông bắc tỉnh Ninh Thuận, Với những giá trị nổi bật về địa hình, khí hậu và tính đa dạng sinh học cao, hệ sinh thái động thực vật hết sức phong phú. Đây là điểm đến lý tưởng của những du khách yêu thích khám phá dưới lòng đại dương và thiên nhiên mênh mông. Vịnh biển này được bao bọc bởi rừng núi nên nhìn chung biển khá lặng, khí hậu ôn hòa, dễ chịu, vì thế du khách có thể ghé thăm vào bất cứ thời điểm nào trong năm. Du khách nên đi tầm từ tháng 3 đến tháng 7, lúc này trời nắng đẹp, sóng êm, không bão, rất thích hợp cho việc đi lại cũng như tham gia các hoạt động dưới nước.",
+                "code": "520401",
+                "img": [
+                  "Database/img/52040101.png",
+                  "Database/img/52040102.png",
+                  "Database/img/52040103.png",
+                  "Database/img/52040104.png"
+                ]
+              },
+              "codeCurrent": "520402"
             }
           ]
         },
@@ -6918,7 +6996,23 @@
           "code": "5205",
           "travel": [
             {
-              "codeCurrent": "520501"
+              "520501": {
+                "name": "Du lịch Làng Mông cổ",
+                "nameSlug": "DU LICH LANG MONG CO",
+                "coord": [
+                  "11°38'B",
+                  "108°98'Đ"
+                ],
+                "description": "Khu du lịch dã ngoại Tanyoli hay còn gọi là làng mông cổ Tanyoli, điểm tham quan, trải nghiệm cực HOT ở Ninh Thuận hiện nay. Điếm hút của khu du lịch dã ngoại này chính hệ thống lưu trú lều mông cổ và nhà gỗ thông minh trên địa hình thảo nguyên. Các trò chơi hấp dẫn như bắn cung, trượt cỏ, cưỡi ngựa, banh đụng, trò chơi liên hoàn, … song cùng đó là các tiểu cảnh như con đường hoa sứ trắng, hồ sinh thái, đồng cừu, khu vực thư giãn, thưởng thức các loại nước uống, phim trường và cùng nhiều tiểu cảnh tuyệt đẹp.",
+                "code": "520501",
+                "img": [
+                  "Database/img/52050101.png",
+                  "Database/img/52050102.png",
+                  "Database/img/52050103.png",
+                  "Database/img/52050104.png"
+                ]
+              },
+              "codeCurrent": "520502"
             }
           ]
         },
@@ -6961,7 +7055,22 @@
           "code": "5301",
           "travel": [
             {
-              "codeCurrent": "530101"
+              "530101": {
+                "name": "Du lịch Khu du lịch Xẻo Quýt",
+                "nameSlug": "DU LICH KHU DU LICH XEO QUYT",
+                "coord": [
+                  "10°39'B",
+                  "105°80'Đ"
+                ],
+                "description": "Khu di tích lịch sử kết hợp khu sinh thái Xẻo Quýt sẽ mang đến cho du khách cảm giác như lạc vào rừng nguyên sinh với khung cảnh tự nhiên hoang dã. Đây hứa hẹn sẽ  là địa điểm rất phù hợp với các bạn thích tìm một nơi nghỉ mát kiểu dân dã miền tây. Là căn cứ Cách Mạng (từ năm 1960-1975) của cơ quan Tỉnh ủy Đồng Tháp lãnh đạo nhân dân kháng chiến chống Mỹ. Trong suốt hành trình cuộc kháng chiến, Xẻo Quýt đã phải hứng chịu rất nhiều trận mưa bom, bão đạn của kẻ thù. Nhưng với tinh thần dân tộc, lòng dũng cảm, chịu đựng hiểm nguy và tài trí thao lược, quân và dân Đồng Tháp đã xoay chuyển tình thế, khắc phục khó khăn, mang chiến thắng về cho quê hương, đất nước. Hiện Xẻo Quýt có 170 loài thực vật (với 158 loài hoang dại) và 12 loài cây thân gỗ, tuy không quý hiếm nhưng lại là giống cây thích nghi với điều kiện ngập nước. Đặc biệt ở đây có 13 loài động vật quý hiếm được ghi vào sách đỏ Việt Nam: trăn mốc, rắn hổ trâu, rùa hộp, chim sả mỏ rộng và loài rái cá thường…",
+                "code": "530101",
+                "img": [
+                  "Database/img/53010101.png",
+                  "Database/img/53010102.png",
+                  "Database/img/53010103.png"
+                ]
+              },
+              "codeCurrent": "530102"
             }
           ]
         },
@@ -6972,7 +7081,23 @@
           "code": "5302",
           "travel": [
             {
-              "codeCurrent": "530201"
+              "530201": {
+                "name": "Du lịch Làng Hoa Kiểng tại Thành phố Sa Đéc",
+                "nameSlug": "DU LICH LANG HOA KIENG TAI THANH PHO SA DEC",
+                "coord": [
+                  "10°31'B",
+                  "105°75'Đ"
+                ],
+                "description": "Làng hoa Sa Đéc nằm trong địa phận xã Tân Qui Đông, thành phố Sa Đéc, tỉnh Đồng Tháp, quanh năm lộng gió, màu mỡ phù sa, ngập tràn ánh nắng, là xứ sở của hàng trăm loài “kỳ hoa dị thảo”. Đây là một trong những trung tâm hoa kiểng của miền Nam, rộng 60ha với 600 hộ và 3600 lao động chuyên trồng hoa và cây cảnh. Những ngày xuân trăm hoa của làng hoa Sa Đéc chen nhau đua nở. Ở đây bán đủ các loài hoa đủ sắc, đủ hương: hồng, lan, huệ… và các loài cây cảnh hình dáng đẹp: khế, tùng, sung, si, mai… Trong không khí ngàn hoa khoe sắc sẽ là phông nền tuyệt đẹp cho những bức ảnh hoàn hảo.",
+                "code": "530201",
+                "img": [
+                  "Database/img/53020101.png",
+                  "Database/img/53020102.png",
+                  "Database/img/53020103.png",
+                  "Database/img/53020104.png"
+                ]
+              },
+              "codeCurrent": "530202"
             }
           ]
         },
@@ -6983,7 +7108,22 @@
           "code": "5303",
           "travel": [
             {
-              "codeCurrent": "530301"
+              "530301": {
+                "name": "Du lịch Làng sen Hồng Ngự tại Thị",
+                "nameSlug": "DU LICH LANG SEN HONG NGU TAI THI",
+                "coord": [
+                  "10°86'B",
+                  "105°35'Đ"
+                ],
+                "description": "Làng sen Hồng Ngự là một địa điểm du lịch rất nổi tiếng ở TX.Hồng Ngự. Về làng sen Hồng Ngự là dịp để du khách khám phá vẻ đẹp của những bông hoa sen. Nếu muốn chụp ảnh bên hoa sen thì du khách hãy đến với làng sen Hồng Ngự. Đường dẫn vào làng sen Hồng Ngự rất đẹp, 2 bên đường là những ao trồng sen. Vào mùa nước nổi, khi hoa sen bắt đầu có nụ chính là lúc người dân ở làng sen Hồng Ngự bơi xuồng ra ao sen ngắt nụ sen về ướp trà. Những lá trà được ướp trong bông sen theo phương pháp truyền thống của người Hồng Ngự tạo nên những lá trà sen thơm lừng. Được biết, thương hiệu trà sen Hồng Ngự đã và đang là một trong những đặc sản du lịch Đồng Tháp được rất nhiều du khách ưa chuộng. Thưởng thức vị trà sen Hồng Ngự, du khách sẽ bất ngờ bởi trà rất thơm, vị thì đậm đà, thơm ngon.",
+                "code": "530301",
+                "img": [
+                  "Database/img/53030101.png",
+                  "Database/img/53030102.png",
+                  "Database/img/53030103.png"
+                ]
+              },
+              "codeCurrent": "530302"
             }
           ]
         },
@@ -7016,7 +7156,23 @@
           "code": "5306",
           "travel": [
             {
-              "codeCurrent": "530601"
+              "530601": {
+                "name": "Du lịch Vườn quốc gia Tràm Chim tại Huyện Tam Nông",
+                "nameSlug": "DU LICH VUON QUOC GIA TRAM CHIM TAI HUYEN TAM NONG",
+                "coord": [
+                  "10°78'B",
+                  "105°49'Đ"
+                ],
+                "description": "Vườn Quốc gia Tràm Chim thuộc địa phận 7 xã: Tân Công Sinh, Phú Đức, Phú Thọ, Phú Thành A, Phú Thành B, Phú Hiệp và thị trấn Tràm Chim, huyện Tam Nông, tỉnh Ðồng Tháp. Vườn Quốc gia Tràm Chim có diện tích 7.588ha. Đây là một Ðồng Tháp Mười thu hẹp với hệ sinh vật phong phú đa dạng của vùng đất ngập nước, là nơi sinh sống của nhiều loài thực vật, gần 200 loài chim nước, chiếm khoảng 1/4 số loài chim có ở Việt Nam, trong đó có nhiều loài chim quý hiếm trên thế giới. Loài chim điển hình nhất và được nhiều người biết đến ở đây là sếu đầu đỏ. Ðến đây, du khách được tận mắt ngắm nhìn những con sếu đầu đỏ - một trong số 15 loài sếu còn tồn tại trên thế giới đang có nguy cơ diệt chủng. Sếu to cao trên 1,7m, bộ lông xám mượt, cổ cao, đầu đỏ, đôi cánh rộng. Khác với nhiều loài chim trong vùng, sếu chỉ kiếm ăn trên mặt đất nên vào mùa nước nVườn quốc gia Tràm Chim đã được Nhà nước đầu tư, nâng cấp, mở rộng thành một bảo tàng thiên nhiên, một trung tâm du lịch sinh thái hấp dẫn. Nhiều tổ chức bảo tồn thiên nhiên quốc tế cũng tài trợ để bảo vệ tràm chim quý hiếm này. Đây chính là điểm hẹn lý tưởng cho du khách bốn phương.ổi ở Ðồng Tháp Mười chúng phải đi kiếm ăn ở nơi khác. Vì vậy, chỉ có thể xem sếu từ tháng 12 đến tháng 6 năm sau.",
+                "code": "530601",
+                "img": [
+                  "Database/img/53060101.png",
+                  "Database/img/53060102.png",
+                  "Database/img/53060103.png",
+                  "Database/img/53060104.png"
+                ]
+              },
+              "codeCurrent": "530602"
             }
           ]
         },
@@ -7027,7 +7183,23 @@
           "code": "5307",
           "travel": [
             {
-              "codeCurrent": "530701"
+              "530701": {
+                "name": "Du lịch Khu du lịch sinh thái Đồng Sen",
+                "nameSlug": "DU LICH KHU DU LICH SINH THAI DONG SEN",
+                "coord": [
+                  "10°60'B",
+                  "105°82'Đ"
+                ],
+                "description": "Khu du lịch sinh thái Đồng Sen tháp Mười nẳm ở xã Mỹ Hòa, huyện Tháp Mười, Đồng Tháp. Khu du lịch sinh thái Đồng Tháp Mười đang là điểm đến yêu thích của rất du khách trong và ngoài nước. Đây là một trong những địa điểm lý tưởng để bạn có thế tránh xa khỏi cuộc sống náo nhiệt nơi thành thì và tìm đến với không gian yên tĩnh, thanh bình nơi vùng thôn quê dân dã. Tới đây, du khách có thể thỏa thích ngắm sen trên các chòi khác nhau, tự tay hái những bông sen hay chụp những tấm hình sống ảo. Ngoài ra, du khách còn được thưởng thức nhiều món ăn độc đáo khác nhau làm từ sen: gỏi gà ngó sen, chè sen, cá lóc nướng lá sen…",
+                "code": "530701",
+                "img": [
+                  "Database/img/53070101.png",
+                  "Database/img/53070102.png",
+                  "Database/img/53070103.png",
+                  "Database/img/53070104.png"
+                ]
+              },
+              "codeCurrent": "530702"
             }
           ]
         },
@@ -7103,7 +7275,23 @@
           "code": "5401",
           "travel": [
             {
-              "codeCurrent": "540101"
+              "540101": {
+                "name": "Công viên tượng đài Long",
+                "nameSlug": "CONG VIEN TUONG DAI LONG",
+                "coord": [
+                  "10°56'B",
+                  "106°41'Đ"
+                ],
+                "description": "Công trình này có 2 hạng mục chính là tượng đài – công viên và phần trưng bày truyền thống. Phần điêu khắc của tượng đài có nhóm tượng người mẹ và chiến sĩ; quần thể tượng Trung dũng kiên cường toàn dân đánh giặc. Cùng với 8 trụ rồng và 2 tranh hoành tráng. Phối hợp với hồ phun nước nghệ thuật. Phần trưng bày truyền thống có Phòng trưng bày sự kiện lịch sử và Không gian trưng bày tám chuyên đề Long An Trung dũng kiên cường, toàn dân đánh giặc.",
+                "code": "540101",
+                "img": [
+                  "Database/img/54010101.png",
+                  "Database/img/54010102.png",
+                  "Database/img/54010103.png",
+                  "Database/img/54010104.png"
+                ]
+              },
+              "codeCurrent": "540102"
             }
           ]
         },
@@ -7147,7 +7335,23 @@
           "code": "5405",
           "travel": [
             {
-              "codeCurrent": "540501"
+              "540501": {
+                "name": "Du lịch Làng nổi Tân Lập",
+                "nameSlug": "DU LICH LANG NOI TAN LAP",
+                "coord": [
+                  "10°71'B",
+                  "105°98'Đ"
+                ],
+                "description": "Với diện tích khoảng 135 ha. Bao gồm các công trình nhà nghỉ, khu công viên, bến thuyền và khu rừng tràm nguyên sinh rộng lớn. Làng nổi Tân Lập sẽ mang bạn đến với thế giới của thiên nhiên, khám phá đặc thù của vùng sông nước Nam Bộ. Đây là loại hình du lịch trong ngày về, không có homestay ngủ lại. Nếu đi nhóm, có thể cắm trại, ngủ qua đêm tại rừng tràm, giao lưu dã ngoại",
+                "code": "540501",
+                "img": [
+                  "Database/img/54050101.png",
+                  "Database/img/54050102.png",
+                  "Database/img/54050103.png",
+                  "Database/img/54050104.png"
+                ]
+              },
+              "codeCurrent": "540502"
             }
           ]
         },
@@ -7191,7 +7395,24 @@
           "code": "5409",
           "travel": [
             {
-              "codeCurrent": "540901"
+              "540901": {
+                "name": "Du lịch Công viên 7 kỳ quan thế giới",
+                "nameSlug": "DU LICH CONG VIEN 7 KY QUAN THE GIOI",
+                "coord": [
+                  "10°90'B",
+                  "106°46'Đ"
+                ],
+                "description": "Công viên nằm trong quần thể của khu đô thị và du lịch sinh thái mang tên Cát Tường Phú Sinh thuộc tỉnh lộ 9, xã Mỹ Hạnh Bắc, huyện Đức Hòa, tỉnh Long An. Đến đây, bạn sẽ được đến tham quan và vui chơi trong khuôn viên của công viên. Và cảm nhận như mình vừa ngao du hết một vòng thế giới. Du khách tìm thấy những công trình nổi tiếng thế giới như tháp Eiffel, nhà hát Opera Sydney… ngay tại Long An. Mô hình được làm bằng sợi thủy tinh, có tỉ lệ thu nhỏ tinh xảo giống như thật. Tất cả các mô hình được nhập về sau đó lắp ráp công phu tại công viên",
+                "code": "540901",
+                "img": [
+                  "Database/img/54090101.png",
+                  "Database/img/54090102.png",
+                  "Database/img/54090103.png",
+                  "Database/img/54090104.png",
+                  "Database/img/54090105.png"
+                ]
+              },
+              "codeCurrent": "540902"
             }
           ]
         },
@@ -7235,7 +7456,23 @@
           "code": "5413",
           "travel": [
             {
-              "codeCurrent": "541301"
+              "541301": {
+                "name": "Du lịch Nhà cổ Trăm cột",
+                "nameSlug": "DU LICH NHA CO TRAM COT",
+                "coord": [
+                  "10°48'B",
+                  "106°69'Đ"
+                ],
+                "description": "Nhà Trăm Cột là công trình kiến trúc điêu khắc cổ mang phong cách “nhà rường” Huế. Đã có hơn 100 năm tuổi nằm ở bờ sông Vàm Cỏ Đông. Nhà làm bằng các loại gỗ cẩm lai, gõ đỏ, gõ mật. Mái lợp ngói âm dương. Nền nhà bằng đá tảng cao. Mặt nền lát gạch Tàu lục giác. Từ cột nhà đến các đồ dùng như bàn ghế, giường, tủ, phản… đều được chạm khác tỉ mỉ, công phu mang các đề tài cổ điển.",
+                "code": "541301",
+                "img": [
+                  "Database/img/54130101.png",
+                  "Database/img/54130102.png",
+                  "Database/img/54130103.png",
+                  "Database/img/54130104.png"
+                ]
+              },
+              "codeCurrent": "541302"
             }
           ]
         },
@@ -7246,7 +7483,22 @@
           "code": "5414",
           "travel": [
             {
-              "codeCurrent": "541401"
+              "541401": {
+                "name": "Du lịch Cảng biển Tân Lập",
+                "nameSlug": "DU LICH CANG BIEN TAN LAP",
+                "coord": [
+                  "10°53'B",
+                  "106°73'Đ"
+                ],
+                "description": "Cảng biển Tân Lập hay còn được gọi với cái tên khác là cảng biển quốc tế Long An là một trong những niềm tự hào lớn của người dân Tân Lập nói riêng và Long An nói chung. Địa chỉ của cảng biển Long An nằm tại ĐT19, xã Tân Lập, huyện Cần Giuộc, tỉnh Long An. Đây là một vị trí đẹp không chỉ trong giao thương, đi lại mà còn trong cả du lịch. Cảng biển Tân Lập hay còn được gọi với cái tên khác là cảng biển quốc tế Long An là một trong những niềm tự hào lớn của người dân Tân Lập nói riêng và Long An nói chung. Địa chỉ của cảng biển Long An nằm tại ĐT19, xã Tân Lập, huyện Cần Giuộc, tỉnh Long An. Đây là một vị trí đẹp không chỉ trong giao thương, đi lại mà còn trong cả du lịch.",
+                "code": "541401",
+                "img": [
+                  "Database/img/54140101.png",
+                  "Database/img/54140102.png",
+                  "Database/img/54140103.png"
+                ]
+              },
+              "codeCurrent": "541402"
             }
           ]
         },
@@ -7278,7 +7530,23 @@
           "code": "5501",
           "travel": [
             {
-              "codeCurrent": "550101"
+              "550101": {
+                "name": "Du lịch Công viên ánh sáng kỳ quan cổ đại The Miracle",
+                "nameSlug": "DU LICH CONG VIEN ANH SANG KY QUAN CO DAI THE MIRACLE",
+                "coord": [
+                  "9°79'B",
+                  "105°48'Đ"
+                ],
+                "description": "The Miracle là công viên kỳ quan cổ đại đầu tiên tại khu vực Tây Nam Bộ, sở hữu lối thiết kế tinh tế, sang trọng, có tổng diện tích đến 7.180 m2. Tọa lạc tại ngay lối vào chính của Khu đô thị Cát Tường Western Pearl 2. Công viên mô phỏng lại 7 công trình kỳ quan nghệ thuật, tinh hoa nhân loại, tiêu biểu cho các nền văn minh cổ đại. Lần đầu tiên tại Hậu Giang cả thế giới bỗng chốc thu bé lại bởi một quần thể di sản kỳ quan kiến trúc cổ đại được tái hiện sống động đến từng chi tiết. Công viên Ánh Sáng Kỳ Quan Cổ Đại The Miracle hứa hẹn sẽ nhanh chóng trở thành “tâm điểm” du lịch mới của vùng Đồng bằng sông Cửu Long khi tái hiện kỳ quan kiến trúc cổ đại ấn tượng trên thế giới. Chỉ một vòng dạo bước theo đường hoa lối cỏ, bạn sẽ bị choáng ngợp bởi sự đầu tư hoành tráng, kì vĩ khi mọi kiến trúc vĩ đại đều trở nên gần gũi, thân thuộc góp phần tô điểm thêm nhiều màu sắc tươi tắn cho cuộc sống. Với sự đầu tư kỹ lưỡng, Công viên kỳ quan ở Hậu Giang được du khách ví von như châu Âu thứ 2 giữa lòng Miền Tây.",
+                "code": "550101",
+                "img": [
+                  "Database/img/55010101.png",
+                  "Database/img/55010102.png",
+                  "Database/img/55010103.png",
+                  "Database/img/55010104.png"
+                ]
+              },
+              "codeCurrent": "550102"
             }
           ]
         },
@@ -7300,7 +7568,23 @@
           "code": "5503",
           "travel": [
             {
-              "codeCurrent": "550301"
+              "550301": {
+                "name": "Du lịch Công viên giải trí Kittyd & Minnied",
+                "nameSlug": "DU LICH CONG VIEN GIAI TRI KITTYD & MINNIED",
+                "coord": [
+                  "9°95'B",
+                  "105°73'Đ"
+                ],
+                "description": "Công viên giải trí Kittyd & Minnied – Đại học Võ Trường Toản tọa lạc trên QL1A, xã Tân Phú Thạnh, huyện Châu Thành A, tỉnh Hậu Giang (Cách trung tâm TP Cần Thơ 7Km). Là công viên giải trí được thiết kế theo tiêu chuẩn Châu Âu, lớn và hiện đại vào bậc nhất khu vực Đồng bằng sông Cửu Long. Kittyd Minnied là mô hình tích hợp giữa công viên và khu vui chơi giải trí hiện đại. Với nhiều khu vực tham quan và khu trò chơi hấp dẫn. Với diện tích khoảng 20ha, Kittyd Minnied được xây dựng theo phong cách cổ điển châu Âu. Nhằm mang đến cho du khách trải nghiệm về một vùng đất mới, nơi xứ sở thần tiên với Bạch Tuyết, Lọ Lem, Aladin,…",
+                "code": "550301",
+                "img": [
+                  "Database/img/55030101.png",
+                  "Database/img/55030102.png",
+                  "Database/img/55030103.png",
+                  "Database/img/55030104.png"
+                ]
+              },
+              "codeCurrent": "550302"
             }
           ]
         },
@@ -7344,7 +7628,22 @@
           "code": "5507",
           "travel": [
             {
-              "codeCurrent": "550701"
+              "550701": {
+                "name": "Du lịch Khu văn hóa lịch sử Long Mỹ",
+                "nameSlug": "DU LICH KHU VAN HOA LICH SU LONG MY",
+                "coord": [
+                  "9°69'B",
+                  "105°45'Đ"
+                ],
+                "description": "Di tích Long Mỹ thuộc huyện Long Mỹ, tỉnh Hậu Giang nằm cách thị xã Vị Thanh khoảng 28km. Long Mỹ là vùng đất ở giữa vùng đất U Minh và vùng sông nước Hậu Giang, là vùng rừng tràm, bần cách đây khoảng 200 năm. Trong hai cuộc kháng chiến chống Pháp và chống Mỹ, Long Mỹ là vùng căn cứ cách mạng của tỉnh Hậu Giang và khu Tây Nam Bộ Long Mỹ, là vùng “chiến địa” giành nhau từng tấc đất giữa ta và địch trong hai cuộc kháng chiến chống Pháp và chống Mỹ. Đến với Long Mỹ, du khách sẽ được ghé thăm khu đền thờ Bác Hồ ở xã Lương Tâm do Đảng bộ và quân dân Long Mỹ lập nên từ năm 1969 khi Bác mất. Đền thờ nay đã được trùng tu khang trang hơn với nhiều hàng rào, đền chính, trên một khu đất rộng 1 ha. Hàng năm vào ngày 19/5 và 2/9 đông đảo du khách trong và ngoài tỉnh đến đây tham quan, tưởng niệm. Ngoài ra Long Mỹ còn có khu “di tích chiến thắng 75 tiểu đoàn ngụy”, tại xã Vĩnh Viễn, đây là công trình giúp khách tham quan tìm về quá khứ oanh liệt của cha ông ngày trước. Trong khu di tích còn có rất nhiều khu chơi, giải trí đang ngày càng hoàn thiện để thu hút nhiều du khách đến đây hơn nữa.",
+                "code": "550701",
+                "img": [
+                  "Database/img/55070101.png",
+                  "Database/img/55070102.png",
+                  "Database/img/55070103.png"
+                ]
+              },
+              "codeCurrent": "550702"
             }
           ]
         },
@@ -7791,7 +8090,23 @@
           "code": "5901",
           "travel": [
             {
-              "codeCurrent": "590101"
+              "590101": {
+                "name": "Bitexco",
+                "nameSlug": "BITEXCO",
+                "coord": [
+                  "10°77'B",
+                  "106°70'Đ"
+                ],
+                "description": "Mang biểu tượng búp sen của Việt Nam, toàn bộ kiến trúc của tòa Bitexco hướng đến sự thanh khiết và đem lại cảm giác lạc quan. Tuy không sở hữu nhiều thương hiệu mua sắm nổi tiếng như các trung tâm thương mại khác, nhưng Bitexco vẫn luôn là sự lựa chọn của các bạn trẻ với rạp chiếu phim và các hàng quán trà sữa nổi tiếng xung quanh.Nếu có cơ hội bạn cũng nên một lần trải nghiệm cảm giác đứng trên tầng 49 của tòa nhà Bitexco. Ngắm nhìn một Sài Gòn tuyệt đẹp ở Đài Quan sát Sài Gòn Skydeck. Hệ thống ống nhòm nơi đây sẽ giúp bạn quan sát tỉ mỉ mọi đường nét của Sài Gòn. Về đêm, những dòng xe cộ chen chúc nhau như những con thoi dệt nên những tia sáng rực rỡ hòa với ánh đèn từ tòa nhà cao tầng. Tạo nên một bức tranh huyền diệu và sống động vô cùng.",
+                "code": "590101",
+                "img": [
+                  "Database/img/59010101.png",
+                  "Database/img/59010102.png",
+                  "Database/img/59010103.png",
+                  "Database/img/59010104.png"
+                ]
+              },
+              "codeCurrent": "590102"
             }
           ]
         },
@@ -7802,7 +8117,23 @@
           "code": "5902",
           "travel": [
             {
-              "codeCurrent": "590201"
+              "590201": {
+                "name": "Khu du lịch bến xưa",
+                "nameSlug": "KHU DU LICH BEN XUA",
+                "coord": [
+                  "10°85'B",
+                  "106°67'Đ"
+                ],
+                "description": "Khu du lịch bến xưa ở số 39A đường Hà Huy Giáp, phường Thạnh Lộc, Quận 12. Với những ai đang tìm nơi vui chơi, thư giãn nhẹ nhàng, tránh xa khói bụi, ồn ào phố thị thì Khu du lịch Bến Xưa Quận 12 là một điểm đến lý tưởng. Khu du lịch Bến Xưa nằm ngay sát bờ sông Vàm Thuật, trên khu đất rộng 2.5 hecta, sức chứa mỗi ngày lên đến 3,000 khách. Khu du lịch Bến Xưa Quận 12 bao gồm 3 nhà hàng chuyên tổ chức sự kiện - tiệc cưới, và một khu café sân vườn lãng mạn được thiết kế theo lối kiến trúc truyền thống, chạm trổ cổ kính nhưng không kém phần đẳng cấp, sang trọng. Đến với Khu du lịch Bến Xưa Quận 12, bạn sẽ được tận hưởng khung cảnh làng quê yên bình, xanh mát giữa một không gian rộng lớn đầy cây xanh cùng với những gian nhà mang đậm dấu ấn thời gian. Khu du lịch còn có nhiều tiểu cảnh vùng quê như chiếc lu sành chứa nước mưa, cây cầu khỉ cheo leo, xe kéo kiểu dáng xưa cũ,… tất cả như đưa bạn về với làng quê tuổi thơ",
+                "code": "590201",
+                "img": [
+                  "Database/img/59020101.png",
+                  "Database/img/59020102.png",
+                  "Database/img/59020103.png",
+                  "Database/img/59020104.png"
+                ]
+              },
+              "codeCurrent": "590202"
             }
           ]
         },
@@ -7813,7 +8144,22 @@
           "code": "5903",
           "travel": [
             {
-              "codeCurrent": "590301"
+              "590301": {
+                "name": "Chùa Một Cột Thủ Đức",
+                "nameSlug": "CHUA MOT COT THU DUC",
+                "coord": [
+                  "10°84'B",
+                  "106°76'Đ"
+                ],
+                "description": "Chùa Một Cột Thủ Đức (Nam Thiên Nhất Trụ), là ngôi chùa Một Cột miền Nam đã được mô phỏng theo chùa một cột của Hà Nội, nằm trên đường Đặng Văn Bi, Quận Thủ Đức. Chùa khởi công xây dựng vào ngày 08 tháng 4 năm 1958 bởi Hoà thượng Thích Trí Dũng cùng với sự hỗ trợ của một Phật tử Đỗ Thị Vinh. Kiến ​​trúc và thiết kế tương tự như chùa Một Cột (chùa Diên Hựu) ở Hà Nội, với những đường nét, hoa văn tinh xảo. Nam Thiên Nhất Trụ được hoàn thành vào năm 1977 sau gần 20 năm xây dựng.\nNgôi chùa được đặt trên một cột trụ cao khoảng 12 mét với bức tượng Bồ Tát Quán Thế Âm bên trong, mang bầu không khí yên tĩnh và thanh tịnh cho những ai đến cúng viếng, như được hoà mình vào những cảnh vật tĩnh lặng nơi đây và xua đi những ồn ào, phiền muộn trong cuộc sống.\n",
+                "code": "590301",
+                "img": [
+                  "Database/img/59030201.png",
+                  "Database/img/59030202.png",
+                  "Database/img/59030203.png"
+                ]
+              },
+              "codeCurrent": "590302"
             }
           ]
         },
@@ -7824,7 +8170,39 @@
           "code": "5904",
           "travel": [
             {
-              "codeCurrent": "590401"
+              "590402": {
+                "name": "Khu du lịch văn hóa Suối Tiên",
+                "nameSlug": "KHU DU LICH VAN HOA SUOI TIEN",
+                "coord": [
+                  "10°86'B",
+                  "106°80'Đ"
+                ],
+                "description": "Khu du lịch văn hóa Suối Tiên tọa lạc tại cửa ngõ Đông Bắc Sài Gòn, cách trung tâm TP.HCM khoảng 30 phút di chuyển. Suối Tiên là sự kết hợp đặc biệt của tinh hóa văn hóa và cội nguồn dân tộc nước ta. Có rất nhiều câu chuyện truyền thuyết đã được mô phỏng tại đây như: Âu Cơ – Lạc Long Quân, Sơn Tinh – Thủy Tinh, sự tích Mai An Tiêm, sự tích bánh chưng – bánh dày,…hứa hẹn mang đến cho quý du khách những trải nghiệm lý thú.\n\nĐiểm nhấn của khu du lịch chính là khu công viên nước – công viên giải trí lớn nhất tại Việt Nam. Công viên nước có một cái tên đậm chất cổ tích là biển Tiên Đồng, đây là biển nhân tạo đầu tiên tại nước ta.",
+                "code": "590402",
+                "img": [
+                  "Database/img/59040201.png",
+                  "Database/img/59040202.png",
+                  "Database/img/59040203.png",
+                  "Database/img/59040204.png"
+                ]
+              },
+              "590401": {
+                "name": "Đền tưởng niệm các Vua Hùng",
+                "nameSlug": "DEN TUONG NIEM CAC VUA HUNG",
+                "coord": [
+                  "10°89'B",
+                  "106°82'Đ"
+                ],
+                "description": "Đền tưởng niệm các Vua Hùng nằm trên một ngọn núi cao thuộc khu công viên Lịch sử Văn Hóa dân tộc với diện tích hơn 400ha, cách trung tâm TP.HCM khoảng 30km và được đưa vào sử dụng năm 2009.\nCác hạng mục của đền gồm: Quảng trường, đường tre, đền thờ và sân thượng.\nNgay khi bước vào bạn sẽ bắt gặp quảng trường vuông vức 4.000m2 , nền có hình mặt trời mô phỏng mặt trống đồng Đông Sơn, 2 bên quảng trường là 9 chột đá cao 6m tượng trưng cho 18 vị Vua Hùng.Từ quảng trường đến cổng chính là đường tre dài 360m, rộng 10m. Ở giữa đường là nhà bia với nội dung ca ngợi công đức của tổ tiên và truyền thống đấu tranh của dân tộc Việt Nam.Điểm nổi bật của lối lên đền chính là hàng tre tỏa bóng mát hai bên, gợi nhớ đến hình ảnh làng quê Việt xưa. Con đường này được xây dựng bằng đá, có tổng cộng 107 bậc thang.\nĐiểm cuối chính là đền tưởng niệm các Vua Hùng, nằm ở đỉnh đồi. Tổng thể đền gồm 3 hạng mục là sân lễ, sân hội và sân vọng.",
+                "code": "590401",
+                "img": [
+                  "Database/img/59040101.png",
+                  "Database/img/59040102.png",
+                  "Database/img/59040103.png",
+                  "Database/img/59040104.png"
+                ]
+              },
+              "codeCurrent": "590403"
             }
           ]
         },
@@ -7835,7 +8213,39 @@
           "code": "5905",
           "travel": [
             {
-              "codeCurrent": "590501"
+              "590502": {
+                "name": "Khu du lịch Văn Thánh",
+                "nameSlug": "KHU DU LICH VAN THANH",
+                "coord": [
+                  "10°80'B",
+                  "106°71'Đ"
+                ],
+                "description": "Công viên Văn Thánh là một trong những khu vui chơi Bình Thạnh nổi tiếng với hoạt động giải trí, nhà hàng kết hợp với cảnh quan thiên nhiên tươi mát. Khu vui chơi Bình Thạnh này thuộc ở hữu của Saigontourist. Công viên nằm cách trung tâm quận 1 khoảng 2km, tổng diện tích lên tới 7,7 héc ta trong đó có 2 héc ta là hồ nước rộng lớn. Bạn sẽ có thời gian nghỉ ngơi và thư giãn bên người thân và bạn bè, tạm rời xa sự nhộn nhịp, xô bồ của chốn thị thành.",
+                "code": "590502",
+                "img": [
+                  "Database/img/59050201.png",
+                  "Database/img/59050202.png",
+                  "Database/img/59050203.png",
+                  "Database/img/59050204.png"
+                ]
+              },
+              "590501": {
+                "name": "Làng du lịch Bình Quới",
+                "nameSlug": "LANG DU LICH BINH QUOI",
+                "coord": [
+                  "10°83'B",
+                  "106°74'Đ"
+                ],
+                "description": "Đây là một trong những khu du lịch mới thu hút đông đảo lượng khách du lịch mỗi ngày, đặc biệt là vào cuối tuần. Khu du lịch có không rộng lớn với hồ nước mênh mông, thảm cỏ xanh tươi phù hợp cho các hoạt động ngoài trời. Với sức chứa khoảng 600 chỗ, nhà hàng có thể phục vụ cho các bữa tiệc công ty, họp mặt bạn bè, hội nghị khách hàng… Các bạn có thể tham gia các hoạt động vô cùng thú vị như chèo thuyền, du thuyền trên sông,câu cá, chơi trò chơi dân gian,… Trong làng du lịch có Hội quán Hội ngộ nơi lưu giữ kỉ niệm của công chúng với nhạc sĩ Trịnh Công Sơn. Vào cuối tuần, khu du lịch có Buffet cuối tuần, chủ đề ”Khẩn Hoang Nam Bộ” từ 17h đến 20h với các món ăn đậm chất Nam Bộ.",
+                "code": "590501",
+                "img": [
+                  "Database/img/59050101.png",
+                  "Database/img/59050102.png",
+                  "Database/img/59050103.png",
+                  "Database/img/59050104.png"
+                ]
+              },
+              "codeCurrent": "590503"
             }
           ]
         },
@@ -7846,7 +8256,23 @@
           "code": "5906",
           "travel": [
             {
-              "codeCurrent": "590601"
+              "590601": {
+                "name": "Công viên Vinhomes Central Park",
+                "nameSlug": "CONG VIEN VINHOMES CENTRAL PARK",
+                "coord": [
+                  "10°79'B",
+                  "106°72'Đ"
+                ],
+                "description": "Vinhomes Central Park được biết đến là nơi sở hữu tòa nhà cao nhất nước ta, là biểu tượng của TP.HCM. Nằm trong quần thể Vinhomes Central Park, khu công viên mang nét đẹp hiện đại. Không những thế, nơi đây còn được biết đến là lá phổi xanh của thành phố, số lượng du khách đến đây tham quan ngày càng tăng lên chóng mặt.\nLấy cảm hứng từ công viên Central Park của New York (Mỹ) mang phong cách thiết kế hiện đại, hòa quyện với diện tích mảng xanh rộng lớn 14ha và trải dài 1km cạnh sông Sài Gòn. Đây là địa điểm vui chơi tại Quận Bình Thạnh được đông đảo cư dân ưa thích, là thiên đường sống ảo cho ra đời những tấm ảnh nghìn like. Vinhomes Central Park được trang bị đầy đủ các khu vui chơi, thư giãn, ngắm cảnh và dạo bộ tuyệt vời cho cư dân. Đây vừa là nơi để nghỉ ngơi, diễn ra các hoạt động vui chơi ngoài trời, gắn kết các thành viên trong gia đình.Đan xen cùng những cao ốc đồ sộ, đẳng cấp là những gam màu xanh của cây cối xanh mát, hồ nước xen kẽ trải dài khắp khuôn viên dự án, mang đến những giây phút bình yên.",
+                "code": "590601",
+                "img": [
+                  "Database/img/59060101.png",
+                  "Database/img/59060102.png",
+                  "Database/img/59060103.png",
+                  "Database/img/59060104.png"
+                ]
+              },
+              "codeCurrent": "590602"
             }
           ]
         },
@@ -7857,7 +8283,23 @@
           "code": "5907",
           "travel": [
             {
-              "codeCurrent": "590701"
+              "590701": {
+                "name": "Chùa Phổ Quang",
+                "nameSlug": "CHUA PHO QUANG",
+                "coord": [
+                  "10°80'B",
+                  "106°66'Đ"
+                ],
+                "description": "Chùa Phổ Quang nằm ở 64 Huỳnh Lan Khanh, Phường 2, Tân Bình, cách trung tâm Thành phố Hồ Chí Minh khoảng 16 km về phía Đông Nam. Đây là một ngôi chùa nổi tiếng có bề dày lịch sử được nhiều người dân Sài Gòn lui tới các dịp lễ tết. Chùa Phổ Quang được khởi công xây dựng từ năm 1952 với kiến trúc ban đầu khá đơn giản, qua nhiều lần trùng tu lại ngôi chùa đã có diện mạo khang trang như bây giờ.",
+                "code": "590701",
+                "img": [
+                  "Database/img/59070101.png",
+                  "Database/img/59070102.png",
+                  "Database/img/59070103.png",
+                  "Database/img/59070104.png"
+                ]
+              },
+              "codeCurrent": "590702"
             }
           ]
         },
@@ -7879,7 +8321,22 @@
           "code": "5909",
           "travel": [
             {
-              "codeCurrent": "590901"
+              "590901": {
+                "name": "Khu ẩm thực Phan Xích Long",
+                "nameSlug": "KHU AM THUC PHAN XICH LONG",
+                "coord": [
+                  "10°79'B",
+                  "106°68'Đ"
+                ],
+                "description": "Điều đầu tiên khi nhắc đến Phú Nhuận chính là khu ẩm thực Phan Xích Long (bao gồm trục đường chính Phan Xích Long cùng 13 con đường mang tên các loài hoa). Đường Phan Xích Long xưa giờ đã nổi tiếng là con đường ăn uống nhộn nhịp bậc nhất Sài Gòn. Có người gọi đây là “con đường cà phê”. Âu cũng xuất phát từ việc khắp quanh khu vực này cơ man nào là hàng quán cà phê. Từ bình dân cho đến sang trọng, từ phong cách cổ điển đến phong cách hiện đại, bạn “ưng bụng” quán cà phê nào thì cứ việc “tạt” ngay vào.",
+                "code": "590901",
+                "img": [
+                  "Database/img/59090101.png",
+                  "Database/img/59090102.png",
+                  "Database/img/59090103.png"
+                ]
+              },
+              "codeCurrent": "590902"
             }
           ]
         },
@@ -7890,7 +8347,38 @@
           "code": "5910",
           "travel": [
             {
-              "codeCurrent": "591001"
+              "591002": {
+                "name": "Du lịch Công viên Hầm Thủ Thiêm ",
+                "nameSlug": "DU LICH CONG VIEN HAM THU THIEM ",
+                "coord": [
+                  "10°76'B",
+                  "106°70'Đ"
+                ],
+                "description": "Công viên Hầm Thủ Thiêm là điểm check in lí tưởng nhất thành phố Hồ Chí Minh. Đến đây bạn cũng có thể cắm trại cùng bạn bè người thân.",
+                "code": "591002",
+                "img": [
+                  "Database/img/59100201.png",
+                  "Database/img/59100202.png",
+                  "Database/img/59100203.png",
+                  "Database/img/59100204.png"
+                ]
+              },
+              "591001": {
+                "name": "Du lịch Đảo Kim Cương",
+                "nameSlug": "DU LICH DAO KIM CUONG",
+                "coord": [
+                  "10°77'B",
+                  "106°74'Đ"
+                ],
+                "description": "Đến với khu vui chơi đảo Kim Cương bạn có thể tham quan những công trình kiến trúc độc đáo hay những khu vui chơi giải trí, mở tiệc BBQ.",
+                "code": "591001",
+                "img": [
+                  "Database/img/59100101.png",
+                  "Database/img/59100102.png",
+                  "Database/img/59100103.png"
+                ]
+              },
+              "codeCurrent": "591003"
             }
           ]
         },
@@ -7901,7 +8389,23 @@
           "code": "5911",
           "travel": [
             {
-              "codeCurrent": "591101"
+              "591101": {
+                "name": "Bảo tàng Chứng tích Chiến tranh",
+                "nameSlug": "BAO TANG CHUNG TICH CHIEN TRANH",
+                "coord": [
+                  "10°77'B",
+                  "106°69'Đ"
+                ],
+                "description": "Để lưu lại những chứng tích anh hùng của nhân dân Việt Nam trong cuộc đấu tranh chống các thế lực xâm lược, đồng thời để tố cáo những tội ác và nêu bật những hậu quả tàn khốc của cuộc chiến tranh xâm lược",
+                "code": "591101",
+                "img": [
+                  "Database/img/59110101.png",
+                  "Database/img/59110102.png",
+                  "Database/img/59110103.png",
+                  "Database/img/59110104.png"
+                ]
+              },
+              "codeCurrent": "591102"
             }
           ]
         },
@@ -7912,7 +8416,40 @@
           "code": "5912",
           "travel": [
             {
-              "codeCurrent": "591201"
+              "591202": {
+                "name": "Du lịch Khu trưng bày tượng sáp Việt tại Quận 10 ",
+                "nameSlug": "DU LICH KHU TRUNG BAY TUONG SAP VIET TAI QUAN 10 ",
+                "coord": [
+                  "10°76'B",
+                  "106°66'Đ"
+                ],
+                "description": "Khu trưng bày tượng sáp Việt trưng bày hơn 100 bức tượng sáp của những người nổi tiếng thời kỳ cuối thế kỷ XX và hiện tại đã có những đóng góp to lớn cho lĩnh vực nghệ thuật của Việt Nam. Ngoài việc tham quan du khách cũng có thể được tham gia các buổi giao lưu văn nghệ, tọa đàm về văn học nghệ thuật và gặp gỡ các văn nghệ sĩ vào các dịp cuối tuần.",
+                "code": "591202",
+                "img": [
+                  "Database/img/59120201.png",
+                  "Database/img/59120202.png",
+                  "Database/img/59120203.png",
+                  "Database/img/59120204.png",
+                  "Database/img/59120205.png"
+                ]
+              },
+              "591201": {
+                "name": "Du lịch Bảo tàng y học cổ truyền Fitô",
+                "nameSlug": "DU LICH BAO TANG Y HOC CO TRUYEN FITO",
+                "coord": [
+                  "10°77'B",
+                  "106°67'Đ"
+                ],
+                "description": "Kho tàng văn hóa dân tộc giữa thành phố, nép mình ở một góc đường Hoàng Dư Khương, quận 10 yên tĩnh, FiTo là bảo tàng về y học cổ truyền tư nhân đầu tiên ở Việt Nam. Kiến trúc của bảo tàng thể hiện những nét đặc trưng của kiến trúc truyền thống các vùng và dân tộc của VN: có nhiều nét nhà miền bắc (Bắc Bộ) – lưu vực sông Hồng, có nét của Huế và có một nét của dân tộc Chàm.",
+                "code": "591201",
+                "img": [
+                  "Database/img/59120101.png",
+                  "Database/img/59120102.png",
+                  "Database/img/59120103.png",
+                  "Database/img/59120104.png"
+                ]
+              },
+              "codeCurrent": "591203"
             }
           ]
         },
@@ -7923,7 +8460,24 @@
           "code": "5913",
           "travel": [
             {
-              "codeCurrent": "591301"
+              "591301": {
+                "name": "Du lịch Công viên văn hóa Đầm Sen",
+                "nameSlug": "DU LICH CONG VIEN VAN HOA DAM SEN",
+                "coord": [
+                  "10°45'B",
+                  "106°38'Đ"
+                ],
+                "description": "Công viên Văn hóa Đầm Sen là một trong những công viên lớn và hiện đại nhất cả nước. Với diện tích gần 50 ha, trong đó có hơn 60% diện tích là cây xanh - hoa cảnh và 20% diện tích mặt hồ. Công viên Văn hóa Đầm Sen thật sự trở thành một ốc đảo xanh giữa lòng Thành Phố Hồ Chí Minh. Bên cạnh vẻ đẹp của thiên nhiên, Công Viên Văn Hóa Đầm Sen còn là nơi vui chơi giải trí rất hấp dẫn cho các em thanh - thiếu nhi : Cung Vui Chơi Thanh Thiếu Niên, Xe Điện Đụng, Monorail, Xiếc Thú, hoặc những trò chơi cảm giác mạnh: Tàu Lộn Vòng Siêu Tốc (Roller Coaster), Vượt Thác, Khám Phá Thế Giới Aûo, Đu Quay Đứng cao 60m, Đu dây tử thần, Spinning Coaster, Lâu đài kinh dị,.... Hàng năm Công viên luôn đầu tư những trò chơi hiện đại trên thế giới.",
+                "code": "591301",
+                "img": [
+                  "Database/img/59130101.png",
+                  "Database/img/59130102.png",
+                  "Database/img/59130103.png",
+                  "Database/img/59130104.png",
+                  "Database/img/59130105.png"
+                ]
+              },
+              "codeCurrent": "591302"
             }
           ]
         },
@@ -7934,7 +8488,24 @@
           "code": "5914",
           "travel": [
             {
-              "codeCurrent": "591401"
+              "591401": {
+                "name": "Du lịch Bến Nhà Rồng",
+                "nameSlug": "DU LICH BEN NHA RONG",
+                "coord": [
+                  "10°76'B",
+                  "106°70'Đ"
+                ],
+                "description": "Bến Nhà Rồng vốn là trụ sở Công ty tàu biển Năm Sao của Pháp (còn gọi là công ty vận tải Hoàng Gia - Messageries Impériales), được dựng từ năm 1863. Trên nóc toà nhà có gắn một đôi rồng lớn bằng đất nung, trám men xanh quay ra hai bên. Giữa đôi rồng là chiếc phù điêu mang hình đầu ngựa và chiếc mỏ neo  thay thế cho trái châu. Đây là biểu tượng của công ty vận tải. Kiến trúc này là sự tiếp biến giữa kiến trúc truyền thống phương Đông và văn hoá phương Tây. Đây cũng là nơi lưu dấu nhiều sự kiện lịch sử của đất nước. Từ Bến Nhà Rồng, ngày 05/06/1911, Nguyễn Tất Thành (sau này là Chủ tịch Hồ Chí Minh) đã lên tàu Latouche Tréville với công việc là phụ bếp, quyết tâm ra đi tìm đường cứu nước. Trong suốt những năm tháng kháng chiến chống Pháp và Mỹ, Bến Nhà Rồng cũng là nơi chứng kiến nhiều những sự kiện lịch sử như các cuộc bãi công của công nhân hãng tàu, các cuộc tấn công của bộ đội Việt Nam vào vùng Khánh Hội hay như sự kiện đốt cháy tàu Alee của Pháp vừa cập bến Nhà Rồng vào đêm 15/10/1945. Từ tháng 09/1979, nhà Rồng được dùng làm nơi trưng bày những hiện vật về đời hoạt động của Chủ Tịch Hồ Chí Minh. Tháng 10/1995, nhà lưu niệm được đổi thành Bảo tàng Hồ Chí Minh, chi nhánh thành phố Hồ Chí Minh.",
+                "code": "591401",
+                "img": [
+                  "Database/img/59140101.png",
+                  "Database/img/59140102.png",
+                  "Database/img/59140103.png",
+                  "Database/img/59140104.png",
+                  "Database/img/59140105.png"
+                ]
+              },
+              "codeCurrent": "591402"
             }
           ]
         },
@@ -7945,7 +8516,24 @@
           "code": "5915",
           "travel": [
             {
-              "codeCurrent": "591501"
+              "591501": {
+                "name": "Du lịch Phố Đèn Lồng",
+                "nameSlug": "DU LICH PHO DEN LONG",
+                "coord": [
+                  "10°75'B",
+                  "106°66'Đ"
+                ],
+                "description": "Cứ mỗi dịp Trung thu, đường Lương Nhữ Học, quận 5 lại thu hút du khách gần xa bởi không khí vui tươi và không gian đầy màu sắc. Phố đèn lồng là tên gọi quen thuộc mà giới trẻ Sài Gòn đặt cho con đường này. Tại đây có hàng nghìn mẫu lồng đèn bày bán hai bên đường. Để đáp ứng nhu cầu của du khách, mỗi năm lại có nhiều kiểu lồng đèn mới về chất liệu cũng như kiểu dáng. Nhưng không vì thế mà các loại đèn lồng truyền thống bị lãng quên. Đặc biệt, nơi đây còn là địa điểm lý tưởng của các bạn trẻ ưa thích chụp ảnh. Bạn có thể bắt gặp những cô gái duyên dáng trong tà áo dài truyền thống trên đường ghi lại khoảnh khắc đẹp trước Trung thu.",
+                "code": "591501",
+                "img": [
+                  "Database/img/59150101.png",
+                  "Database/img/59150102.png",
+                  "Database/img/59150103.png",
+                  "Database/img/59150104.png",
+                  "Database/img/59150105.png"
+                ]
+              },
+              "codeCurrent": "591502"
             }
           ]
         },
@@ -7989,7 +8577,38 @@
           "code": "5919",
           "travel": [
             {
-              "codeCurrent": "591901"
+              "591902": {
+                "name": "Du lịch Nhà Tuyết Polar Expo Sài Gòn",
+                "nameSlug": "DU LICH NHA TUYET POLAR EXPO SAI GON",
+                "coord": [
+                  "10°74'B",
+                  "106°69'Đ"
+                ],
+                "description": "Cảm giác đầu tiên khi bước vào nhà tuyết Polar Expo và một chút rét run chẳng thể xua tan được sự phấn kích đang trào dâng trong lòng du khách. Với tổng diện tích lên đến 1.500m2, nhiệt độ dưới âm 15 độ C, toàn bộ khung cảnh được làm bằng những tảng băng nguyên khối, qua bàn tay đầy khéo léo và tính sáng tạo nghệ thuật đã tạo nên những khung cảnh tuyệt vời để mọi người có thể tận mắt chiêm ngưỡng và có cảm nhận như đang du lịch sang tận mùa đông ở trời Âu xa xôi. Với hiệu ứng ánh sáng càng làm những tảng băng có hình thù độc đáo thêm phần hút mắt sẽ trở thành những góc “sống ảo” ưng ý nhất để lưu lại những bức ảnh “xuất sắc”. Bên cạnh đó, bạn đừng bỏ lỡ cảm giác cực kỳ thú vị khi tham gia trò chơi trượt trên đường băng và check-in cho bằng hết những khung cảnh cực chất tại nhà tuyết.",
+                "code": "591902",
+                "img": [
+                  "Database/img/59190201.png",
+                  "Database/img/59190202.png",
+                  "Database/img/59190203.png"
+                ]
+              },
+              "591901": {
+                "name": "Du lịch Cầu Ánh Sao",
+                "nameSlug": "DU LICH CAU ANH SAO",
+                "coord": [
+                  "10°72'B",
+                  "106°71'Đ"
+                ],
+                "description": "Cầu ánh sao là một địa điểm 'huyền thoại ' mỗi khi nhắc đến quận 7, nhưng chẳng hề nhàm chán, luôn có một sức hút đặc biệt lớn đối với nhiều người khi muốn tìm đến một nơi nào đó thể thả lỏng cơ thể, để mọi muộn phiền bay theo cơn gió và thác nước cuốn trôi đi. Nơi đây còn là một địa điểm hẹn hò vô cùng lý tưởng cho các cặp đôi tìm kiếm một nơi có bầu không khí lãng mạn về đêm. Với chiều dài lên tới 170m và chiều rộng 8.3m, được bắt ngang sang con sông Kênh Thầy với thiết kế bờ phía đông mô phỏng mặt trời và bờ phía Tây mô phỏng hình ảnh một nửa vầng trăng vô cùng độc đáo. Đến tối khi những ánh đèn led đầy màu sắc hoà cùng dòng nước và những ánh đèn lấp lánh trên thân cầu sẽ đem đến một không gian vô cùng huyền ảo giống như tên gọi 'Cầu ánh sao' rất đẹp mắt.",
+                "code": "591901",
+                "img": [
+                  "Database/img/59190101.png",
+                  "Database/img/59190102.png",
+                  "Database/img/59190103.png",
+                  "Database/img/59190104.png"
+                ]
+              },
+              "codeCurrent": "591903"
             }
           ]
         },
@@ -8000,7 +8619,23 @@
           "code": "5920",
           "travel": [
             {
-              "codeCurrent": "592001"
+              "592001": {
+                "name": "Địa đạo Củ Chi",
+                "nameSlug": "DIA DAO CU CHI",
+                "coord": [
+                  "11°14'B",
+                  "106°46'Đ"
+                ],
+                "description": "Địa đạo Củ Chi là một hệ thống phòng thủ trong lòng đất ở huyện Củ Chi, cách Thành phố Hồ Chí Minh 70 km về hướng tây-bắc. Hệ thống này được quân kháng chiến Việt Minh và Mặt trận Dân tộc Giải phóng miền Nam Việt Nam đào trong thời kỳ Chiến tranh Đông Dương và Chiến tranh Việt Nam.",
+                "code": "592001",
+                "img": [
+                  "Database/img/59200101.png",
+                  "Database/img/59200102.png",
+                  "Database/img/59200103.png",
+                  "Database/img/59200104.png"
+                ]
+              },
+              "codeCurrent": "592002"
             }
           ]
         },
@@ -8011,7 +8646,23 @@
           "code": "5921",
           "travel": [
             {
-              "codeCurrent": "592101"
+              "592101": {
+                "name": "Du lịch Công viên cá Koi Nhật Bản tại Huyện Hóc Môn ",
+                "nameSlug": "DU LICH CONG VIEN CA KOI NHAT BAN TAI HUYEN HOC MON ",
+                "coord": [
+                  "10°85'B",
+                  "106°58'Đ"
+                ],
+                "description": "Tọa lạc ở số 87/8P Xuân Thới Thượng 6, xã Xuân Thới Đông, huyện Hóc Môn, công viên cá Koi Nhật Bản cách trung tâm TP.HCM khoảng 20km. Công viên này còn có tên gọi là Rin Rin Park hay công viên cá Koi. Toàn bộ không gian nơi này được bao trùm bởi màu xanh của lá, của trời, điểm xuyết thêm sắc màu rực rỡ, nổi bật của đàn cá Koi dưới hồ. Không thể không ghé qua hồ cá Koi để chiêm ngưỡng đàn cá bơi lượn uyển chuyển, bắt mắt. Bên trong hồ có hơn 200 con cá Koi đủ màu sắc, đây là loại cá được nhập từ Nhật về, người Nhật rất yêu quý giống cá này và xem nó như là Quốc Ngư. Tuổi thọ của loài cá này trên 60 năm, chúng có rất nhiều màu sắc và đặc biệt là có một con màu trắng trên đầu có một chấm tròn màu đỏ cam rất giống như quốc kỳ của Nhật Bản.",
+                "code": "592101",
+                "img": [
+                  "Database/img/59210101.png",
+                  "Database/img/59210102.png",
+                  "Database/img/59210103.png",
+                  "Database/img/59210104.png"
+                ]
+              },
+              "codeCurrent": "592102"
             }
           ]
         },
@@ -8022,7 +8673,23 @@
           "code": "5922",
           "travel": [
             {
-              "codeCurrent": "592201"
+              "592201": {
+                "name": "Khu di tích lịch sử Láng Le Bàu Cò",
+                "nameSlug": "KHU DI TICH LICH SU LANG LE BAU CO",
+                "coord": [
+                  "10°72'B",
+                  "106°53'Đ"
+                ],
+                "description": "Láng Le Bàu Cò là địa điểm diễn ra cuộc chiến chống thực dân Pháp của lực lượng vũ trang Sài Gòn – Chợ Lớn – Gia Định.\n\nTrận chiến Láng Le Bàu Cò diễn ra ngày 15/4/1948 ở vùng đất cửa ngõ Tây Nam Sài Gòn thuộc căn cứ Vườn Thơm là một trong những trận đánh vang dội, đánh dấu bước ngoặt và ghi đậm dấu ấn lịch sử Bình Chánh cho đến ngày nay.\nNăm 1988, Huyện Uỷ Bình Chánh đã quyết định xây dựng khu di tích lịch sử Láng Le Bàu Cò.\nĐây cũng là nơi được nhiều người ghé đến để tưởng niệm những anh hùng đã ra đi vì nền độc lập của tổ quốc.",
+                "code": "592201",
+                "img": [
+                  "Database/img/59220101.png",
+                  "Database/img/59220102.png",
+                  "Database/img/59220103.png",
+                  "Database/img/59220104.png"
+                ]
+              },
+              "codeCurrent": "592202"
             }
           ]
         },
@@ -8033,7 +8700,23 @@
           "code": "5923",
           "travel": [
             {
-              "codeCurrent": "592301"
+              "592301": {
+                "name": "Khu Ẩm thực Sinh thái Tháp Ngà",
+                "nameSlug": "KHU AM THUC SINH THAI THAP NGA",
+                "coord": [
+                  "10°70'B",
+                  "106°71'Đ"
+                ],
+                "description": "Là điểm đến cũng khá mới – Khu Ẩm thực Sinh thái Tháp Ngà – Bình Xuyên 2, nơi bạn có thể tạm trốn Sài Gòn đô thị, kiếm tìm cho mình những cảm giác thôn quê bình dị với những nhà lá xinh xắn, những khu nhà hàng ven sông và cũng là nơi cho ai muốn tận hưởng một chuyến nghỉ dưỡng ngoại thành thú vị ngay tại Sài Gòn. Chỉ cách trung tâm thành phố 15 phút di chuyển, Khu Ẩm thực Sinh thái Tháp Ngà – Bình Xuyên 2 tọa lạc tại 168 Nguyễn Hữu Thọ, Phước Kiển, Nhà Bè, TP.HCM. Ở đây được chia làm nhiều khu vực khác nhau. Bạn có thể khám phá khu ẩm thực rộng 30.000 m2 được thiết kế với những mái lá nằm quanh bờ hồ điểm xuyến những mảng cây xanh, những vườn hoa khoe sắc, không khí mát mẻ…",
+                "code": "592301",
+                "img": [
+                  "Database/img/59230101.png",
+                  "Database/img/59230102.png",
+                  "Database/img/59230103.png",
+                  "Database/img/59230104.png"
+                ]
+              },
+              "codeCurrent": "592302"
             }
           ]
         },
@@ -8044,7 +8727,23 @@
           "code": "5924",
           "travel": [
             {
-              "codeCurrent": "592401"
+              "592401": {
+                "name": "Khu Lâm viên đảo khỉ",
+                "nameSlug": "KHU LAM VIEN DAO KHI",
+                "coord": [
+                  "9°58'B",
+                  "105°99'Đ"
+                ],
+                "description": "Khu Lâm viên đảo khỉ trong Khu du lịch Rừng Sác ở xã Long Hòa, huyện Cần Giờ là nơi sinh sống của hơn 1.500 con khỉ hoang dã trong những cánh rừng ngập mặn. Bầy khỉ nơi đây rất dạn dĩ và hiếu động, hay theo khách du lịch, nhất là đoạn đường vào cổng soát vé. Ban quản lý khu du lịch thường xuyên nhắc khách giữ gìn cẩn thận tư trang, vật dụng mang theo bên người như máy ảnh, điện thoại, nón, mắt kính... Dù vậy, bầy khỉ vẫn thể hiện sự đáng yêu qua cách chải chuốt cho nhau, chăm sóc khỉ con",
+                "code": "592401",
+                "img": [
+                  "Database/img/59240101.png",
+                  "Database/img/59240102.png",
+                  "Database/img/59240103.png",
+                  "Database/img/59240104.png"
+                ]
+              },
+              "codeCurrent": "592402"
             }
           ]
         },
@@ -8065,7 +8764,23 @@
           "code": "6001",
           "travel": [
             {
-              "codeCurrent": "600101"
+              "600101": {
+                "name": "Chùa Bầu",
+                "nameSlug": "CHUA BAU",
+                "coord": [
+                  "20°53'B",
+                  "105°91'Đ"
+                ],
+                "description": "Chùa Bầu tên chữ là Thiên Bảo Tự, toạ lạc tại đường Nguyễn Văn Trỗi, phường Hai Bà Trưng, thành phố Phủ Lý, tỉnh Hà Nam. Là nơi địa linh danh thắng, chốn linh thiêng lâu đời của vùng đất rộng lớn. Hồ có diện tích 4000 m2. Với khung cảnh thiên nhiên hài hoà trước mặt chùa là một hồ nước sâu và rộng, hồ thông với sông Đáy tạo nên mĩ quan đẹp và tô điểm thêm sự tĩnh lặng cho chùa. Theo thuyết âm dương ngũ hành. Trước một ngôi chùa nào thường phải có một hồ nước vì theo truyền thuyết. chùa thì tượng trưng cho dương, hồ tượng trưng cho âm. Dương và âm tạo nên thế cân bằng hài hoà trong trời đất và theo thuyết phong thuỷ thì chốn chùa chiền là nơi tôn nghiêm, thành kính. Hồ nước trước chùa như muốn nhắc nhở con người ta đến nơi này cần phải rửa sạch tay chân cho hết bụi trần để thành tâm vào bái lễ.",
+                "code": "600101",
+                "img": [
+                  "Database/img/60010101.png",
+                  "Database/img/60010102.png",
+                  "Database/img/60010103.png",
+                  "Database/img/60010104.png"
+                ]
+              },
+              "codeCurrent": "600102"
             }
           ]
         },
@@ -8076,7 +8791,22 @@
           "code": "6002",
           "travel": [
             {
-              "codeCurrent": "600201"
+              "600201": {
+                "name": "Chùa Long Đọi Sơn",
+                "nameSlug": "CHUA LONG DOI SON",
+                "coord": [
+                  "20°58'B",
+                  "105°97'Đ"
+                ],
+                "description": "Chùa Long Đọi Sơn được biết đến là một danh thắng nổi tiếng, là trung tâm Phật giáo của trấn Sơn Nam xưa. Chùa Đọi thời Lý xếp hạng là “ Đại danh lam ” kiêm hành cung, thời Pháp từng được liệt vào hạng các cổ tích danh thắng để bảo vệ. Nét đặc biệt nhất của quần thể di tích chùa Đọi Sơn phải kể đến là ngôi chùa và cây tháp Sùng Thiện Diên Linh. Cho tới nay, người dân vẫn thường qua lại nơi đây vào mỗi dịp lễ, tết để cầu khấn và gửi gắm mong ước của họ.",
+                "code": "600201",
+                "img": [
+                  "Database/img/60020101.png",
+                  "Database/img/60020102.png",
+                  "Database/img/60020103.png"
+                ]
+              },
+              "codeCurrent": "600202"
             }
           ]
         },
@@ -8087,7 +8817,22 @@
           "code": "6003",
           "travel": [
             {
-              "codeCurrent": "600301"
+              "600301": {
+                "name": "Ao Dong ",
+                "nameSlug": "AO DONG ",
+                "coord": [
+                  "20°54'B",
+                  "105°85'Đ"
+                ],
+                "description": "Ao Dong nằm ở thôn Bút Phong, xã Liên Sơn, huyện Kim Bảng, tỉnh Hà Nam. Nơi đây được tạo nên bởi các dãy núi cao, với rừng cây bên sườn núi. Sự kết hợp hài hòa của núi non cây cỏ, trời xanh, nước biếc, âm thanh của những chú chim rừng từ trên cao vọng xuống… đã tạo nên bức tranh thiên nhiên thật hùng vĩ và trở thành điểm du lịch sinh thái có giá trị của tỉnh Hà Nam. Vào những ngày hè, du khách đổ xô về đây rất đông để ngắm cảnh, tắm mát.",
+                "code": "600301",
+                "img": [
+                  "Database/img/60030101.png",
+                  "Database/img/60030102.png",
+                  "Database/img/60030103.png"
+                ]
+              },
+              "codeCurrent": "600302"
             }
           ]
         },
@@ -8098,7 +8843,22 @@
           "code": "6004",
           "travel": [
             {
-              "codeCurrent": "600401"
+              "600401": {
+                "name": "Chùa Vọng Tiên",
+                "nameSlug": "CHUA VONG TIEN",
+                "coord": [
+                  "20°46'B",
+                  "105°94'Đ"
+                ],
+                "description": "Chùa Vọng Tiên nằm tại địa phận thôn Đồi Ngang, thị trấn Tân Thanh huyện Thanh Liêm, tỉnh Hà Nam. Chùa có niên đại 350 năm. theo lời kể của nhân dân quanh vùng thì chùa tồn tại khoảng 750 năm. Chùa mở lễ hội chính từ ngày mùng 1 đến ngày 3 tháng 3 âm lịch hằng năm. Tương truyền đây là vùng núi địa linh – nơi có 99 con phượng hoàng bay về cư ngụ trên đồi thông 99 ngọn và bàn cờ tiên. Đêm đêm trăng thanh gió mát, tiên thường hạ giới đánh cờ và thưởng ngoạn núi non. Tưởng nhớ các bậc tiên thánh, nhân dân trong vùng đã lập chùa thờ tự. Hiện nay xung quanh khu vực chùa Vọng Tiên còn lưu giữ nhiều ngọc phả, sắc phong quý và có ý nghĩa lịch sử lớn của vùng đất Thanh Liêm. Thời kỳ kháng chiến chống Pháp, danh thắng chùa Vọng Tiên được người Pháp chọn là nơi nghỉ dưỡng và phát triển du lịch sinh thái.",
+                "code": "600401",
+                "img": [
+                  "Database/img/60040101.png",
+                  "Database/img/60040102.png",
+                  "Database/img/60040103.png"
+                ]
+              },
+              "codeCurrent": "600402"
             }
           ]
         },
@@ -8109,7 +8869,22 @@
           "code": "6005",
           "travel": [
             {
-              "codeCurrent": "600501"
+              "600501": {
+                "name": "Từ đường Nguyễn Khuyến",
+                "nameSlug": "TU DUONG NGUYEN KHUYEN",
+                "coord": [
+                  "20°48'B°",
+                  "106°03'Đ"
+                ],
+                "description": "Từ đường Nguyễn Khuyến thuộc thôn Vị Hạ, xã Trung Lương, huyện Bình Lục. Khu từ đường nằm trong cảnh quan thơ mộng với ao thu, ngõ trúc, vườn Bùi, là nơi thờ Nguyễn Khuyến và lưu giữ các kỷ vật, các bức hoành phi, câu đối của các bậc đại sĩ tặng nhà thơ, các bức ảnh về quan trường, các tác phẩm của ông. Đến đây du khách vừa được thưởng ngoạn cảnh làng quê xưa qua những tác phẩm bằng thơ, vừa thả hồn bên ao thu trong bóng cây xanh với những ‘‘ngõ trúc quanh co’’ - nét đặc trưng của nhà thơ làng cảnh Việt Nam cuối thế kỷ XIX",
+                "code": "600501",
+                "img": [
+                  "Database/img/60050101.png",
+                  "Database/img/60050102.png",
+                  "Database/img/60050103.png"
+                ]
+              },
+              "codeCurrent": "600502"
             }
           ]
         },
@@ -8120,7 +8895,22 @@
           "code": "6006",
           "travel": [
             {
-              "codeCurrent": "600601"
+              "600601": {
+                "name": "Làng Vũ Đại",
+                "nameSlug": "LANG VU DAI",
+                "coord": [
+                  "20°47'B",
+                  "106°14'Đ"
+                ],
+                "description": "Làng Vũ Đại từ lâu đã nổi tiếng với món cá kho danh bất hư truyền. Cá kho làng Vũ Đại không còn xa lạ đối với những thực khách sành ăn, hoài cổ. Đó là món ăn truyền thống mang hơi thở của vùng quê đồng bằng chiêm trũng, được người dân nơi đây chế biến, lưu truyền. Họ coi đó là đặc sản không thể thiếu trong mỗi bữa cơm sum họp gia đình và làm quà biếu cho khách quý mỗi dịp tết đến xuân về",
+                "code": "600601",
+                "img": [
+                  "Database/img/60060101.png",
+                  "Database/img/60060102.png",
+                  "Database/img/60060103.png"
+                ]
+              },
+              "codeCurrent": "600602"
             }
           ]
         },
@@ -8152,7 +8942,23 @@
           "code": "6102",
           "travel": [
             {
-              "codeCurrent": "610201"
+              "610201": {
+                "name": "Làng Diềm",
+                "nameSlug": "LANG DIEM",
+                "coord": [
+                  "21°21'B",
+                  "106°05'Đ"
+                ],
+                "description": "Làng Diềm còn được gọi là thôn Viêm Xá, khi đến ngôi làng này, bạn sẽ cảm nhận được sự yên bình từ khung cảnh đến lối sống sinh hoạt thường nhật của người dân tại nơi đây. Ngôi làng này được xem là ngôi là cổ xưa nhất ở tỉnh Bắc Ninh, chính vì thế nơi đây còn lưu giữ nhiều phong tục tập quán cũng như nét văn hóa truyền thống. Khung cảnh nơi đây thì vô cùng thơ mộng, kèm theo những câu hát quan họ nghe sâu lắng của vùng đất nơi đây. Nơi đây còn lưu lại được những nét kiến trúc thời xưa, khiến các du khách khi tham quan tới đây dường như bước chân vào khung cảnh phong kiến thời bấy giờ. Làng Diềm cũng chính là quê hương của những làn dân ca quan họ mà du khách không thể không nghe khi đặt chân đến đây.",
+                "code": "610201",
+                "img": [
+                  "Database/img/61020101.png",
+                  "Database/img/61020102.png",
+                  "Database/img/61020103.png",
+                  "Database/img/61020104.png"
+                ]
+              },
+              "codeCurrent": "610202"
             }
           ]
         },
@@ -8163,7 +8969,22 @@
           "code": "6103",
           "travel": [
             {
-              "codeCurrent": "610301"
+              "610301": {
+                "name": "Chùa Hàm Long ",
+                "nameSlug": "CHUA HAM LONG ",
+                "coord": [
+                  "21°16'B",
+                  "106°11'Đ"
+                ],
+                "description": "Chùa Hàm Long là một ngôi chùa cổ tại thôn Thái Bảo, xã Nam Sơn, thành phố Bắc Ninh, tỉnh Bắc Ninh, chùa nằm cách trung tâm thành phố Bắc Ninh khoảng 7 km về phía Đông Nam. Hiện nay, chùa còn lưu giữ được một số tượng Phật cổ và 14 tháp mộ cổ từ thời Trần, Hậu Lê, Nguyễn. Trong đó có bốn pho tượng bằng đồng đặc sắc về cả thủ pháp nghệ thuật và kỹ thuật đúc đồng: tượng đức Phật Thích Ca cao 2,10 m; tượng A-nan và Ca-diếp cao 1,86 m (2 người trong số Thập đại đệ tử nổi tiếng của đức Phật); tượng Hoàng hậu Maya cao 1,58 m (mẹ của đức Phật). Các pho tượng đều được đúc đồng tại địa phương, mang thần thái rất ung dung tự tại, khiến cho mọi du khách đều cảm thấy nhẹ nhàng, thanh thản mỗi khi thăm viếng cảnh chùa.",
+                "code": "610301",
+                "img": [
+                  "Database/img/61030101.png",
+                  "Database/img/61030102.png",
+                  "Database/img/61030103.png"
+                ]
+              },
+              "codeCurrent": "610302"
             }
           ]
         },
@@ -8174,7 +8995,23 @@
           "code": "6104",
           "travel": [
             {
-              "codeCurrent": "610401"
+              "610401": {
+                "name": "Chùa Phật Tích",
+                "nameSlug": "CHUA PHAT TICH",
+                "coord": [
+                  "21°09'B",
+                  "106°02'Đ"
+                ],
+                "description": "Chùa Phật Tích hay còn gọi là chùa Vạn Phúc, nằm ở xã Phật Tích, huyện Tiên Du, Bắc Ninh là một trong số những ngôi chùa cổ tại tỉnh Bắc Ninh, không gian ngôi chùa vô cùng rộng lớn và thoáng mát, khi các du khách đến tham quan sẽ giúp cải thiện tâm trạng thoải mái và điềm tĩnh hơn. Điểm nhấn tại ngôi chùa này là bức tượng phật vô cùng lớn, nằm ở giữa vùng đất nhô lên, khung cảnh thơ mộng, chính vì thế nơi đây được nhiều du khách đến hằng năm để cúng bái, thờ phụng. Chùa được kiến trúc theo kiểu Nội công ngoại quốc, bậc nền thứ nhất là sân chùa Phật Tích Bắc Ninh với vườn hoa mẫu đơn lưu truyền mối tình duyên trong truyền kỳ “Từ Thức gặp tiên”. Bên phải là miếu Tiên chúa thờ Trần Ngọc Am. Phía trước miếu có dựng một ngọn tháp Linh Quang xây năm Chính Hoà XX (1699).",
+                "code": "610401",
+                "img": [
+                  "Database/img/61040101.png",
+                  "Database/img/61040102.png",
+                  "Database/img/61040103.png",
+                  "Database/img/61040104.png"
+                ]
+              },
+              "codeCurrent": "610402"
             }
           ]
         },
@@ -8185,7 +9022,23 @@
           "code": "6105",
           "travel": [
             {
-              "codeCurrent": "610501"
+              "610501": {
+                "name": "Đền Đô ",
+                "nameSlug": "DEN DO ",
+                "coord": [
+                  "21°10'B",
+                  "105°96'Đ"
+                ],
+                "description": "Đền Đô - còn gọi là Cổ Pháp Điện hay đền Lý Bát Đế, đền được xây dựng vào thế kỷ 11 (1030), trên khu đất phía đông nam Hương Cổ Pháp, Châu Cổ Pháp (làng Đình Bảng). Theo Thiền sư Lý Vạn Hạnh khu đất này là nơi hội tụ của thiên khí, nơi có thế 8 đầu rồng chầu về. Tương truyền, xưa kia phía trước cửa đền là một khu rừng Báng, có dòng Tiêu Tương uốn khúc chảy qua. Đền là nơi thờ 8 vị vua nhà Lý: Lý Công Uẩn tức Lý Thái Tổ (1009 - 1028); Lý Thái Tông (1028 - 1054); Lý Thánh Tông (1054 - 1072); Lý Nhân Tông (1072 - 1128); Lý Thần Tông (1128 - 1138); Lý Anh Tông (1138 - 1175); Lý Cao Tông (1175 - 1210) và Lý Huệ Tông (1210 - 1224). Nếu đến đây vào tháng 3 âm lịch hàng năm bạn sẽ được tham gia lễ hội Đền Đô.",
+                "code": "610501",
+                "img": [
+                  "Database/img/61050101.png",
+                  "Database/img/61050102.png",
+                  "Database/img/61050103.png",
+                  "Database/img/61050104.png"
+                ]
+              },
+              "codeCurrent": "610502"
             }
           ]
         },
@@ -8196,7 +9049,23 @@
           "code": "6106",
           "travel": [
             {
-              "codeCurrent": "610601"
+              "610601": {
+                "name": "Chùa Bút Tháp",
+                "nameSlug": "CHUA BUT THAP",
+                "coord": [
+                  "21°06'B",
+                  "106°02'Đ"
+                ],
+                "description": "Chùa Bút Tháp là một trong không nhiều ngôi chùa cổ, có quy mô kiến trúc lớn của Đồng bằng Bắc Bộ còn lại đến ngày nay. Chùa có kiến trúc độc đáo, bố cục hài hòa giữa kiến trúc với môi trường thiên nhiên. Toàn bộ kiến trúc chính của chùa quay theo hướng Nam, một hướng truyền thống của người Việt. Đối với đạo Phật hướng Nam là hướng của trí tuệ, của bát nhã.",
+                "code": "610601",
+                "img": [
+                  "Database/img/61060101.png",
+                  "Database/img/61060102.png",
+                  "Database/img/61060103.png",
+                  "Database/img/61060104.png"
+                ]
+              },
+              "codeCurrent": "610602"
             }
           ]
         },
@@ -8207,7 +9076,22 @@
           "code": "6107",
           "travel": [
             {
-              "codeCurrent": "610701"
+              "610701": {
+                "name": "Đình Yên Việt",
+                "nameSlug": "DINH YEN VIET",
+                "coord": [
+                  "21°07'B",
+                  "106°21'Đ"
+                ],
+                "description": "Đình Yên Việt thuộc xã Đông Cứu, huyện Gia Bình, vốn là một làng cổ có bề dày lịch sử, văn hiến và được phản ánh ở quần thể di tích cổ kính thâm nghiêm, trong đó nổi bật là ngôi đình làng, công trình kiến trúc nghệ thuật của hai thời Lê-Nguyễn còn bảo lưu khá nguyên vẹn đến ngày nay. Đình Yên Việt còn Bảo lưu được nhiều cổ vật quý như: thần phả, sắc phong, văn tế, bia đá, đồ thờ tự. Căn cứ vào Thần phả sắc phong của đình Yên Việt thì người được thờ là một danh tướng của Hai Bà Trưng có công đánh giặc Đông Hán và “Trạng nguyên”-Thái sư Lê Văn Thịnh có nhiều công lao với vương triều Lý.",
+                "code": "610701",
+                "img": [
+                  "Database/img/61070101.png",
+                  "Database/img/61070102.png",
+                  "Database/img/61070103.png"
+                ]
+              },
+              "codeCurrent": "610702"
             }
           ]
         },
@@ -8218,7 +9102,22 @@
           "code": "6108",
           "travel": [
             {
-              "codeCurrent": "610801"
+              "610801": {
+                "name": "Đình làng Kim Thao",
+                "nameSlug": "DINH LANG KIM THAO",
+                "coord": [
+                  "20°98'B",
+                  "106°18'Đ"
+                ],
+                "description": "Kim Thao là vùng đất trũng và cổ của tỉnh Bắc Ninh. Hiện nay ngôi đình nằm ở trung tâm làng, quay theo hướng Nam, trong khuôn viên rộng 1.102m2, phía trước có ao làng rộng rãi, phía sau và hai bên đình là đường làng. Bình đồ kiến trúc của di tích gồm: Ao làng, Tam môn, Sân đình, Đại đình và Hậu cung. Ngôi đình có bình đồ kiến trúc hình chữ Đinh, gồm tòa Đại đình 3 gian 2 chái, nối phía sau là 3 gian Hậu cung.",
+                "code": "610801",
+                "img": [
+                  "Database/img/61080101.png",
+                  "Database/img/61080102.png",
+                  "Database/img/61080103.png"
+                ]
+              },
+              "codeCurrent": "610802"
             }
           ]
         },
@@ -8250,7 +9149,23 @@
           "code": "6202",
           "travel": [
             {
-              "codeCurrent": "620201"
+              "620201": {
+                "name": "Động Thiên Thai",
+                "nameSlug": "DONG THIEN THAI",
+                "coord": [
+                  "21°48'B",
+                  "106°17'Đ"
+                ],
+                "description": "Động Thiên Thai là một thắng cảnh - địa danh du lịch lịch sử nổi tiếng cách thành phố Bắc Giang khoảng 35km về phía Tây Bắc. ",
+                "code": "620201",
+                "img": [
+                  "Database/img/62020101.png",
+                  "Database/img/62020102.png",
+                  "Database/img/62020103.png",
+                  "Database/img/62020104.png"
+                ]
+              },
+              "codeCurrent": "620202"
             }
           ]
         },
@@ -8261,7 +9176,22 @@
           "code": "6203",
           "travel": [
             {
-              "codeCurrent": "620301"
+              "620301": {
+                "name": "Lăng Giáp Đăng Luân",
+                "nameSlug": "LANG GIAP DANG LUAN",
+                "coord": [
+                  "21°33'B",
+                  "106°14'Đ"
+                ],
+                "description": "Lăng Giáp Đăng Luân nằm trên một ngọn đồi thấp, thuộc thôn Ngọc Trai, xã Việt Lập, huyện Tân Yên, là nơi an nghỉ của Quận công Giáp Đăng Luân làm việc dưới triều Lê - Trịnh và được xây dựng vào những năm 1728-1733, khi Giáp Đăng Luân còn sống, ông lấy đây làm chốn dưỡng nhân, khi mất lại chôn cất tại đó. Đến thăm khu lăng, du khách sẽ được chiêm ngưỡng một công trình kiến trúc cổ hơn 300 năm nhưng còn khá nguyên vẹn.",
+                "code": "620301",
+                "img": [
+                  "Database/img/62030101.png",
+                  "Database/img/62030102.png",
+                  "Database/img/62030103.png"
+                ]
+              },
+              "codeCurrent": "620302"
             }
           ]
         },
@@ -8272,7 +9202,23 @@
           "code": "6204",
           "travel": [
             {
-              "codeCurrent": "620401"
+              "620401": {
+                "name": "Cụm di tích Tiên Lục",
+                "nameSlug": "CUM DI TICH TIEN LUC",
+                "coord": [
+                  "21°42'B",
+                  "106°20'Đ"
+                ],
+                "description": "Cụm di tích Tiên Lục nằm cách thành phố Bắc Giang khoảng 20 km về phía Đông Bắc. Đây là một trong những điểm dừng chân lý tưởng cho các đoàn khách đến tham quan, nghiên cứu học tập và tìm hiểu về những giá trị lịch sử văn hoá, kiến trúc nghệ thuật và các lễ hội đặc sắc trên quê hương Bắc Giang. Cụm di tích Tiên Lục gồm một quần thể di tích nằm trong không gian thoáng đãng, thơ mộng của một vùng trung du tràn đầy sức sống. Cụm di tích gồm: Cây Dã Hương ngàn năm tuổi, đình Viễn Sơn, chùa Quang Phúc, đền Thánh Cả(đền Tiên Lục), đình Thuận Hoà. Cụm di tích Tiên Lục đã được Nhà nước công nhận là di tích Kiến trúc- Nghệ thuật cấp quốc gia.",
+                "code": "620401",
+                "img": [
+                  "Database/img/62040101.png",
+                  "Database/img/62040102.png",
+                  "Database/img/62040103.png",
+                  "Database/img/62040104.png"
+                ]
+              },
+              "codeCurrent": "620402"
             }
           ]
         },
@@ -8283,7 +9229,23 @@
           "code": "6205",
           "travel": [
             {
-              "codeCurrent": "620501"
+              "620501": {
+                "name": "Khu Di Tích Suối Mỡ ",
+                "nameSlug": "KHU DI TICH SUOI MO ",
+                "coord": [
+                  "21°27'B",
+                  "106°48'Đ"
+                ],
+                "description": "Khu Di Tích Suối Mỡ nằm ở xã Nghĩa Phương, huyện Lục Nam, cách thành phố Bắc Giang khoảng 32km về phía Đông Bắc. Hằng năm vào ngày 30 tháng 3 và mồng 1, mồng 2 tháng 4 Âm lịch nhân dân địa phương lại tổ chức Lễ hội nhằm cầu mong mùa màng được tốt tươi và cũng là dịp để mọi người tỏ lòng biết ơn với công chúa Quế Mỵ Nương. Nếu đến với Suối Mỡ vào dịp này du khách sẽ được sống trong không khí lễ hội mang đầy màu sắc truyền thống văn hoá, được tham gia các trò chơi dân gian như bơi thuyền, thi bắn Cung, Vật, Cờ bỏi, Đu, chọi Gà, Võ dân tộc…",
+                "code": "620501",
+                "img": [
+                  "Database/img/62050101.png",
+                  "Database/img/62050102.png",
+                  "Database/img/62050103.png",
+                  "Database/img/62050104.png"
+                ]
+              },
+              "codeCurrent": "620502"
             }
           ]
         },
@@ -8294,7 +9256,23 @@
           "code": "6206",
           "travel": [
             {
-              "codeCurrent": "620601"
+              "620601": {
+                "name": "Hồ Cấm Sơn",
+                "nameSlug": "HO CAM SON",
+                "coord": [
+                  "21°51'B",
+                  "106°57'Đ"
+                ],
+                "description": "Hồ Cấm Sơn thuộc địa phận xã Sơn Hải, Hộ Đáp, Tân Sơn và Cấm Sơn, huyện Lục Ngạn, tỉnh Bắc Giang. Hồ Cấm Sơn giống như một bức tranh thiên “sơn thủy hữu tình”, khi tới đây, du khách sẽ có cơ hội ngắm nhìn những dãy núi cao, nhưng hàng cây xanh mướt đang in bóng xuống mặt hồ phẳng lặng, điểm thêm là hàng trăm hòn đảo lớn nhỏ, nhấp nhô giữa mặt hồ tạo cảm giác giống như bạn đang sống trong một Hạ Long thu nhỏ ở mảnh đất Bắc Giang vậy.",
+                "code": "620601",
+                "img": [
+                  "Database/img/62060101.png",
+                  "Database/img/62060102.png",
+                  "Database/img/62060103.png",
+                  "Database/img/62060104.png"
+                ]
+              },
+              "codeCurrent": "620602"
             }
           ]
         },
@@ -8305,7 +9283,23 @@
           "code": "6207",
           "travel": [
             {
-              "codeCurrent": "620701"
+              "620701": {
+                "name": "Khu DL Sinh thái Khe Rỗ",
+                "nameSlug": "KHU DL SINH THAI KHE RO",
+                "coord": [
+                  "21°34'B",
+                  "106°96'Đ"
+                ],
+                "description": "Nằm trong Khu bảo tồn Tây Yên Tử, cách Hà Nội 120 km về phía Đông bắc, rừng nguyên sinh Khe Rỗ thuộc xã An Lạc, huyện Sơn Động, một khu rừng nguyên sinh tiêu biểu cho vùng Đông bắc Việt Nam. Rừng cấm nguyên sinh Khe Rỗ có diện tích 7.153ha với hệ thống động thực vật phong phú. Cảnh sắc của Khe Rỗ rất hoang sơ và thú vị với những tán rừng rậm rập, những suối nước, thác nước, ghềnh đá. Đặc biệt là những hồ nước nhỏ trong xanh giữa rừng, nơi bạn có thể bơi lội hay tắm mát thỏa thích. Du khách đến Khe Rỗ tham quan thường nghỉ đêm tại nhà sàn của kiểm lâm, những người gác rừng thân thiện và mến khách. Vào bản mua gà, ra suối câu con cá, xin nắm rau dền ở nhà dân, với một chai rượu trắng nút chuối là chủ – khách có thể khề khà tâm sự đến đêm.",
+                "code": "620701",
+                "img": [
+                  "Database/img/62070101.png",
+                  "Database/img/62070102.png",
+                  "Database/img/62070103.png",
+                  "Database/img/62070104.png"
+                ]
+              },
+              "codeCurrent": "620702"
             }
           ]
         },
@@ -8316,7 +9310,23 @@
           "code": "6208",
           "travel": [
             {
-              "codeCurrent": "620801"
+              "620801": {
+                "name": "Thiền Viện Trúc Lâm Phượng Hoàng",
+                "nameSlug": "THIEN VIEN TRUC LAM PHUONG HOANG",
+                "coord": [
+                  "21°20'B",
+                  "106°22'Đ"
+                ],
+                "description": "Thiền Viện Trúc Lâm Phượng Hoàng thuộc thôn Minh Phượng, xã Nham Sơn, huyện Yên Dũng, cách trung tâm huyện 2 km và cách TP Bắc Giang khoảng 10 km. Thiền viện Trúc lâm Phượng Hoàng được xây dựng từ chân lên lưng chừng của ngọn núi Non Vua. Đây là đỉnh cao nhất trong dãy Nham Biền. Đỉnh ngọn Non Vua có Giếng trời, còn được gọi là Thiên huyệt, quanh năm có nước sạch trong mát. Thiền viện là công trình có vị trí đặc biệt quan trọng đối với huyện Yên Dũng, là điểm đến lý tưởng của du khách trong nước và quốc tế. Đây cũng là nơi lưu giữ, phát huy giá trị văn hóa đạo đức của tiền nhân, tiếp nối tư tưởng dòng thiền Trúc lâm.",
+                "code": "620801",
+                "img": [
+                  "Database/img/62080101.png",
+                  "Database/img/62080102.png",
+                  "Database/img/62080103.png",
+                  "Database/img/62080104.png"
+                ]
+              },
+              "codeCurrent": "620802"
             }
           ]
         },
@@ -8327,7 +9337,23 @@
           "code": "6209",
           "travel": [
             {
-              "codeCurrent": "620901"
+              "620901": {
+                "name": "Làng Gốm Thổ Hà",
+                "nameSlug": "LANG GOM THO HA",
+                "coord": [
+                  "21°20'B",
+                  "106°04'Đ"
+                ],
+                "description": "Làng Thổ Hà thuộc xã Vân Hà, huyện Việt Yên, tỉnh Bắc Giang. Nơi đây được thiên nhiên ban tặng vẻ đẹp nguyên sơ, thanh bình với hồ nước trong xanh, không khí thoáng đãng, bao quanh là những đồi vải, đồi thông ngút ngàn. Thổ Hà đang là một địa chỉ quen thuộc, hấp dẫn của khách du lịch trong và ngoài nước, của những người nghiên cứu về kiến trúc và mĩ thuật, của những nghệ sĩ và nghệ nhân về tìm cảm hứng. Khi du khách đến thăm Thổ Hà có thể đồng thời đến thăm hai địa điểm du lịch nổi tiếng nữa của đất Kinh Bắc, đó là Chùa Bổ Đà và Đền Bà Chúa Kho. Các địa điểm này chỉ cách nhau từ 3 đến 5 km.",
+                "code": "620901",
+                "img": [
+                  "Database/img/62090101.png",
+                  "Database/img/62090102.png",
+                  "Database/img/62090103.png",
+                  "Database/img/62090104.png"
+                ]
+              },
+              "codeCurrent": "620902"
             }
           ]
         },
@@ -8338,7 +9364,23 @@
           "code": "6210",
           "travel": [
             {
-              "codeCurrent": "621001"
+              "621001": {
+                "name": "Lăng Dinh Hương",
+                "nameSlug": "LANG DINH HUONG",
+                "coord": [
+                  "21°34'B",
+                  "105°97'Đ"
+                ],
+                "description": "Lăng Dinh Hương thuộc làng Dinh Hương, xã Đức Thắng, huyện Hiệp Hòa, tỉnh Bắc Giang. Quần thể lăng đá Dinh Hương chia làm ba phần chính: phần mộ táng ở giữa, phần thờ tự ở bên trái, phần bia ở bên phải. Tượng người và vật tại lăng làm bằng đá xanh được chạm khắc rất sống động, tượng có kích thước lớn, hình khối mập, chắc và được tỉa công phu.",
+                "code": "621001",
+                "img": [
+                  "Database/img/62100101.png",
+                  "Database/img/62100102.png",
+                  "Database/img/62100103.png",
+                  "Database/img/62100104.png"
+                ]
+              },
+              "codeCurrent": "621002"
             }
           ]
         },
@@ -8370,7 +9412,22 @@
           "code": "6302",
           "travel": [
             {
-              "codeCurrent": "630201"
+              "630201": {
+                "name": "Cột Cờ Mù Là",
+                "nameSlug": "COT CO MU LA",
+                "coord": [
+                  "22°55'B",
+                  "105°58'Đ"
+                ],
+                "description": "Mù Là cách trung tâm thành phố Bắc Kạn hơn 70km với thời gian di chuyển hơn 1 giờ đồng hồ. Khung cảnh thiên nhiên nơi đây cực kỳ tươi đẹp với nét văn hóa đặc trưng của đồng bào dân tộc Mông Pác Nặm.Dịp đầu xuân, Lễ hội Mù Là được tổ chức ở đỉnh đèo thôn Lủng Phặc vào ngày 13, 14 tháng Giêng. Đây là nét văn hóa truyền thống đặc sắc của người Mông sinh sống tại khu vực giáp ranh Pác Nặm (Bắc Kạn) và Na Hang (Tuyên Quang), thu hút đông đảo người dân và du khách thập phương đến tham dự.Mù Là còn có những thửa ruộng bậc thang xếp tầng đang được người dân gieo cấy lúa, tạo thành bức tranh thiên nhiên tuyệt đẹp. Sau khi vui chơi, trải nghiệm, du khách có thể thưởng thức ẩm thực tại các hộ dân nơi đây theo yêu cầu hoặc tổ chức cắm trại, ăn uống, vui chơi ngoài trời.",
+                "code": "630201",
+                "img": [
+                  "Database/img/63020101.png",
+                  "Database/img/63020102.png",
+                  "Database/img/63020103.png"
+                ]
+              },
+              "codeCurrent": "630202"
             }
           ]
         },
@@ -8381,7 +9438,39 @@
           "code": "6303",
           "travel": [
             {
-              "codeCurrent": "630301"
+              "630302": {
+                "name": "Hồ Ba Bể",
+                "nameSlug": "HO BA BE",
+                "coord": [
+                  "22°41'B",
+                  "105°61'Đ"
+                ],
+                "description": "Hồ Ba Bể nằm ở trung tâm Vườn quốc gia Ba Bể, ở độ cao 150m so với mực nước biển, cách Thành phố Bắc Kạn 70 km về phía tây bắc. Hồ Ba Bể là một trong những di tích danh thắng tự nhiên đẹp, độc đáo nhất Việt Nam. Hồ được hình thành do sự biến động cấu tạo địa chất cách đây hàng triệu năm làm sụt lún các dãy núi đá vôi, hang động. Hồ được hợp thành từ ba hồ (Pé Lèng, Pé Lù, Pé Lầm) nên có tên gọi là hồ Ba Bể. Hồ có chiều dài hơn 8km, chỗ rộng nhất 2km, diện tích mặt nước 500ha, độ sâu trung bình 20m, chỗ sâu nhất 35m, trên hồ có những hòn đảo nhỏ xinh đẹp, trong hồ có hàng trăm loài cá nước ngọt sinh sống, trú ngụ.",
+                "code": "630302",
+                "img": [
+                  "Database/img/63030201.png",
+                  "Database/img/63030202.png",
+                  "Database/img/63030203.png",
+                  "Database/img/63030204.png"
+                ]
+              },
+              "630301": {
+                "name": "Vườn Quốc gia Ba Bể",
+                "nameSlug": "VUON QUOC GIA BA BE",
+                "coord": [
+                  "22°39'B",
+                  "105°61'Đ"
+                ],
+                "description": "Vườn Quốc gia Ba Bể có hiện tích hơn 10.000 ha, có cấu tạo địa chất đặc biệt, nhiều núi cao, hang động, sông hồ, suối ngầm tạo nên cảnh quan đặc biệt hấp dẫn. Đây cũng là nơi bảo tồn các nguồn gen động thực vật quý hiếm. Với hơn 20 điểm tham quan hấp dẫn cùng các tuyến du lịch đi bộ trong rừng nguyên sinh, các bản làng du lịch văn hóa ..Vườn Quốc gia Ba Bể là một địa điẻm du lịch sinh thái và nghỉ dưỡng hấp dẫn.Đây là vườn quốc gia ba bể,nơi đây có hồ nước ngọt rộng lớn,có nhiều loài muôn thú và thực vật sinh sống tại nơi đây,đây cũng là nơi du lịch với những chiếc thuyền nhỏ chở du khách dạo quanh hồ nước, khung cảnh nơi đây thật là yên tĩnh và mát mẻ quanh năm.",
+                "code": "630301",
+                "img": [
+                  "Database/img/63030101.png",
+                  "Database/img/63030102.png",
+                  "Database/img/63030103.png",
+                  "Database/img/63030104.png"
+                ]
+              },
+              "codeCurrent": "630303"
             }
           ]
         },
@@ -8392,7 +9481,39 @@
           "code": "6304",
           "travel": [
             {
-              "codeCurrent": "630401"
+              "630402": {
+                "name": "Hồ Bản Chang",
+                "nameSlug": "HO BAN CHANG",
+                "coord": [
+                  "22°50'B",
+                  "106°00'Đ"
+                ],
+                "description": "Hồ Bản Chang thuộc địa phận xã Đức Vân, cách Trung tâm huyện lỵ huyện Ngân Sơn 6 Km về phía nam, giáp với tuyến Quốc lộ số 3 đường đi Cao Bằng. Là một hồ nước tự nhiên tuyệt đẹp, có hình bán nguyệt, địa thế lý tưởng, nằm trong thung lũng, với diện tích mặt Hồ khoảng 5ha, xung quanh là những cánh rừng thông bạt ngàn, khí hậu đặc biệt trong lành mát mẻ; phù hợp để đầu tư phát triển du lịch sinh thái, du lịch cộng đồng và các hoạt động du lịch tập thể như: chèo thuyền, bơi lội, câu cá, cắm trại…",
+                "code": "630402",
+                "img": [
+                  "Database/img/63040201.png",
+                  "Database/img/63040202.png",
+                  "Database/img/63040203.png",
+                  "Database/img/63040204.png"
+                ]
+              },
+              "630401": {
+                "name": "Thác Nà Khoang",
+                "nameSlug": "THAC NA KHOANG",
+                "coord": [
+                  "22°43'B",
+                  "105 °89'Đ"
+                ],
+                "description": "hác Nà Khoang thuộc xã Lương Hạ, huyện Na Rì, cách thị trấn Yến Lạc 5 km về phía đông. Thác nằm ở chân Đèo Gió, cạnh quốc lộ 3 và khu vực thác có diện tích khoảng 12 ha. Thác Nà Khoang là nơi hợp thành của hai con suối lớn, suối Nà Đeng chảy qua khe núi Lũng Chang, một con suối nhỏ bắt nguồn từ đỉnh núi Phia Sliểng chảy từ hướng Tây Nam xuống khoảng 88 m thì hợp thủy với dòng suối Nà Đeng, với độ dốc lớn đã tạo thành hệ thống thác 4 tầng dài khoảng 600m, chiều rộng trung bình 15m, sau đó chảy xuống suối Bản Mạch. Phía trên thác còn có một hồ nước nhỏ trong xanh có thể sử dụng làm nơi bơi lội.",
+                "code": "630401",
+                "img": [
+                  "Database/img/63040101.png",
+                  "Database/img/63040102.png",
+                  "Database/img/63040103.png",
+                  "Database/img/63040104.png"
+                ]
+              },
+              "codeCurrent": "630403"
             }
           ]
         },
@@ -8403,7 +9524,22 @@
           "code": "6305",
           "travel": [
             {
-              "codeCurrent": "630501"
+              "630501": {
+                "name": "Thác Roọm",
+                "nameSlug": "THAC ROOM",
+                "coord": [
+                  "22°27'B",
+                  "105°87'Đ"
+                ],
+                "description": "Thác Roọm là nơi con sông Cầu bị chắn bởi bãi đá lô nhô dài chừng 1 km tạo nên phong cảnh kỳ thú. Dòng thác khi thì mạnh mẽ, dữ dội, đập vào các phiến đá, tung bọt lên cao tạo thành những con sóng bạc; khi thì dịu dàng luồn qua các khe đá tạo thành âm thanh như những bản tình ca của một vùng sơn cước. Đến với thác Roọm du khách có thể tham gia các loại hình vui chơi, giải trí, thể thao, leo núi, cắm trại và nghỉ dưỡng.",
+                "code": "630501",
+                "img": [
+                  "Database/img/63050101.png",
+                  "Database/img/63050102.png",
+                  "Database/img/63050103.png"
+                ]
+              },
+              "codeCurrent": "630502"
             }
           ]
         },
@@ -8414,7 +9550,23 @@
           "code": "6306",
           "travel": [
             {
-              "codeCurrent": "630601"
+              "630601": {
+                "name": "Đồi Nà Pậu",
+                "nameSlug": "DOI NA PAU",
+                "coord": [
+                  "22°13'B",
+                  "105°49'Đ"
+                ],
+                "description": "Đồi Nà Pậu thuộc Bản Thít, xã Lương Bằng (Chợ Đồn) là nơi ở và làm việc của chủ tịch Hồ Chí Minh đầu năm 1951 khi người trở lại Việt Bắc. Năm 1996, Nà Pậu được Bộ Văn Hóa - Thông tin xếp hạng Di tích lịch sử cấp Quốc gia.",
+                "code": "630601",
+                "img": [
+                  "Database/img/63060101.png",
+                  "Database/img/63060102.png",
+                  "Database/img/63060103.png",
+                  "Database/img/63060104.png"
+                ]
+              },
+              "codeCurrent": "630602"
             }
           ]
         },
@@ -8425,7 +9577,23 @@
           "code": "6307",
           "travel": [
             {
-              "codeCurrent": "630701"
+              "630701": {
+                "name": "Chùa Thạch Long ",
+                "nameSlug": "CHUA THACH LONG ",
+                "coord": [
+                  "22°03'B",
+                  "105°84'Đ"
+                ],
+                "description": "Nằm cạnh quốc lộ 3, chùa Thạch Long thuộc xã Cao Kỳ được mệnh danh là “chùa trong hang đá”, chứa trong mình nhiều sự tích, huyền sử đẹp. Chùa nằm ở trên cao được chia làm 3 tầng gồm tầng thượng, tầng giữa và tầng hạ. Mỗi tầng đều thờ các vị thần, phật, các danh nhân có công dựng nước và giữ nước, càng vào sâu bên trong lòng hang, du khách sẽ thấy không gian rộng với nhiều nhũ đá do thiên nhiên kiến tạo đặc sắc. Hội chùa Thạch Long được tổ chức vào mùng 7 tháng giêng hằng năm, thu hút rất nhiều du khách thập phương đến để dâng hương cầu may mắn, hạnh phúc cho gia đình, người thân và có dịp chiêm ngưỡng cảnh đẹp quanh chùa do thiên nhiên ban tặng.",
+                "code": "630701",
+                "img": [
+                  "Database/img/63070101.png",
+                  "Database/img/63070102.png",
+                  "Database/img/63070103.png",
+                  "Database/img/63070104.png"
+                ]
+              },
+              "codeCurrent": "630702"
             }
           ]
         },
@@ -8436,7 +9604,23 @@
           "code": "6308",
           "travel": [
             {
-              "codeCurrent": "630801"
+              "630801": {
+                "name": "Khu Bảo tồn thiên nhiên Kim Hỷ",
+                "nameSlug": "KHU BAO TON THIEN NHIEN KIM HY",
+                "coord": [
+                  "22°24'B",
+                  "106°10'Đ"
+                ],
+                "description": "Khu Bảo tồn thiên nhiên Kim Hỷ, tỉnh Bắc Kạn có diện tích trên 14 nghìn ha, trải dài từ các xã Vũ Muộn, Cao Sơn (huyện Bạch Thông) tới các xã Lương Thượng, Ân Tình, Côn Minh... (huyện Na Rì), rộng 14,772 ha, trong đó 11.505 ha là Phân khu bảo vệ nghiêm ngặt và 3.267 ha thuộc Phân khu phục hồi sinh thái. Khu bảo tồn thiên nhiên Kim Hỷ là nơi lưu giữ nhiều loại động, thực vật quý hiếm có nguy cơ tuyệt chủng như: voọc má trắng, sóc, khỉ, cây thiết san giả..",
+                "code": "630801",
+                "img": [
+                  "Database/img/63080101.png",
+                  "Database/img/63080102.png",
+                  "Database/img/63080103.png",
+                  "Database/img/63080104.png"
+                ]
+              },
+              "codeCurrent": "630802"
             }
           ]
         },

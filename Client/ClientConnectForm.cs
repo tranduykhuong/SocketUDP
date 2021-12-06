@@ -122,7 +122,10 @@ namespace Client
                         searchForm.connectForm = this;
                         searchForm.Show();
                     }
-                    else client = null;
+                    else
+                    {
+                        client = null;
+                    }
                 }
             }
             catch (Exception ex)
@@ -134,16 +137,19 @@ namespace Client
         private void disconnect_Click(object sender, EventArgs e)
         {
             client.disconnect();
-            client = null;
+            
             MessageBox.Show("Disconnected to server successfully!", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            client = null;
             connect.Enabled = true;
             disconnect.Enabled = false;
             IPAdd.ReadOnly = false;
             Port.ReadOnly = false;
             Automatic.Enabled = true;
             Automatic.Checked = false;
-            IPAdd.Text = string.Empty;
-            Port.Text = string.Empty;
+            IPAdd.Text = "Input IPAdd...";
+            IPAdd.ForeColor = Color.Gray;
+            Port.Text = "Input Port...";
+            Port.ForeColor = Color.Gray;
         }
 
     }

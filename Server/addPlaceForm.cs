@@ -49,7 +49,7 @@ namespace Server
             OpenFileDialog dlg = new OpenFileDialog();
             dlg.Filter = "Image Files(*.PNG; *.JPG; *JPEG; *.BMP) | *.PNG; *.JPG; *JPEG; *.BMP |" +
                 "All files(*.*) | *.*";
-
+            
             dlg.Multiselect = false;
             dlg.FilterIndex = 1;
             dlg.RestoreDirectory = true;
