@@ -30,6 +30,7 @@ namespace Client
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ResultForm));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.vido = new System.Windows.Forms.RichTextBox();
             this.kinhdo = new System.Windows.Forms.RichTextBox();
@@ -95,7 +96,7 @@ namespace Client
             // 
             // masodiadiem
             // 
-            this.masodiadiem.Cursor = System.Windows.Forms.Cursors.Default;
+            this.masodiadiem.Cursor = System.Windows.Forms.Cursors.No;
             this.masodiadiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.masodiadiem.Location = new System.Drawing.Point(30, 98);
             this.masodiadiem.Margin = new System.Windows.Forms.Padding(2);
@@ -168,6 +169,7 @@ namespace Client
             // listImg
             // 
             this.listImg.BackColor = System.Drawing.Color.AliceBlue;
+            this.listImg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.listImg.HideSelection = false;
             this.listImg.Location = new System.Drawing.Point(5, 24);
             this.listImg.Name = "listImg";
@@ -191,6 +193,7 @@ namespace Client
             // 
             // motadiadiem
             // 
+            this.motadiadiem.Cursor = System.Windows.Forms.Cursors.No;
             this.motadiadiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.motadiadiem.Location = new System.Drawing.Point(4, 20);
             this.motadiadiem.Margin = new System.Windows.Forms.Padding(2);
@@ -217,6 +220,7 @@ namespace Client
             this.Controls.Add(this.groupbox);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;

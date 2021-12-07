@@ -63,16 +63,6 @@ namespace Client.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blackpink_s_rose_trong_lovesick_girls_m_v_photoshoot_2020_hinh_nen_3440x1440_15 {
-            get {
-                object obj = ResourceManager.GetObject("blackpink-s-rose-trong-lovesick-girls-m-v-photoshoot-2020-hinh-nen-3440x1440_15", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap dowload {
             get {
                 object obj = ResourceManager.GetObject("dowload", resourceCulture);

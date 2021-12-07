@@ -29,6 +29,7 @@ namespace Client
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Client));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.IPAdd = new System.Windows.Forms.TextBox();
@@ -64,7 +65,7 @@ namespace Client
             // 
             this.IPAdd.ForeColor = System.Drawing.Color.Gray;
             this.IPAdd.Location = new System.Drawing.Point(195, 63);
-            this.IPAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.IPAdd.Margin = new System.Windows.Forms.Padding(2);
             this.IPAdd.Name = "IPAdd";
             this.IPAdd.Size = new System.Drawing.Size(164, 20);
             this.IPAdd.TabIndex = 2;
@@ -77,7 +78,7 @@ namespace Client
             // 
             this.Port.ForeColor = System.Drawing.Color.Gray;
             this.Port.Location = new System.Drawing.Point(195, 95);
-            this.Port.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Port.Margin = new System.Windows.Forms.Padding(2);
             this.Port.Name = "Port";
             this.Port.Size = new System.Drawing.Size(128, 20);
             this.Port.TabIndex = 3;
@@ -89,9 +90,10 @@ namespace Client
             // Automatic
             // 
             this.Automatic.AutoSize = true;
+            this.Automatic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Automatic.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Automatic.Location = new System.Drawing.Point(195, 127);
-            this.Automatic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Automatic.Margin = new System.Windows.Forms.Padding(2);
             this.Automatic.Name = "Automatic";
             this.Automatic.Size = new System.Drawing.Size(91, 21);
             this.Automatic.TabIndex = 4;
@@ -102,9 +104,10 @@ namespace Client
             // 
             // connect
             // 
+            this.connect.Cursor = System.Windows.Forms.Cursors.Hand;
             this.connect.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.connect.Location = new System.Drawing.Point(107, 172);
-            this.connect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.connect.Margin = new System.Windows.Forms.Padding(2);
             this.connect.Name = "connect";
             this.connect.Size = new System.Drawing.Size(97, 24);
             this.connect.TabIndex = 5;
@@ -115,10 +118,11 @@ namespace Client
             // 
             // disconnect
             // 
+            this.disconnect.Cursor = System.Windows.Forms.Cursors.Hand;
             this.disconnect.Enabled = false;
             this.disconnect.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.disconnect.Location = new System.Drawing.Point(261, 172);
-            this.disconnect.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.disconnect.Margin = new System.Windows.Forms.Padding(2);
             this.disconnect.Name = "disconnect";
             this.disconnect.Size = new System.Drawing.Size(97, 24);
             this.disconnect.TabIndex = 6;
@@ -141,7 +145,8 @@ namespace Client
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Client";

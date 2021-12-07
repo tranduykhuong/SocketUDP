@@ -30,6 +30,7 @@ namespace Client
         private void InitializeComponent()
         {
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("");
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SearchForm));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.dataTable = new System.Windows.Forms.ListView();
             this.maso = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -73,6 +74,7 @@ namespace Client
             this.ten,
             this.vitri,
             this.mota});
+            this.dataTable.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dataTable.Font = new System.Drawing.Font("Times New Roman", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dataTable.FullRowSelect = true;
             this.dataTable.GridLines = true;
@@ -142,6 +144,7 @@ namespace Client
             this.optionProvince.Name = "optionProvince";
             this.optionProvince.Size = new System.Drawing.Size(139, 27);
             this.optionProvince.TabIndex = 4;
+            this.optionProvince.TabStop = false;
             this.optionProvince.TextChanged += new System.EventHandler(this.optionProvince_TextChanged);
             this.optionProvince.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.optionProvince_KeyPress);
             // 
@@ -258,6 +261,7 @@ namespace Client
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;

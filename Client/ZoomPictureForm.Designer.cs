@@ -29,19 +29,20 @@ namespace Client
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZoomPictureForm));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.leftBtn = new System.Windows.Forms.PictureBox();
             this.rightBtn = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.downloadBtn = new System.Windows.Forms.PictureBox();
             this.zoomout = new System.Windows.Forms.PictureBox();
             this.zoomin = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.leftBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightBtn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.downloadBtn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zoomout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.zoomin)).BeginInit();
@@ -51,11 +52,21 @@ namespace Client
             // 
             this.panel1.AutoScroll = true;
             this.panel1.Controls.Add(this.pictureBox7);
-            this.panel1.Location = new System.Drawing.Point(42, 2);
+            this.panel1.Location = new System.Drawing.Point(45, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(662, 375);
+            this.panel1.Size = new System.Drawing.Size(656, 377);
             this.panel1.TabIndex = 8;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Location = new System.Drawing.Point(128, 56);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(399, 271);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 7;
+            this.pictureBox7.TabStop = false;
             // 
             // panel2
             // 
@@ -97,16 +108,6 @@ namespace Client
             this.rightBtn.Click += new System.EventHandler(this.rightBtn_Click);
             this.rightBtn.MouseLeave += new System.EventHandler(this.rightBtn_MouseLeave);
             this.rightBtn.MouseHover += new System.EventHandler(this.rightBtn_MouseHover);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Location = new System.Drawing.Point(129, 39);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(400, 295);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 7;
-            this.pictureBox7.TabStop = false;
             // 
             // downloadBtn
             // 
@@ -164,16 +165,17 @@ namespace Client
             this.Controls.Add(this.zoomout);
             this.Controls.Add(this.zoomin);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "ZoomPictureForm";
             this.Text = "Picture";
             this.Load += new System.EventHandler(this.ZoomPictureForm_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.leftBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightBtn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.downloadBtn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zoomout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.zoomin)).EndInit();

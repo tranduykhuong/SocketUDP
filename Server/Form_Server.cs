@@ -144,6 +144,8 @@ namespace Server
             Run.Enabled = false;
             Stop.Enabled = true;
             Restart.Enabled = true;
+            ipAddress.Enabled = false;
+            Port.Enabled = false;
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
@@ -178,6 +180,8 @@ namespace Server
                 Stop.Enabled = false;
                 Run.Enabled = true;
                 Restart.Enabled=false;
+                ipAddress.Enabled = true;
+                Port.Enabled = true;
             }
         }
 

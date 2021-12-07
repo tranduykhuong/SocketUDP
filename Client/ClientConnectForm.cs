@@ -116,6 +116,8 @@ namespace Client
                     {
                         connect.Enabled = false;
                         disconnect.Enabled = true;
+                        IPAdd.Enabled = false;
+                        Port.Enabled = false;
                         Hide();
                         SearchForm searchForm = new SearchForm();
                         searchForm.cli = client;
@@ -150,6 +152,8 @@ namespace Client
             IPAdd.ForeColor = Color.Gray;
             Port.Text = "Input Port...";
             Port.ForeColor = Color.Gray;
+            IPAdd.Enabled = true;
+            Port.Enabled = true;
         }
 
     }

@@ -75,6 +75,8 @@ namespace Client
             {
                 pictureBox7.Width += 30;
                 pictureBox7.Height += 30;
+                Point pos = pictureBox7.Location;
+                pictureBox7.Location = new Point(pos.X - 15, pos.Y - 15);
             }
             else
             {
@@ -82,6 +84,8 @@ namespace Client
                 {
                     pictureBox7.Width -= 30;
                     pictureBox7.Height -= 30;
+                    Point pos = pictureBox7.Location;
+                    pictureBox7.Location = new Point(pos.X + 15, pos.Y + 15);
                 }
             }
         }

@@ -52,7 +52,7 @@ namespace Client
             {
                 optionProvince.Items.Add(province.Key);
             }
-            
+            filterBtn_Click(sender, e);
         }
 
         private void picturesearchBox_Click(object sender, System.EventArgs e)

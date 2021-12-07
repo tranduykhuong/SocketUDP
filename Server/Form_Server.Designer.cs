@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Server));
             this.ipAddress = new System.Windows.Forms.TextBox();
             this.Port = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,7 +57,7 @@
             this.ipAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ipAddress.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.ipAddress.Location = new System.Drawing.Point(11, 28);
-            this.ipAddress.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ipAddress.Margin = new System.Windows.Forms.Padding(2);
             this.ipAddress.Name = "ipAddress";
             this.ipAddress.Size = new System.Drawing.Size(194, 23);
             this.ipAddress.TabIndex = 0;
@@ -71,7 +72,7 @@
             this.Port.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Port.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.Port.Location = new System.Drawing.Point(11, 82);
-            this.Port.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Port.Margin = new System.Windows.Forms.Padding(2);
             this.Port.Name = "Port";
             this.Port.Size = new System.Drawing.Size(151, 23);
             this.Port.TabIndex = 1;
@@ -106,9 +107,10 @@
             // Run
             // 
             this.Run.BackColor = System.Drawing.Color.White;
+            this.Run.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Run.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Run.Location = new System.Drawing.Point(254, 27);
-            this.Run.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Run.Margin = new System.Windows.Forms.Padding(2);
             this.Run.Name = "Run";
             this.Run.Size = new System.Drawing.Size(84, 25);
             this.Run.TabIndex = 4;
@@ -120,8 +122,9 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox1.Location = new System.Drawing.Point(14, 116);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(51, 17);
             this.checkBox1.TabIndex = 5;
@@ -131,10 +134,11 @@
             // 
             // Stop
             // 
+            this.Stop.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Stop.Enabled = false;
             this.Stop.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Stop.Location = new System.Drawing.Point(254, 66);
-            this.Stop.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Stop.Margin = new System.Windows.Forms.Padding(2);
             this.Stop.Name = "Stop";
             this.Stop.Size = new System.Drawing.Size(84, 25);
             this.Stop.TabIndex = 6;
@@ -144,10 +148,11 @@
             // 
             // Restart
             // 
+            this.Restart.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Restart.Enabled = false;
             this.Restart.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Restart.Location = new System.Drawing.Point(254, 106);
-            this.Restart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Restart.Margin = new System.Windows.Forms.Padding(2);
             this.Restart.Name = "Restart";
             this.Restart.Size = new System.Drawing.Size(84, 26);
             this.Restart.TabIndex = 7;
@@ -168,13 +173,14 @@
             this.panel1.Controls.Add(this.ipAddress);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(4, 32);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(388, 264);
             this.panel1.TabIndex = 8;
             // 
             // consoleServer
             // 
+            this.consoleServer.Cursor = System.Windows.Forms.Cursors.No;
             this.consoleServer.Location = new System.Drawing.Point(3, 138);
             this.consoleServer.Name = "consoleServer";
             this.consoleServer.Size = new System.Drawing.Size(380, 121);
@@ -187,7 +193,7 @@
             this.panel2.Controls.Add(this.clientStatus);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(396, 32);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(359, 264);
             this.panel2.TabIndex = 9;
@@ -195,6 +201,7 @@
             // clientStatus
             // 
             this.clientStatus.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.clientStatus.Cursor = System.Windows.Forms.Cursors.No;
             this.clientStatus.Location = new System.Drawing.Point(5, 25);
             this.clientStatus.Name = "clientStatus";
             this.clientStatus.Size = new System.Drawing.Size(349, 234);
@@ -275,8 +282,9 @@
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form_Server";

@@ -141,9 +141,6 @@
     <None Include="Resources\loupe.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\blackpink-s-rose-trong-lovesick-girls-m-v-photoshoot-2020-hinh-nen-3440x1440_15.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\redo.png" />
   </ItemGroup>
   <ItemGroup>

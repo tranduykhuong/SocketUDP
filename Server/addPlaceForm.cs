@@ -41,7 +41,7 @@ namespace Server
                 return;
             }
             if (server.addPlace(boxProvince.Text, boxDistrict.Text, boxName.Text, boxVi.Text, boxKinh.Text, boxDiscrip.Text, listImage))
-                Application.Exit();
+                Hide();
         }
 
         private void addImg_Click(object sender, EventArgs e)
