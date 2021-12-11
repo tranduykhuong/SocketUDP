@@ -181,7 +181,6 @@ namespace Client
             this.filterBtn.Name = "filterBtn";
             this.filterBtn.Size = new System.Drawing.Size(52, 27);
             this.filterBtn.TabIndex = 11;
-            this.filterBtn.TabStop = false;
             this.filterBtn.Text = "Lọc";
             this.filterBtn.UseVisualStyleBackColor = true;
             this.filterBtn.Click += new System.EventHandler(this.filterBtn_Click);

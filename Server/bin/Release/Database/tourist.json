@@ -1585,7 +1585,23 @@
           "code": "1101",
           "travel": [
             {
-              "codeCurrent": "110101"
+              "110101": {
+                "name": "Quảng trường Ba Đình – Lăng Bác",
+                "nameSlug": "QUANG TRUONG BA DINH – LANG BAC",
+                "coord": [
+                  "21°03'B",
+                  "105°83'Đ"
+                ],
+                "description": "Nếu đã đặt chân tới mảnh đất ngàn năm văn hiến thì Lăng Bác – Quảng trường Ba Đình là địa điểm du lịch ở Hà Nội mà các bạn không thể bỏ qua. Nơi đây là trung tâm chính trị của Việt Nam với nhà Quốc hội, Phủ Chủ tịch, Bảo tàng Hồ Chí Minh,…\nLăng Bác là nơi lưu giữ thi hài của vị lãnh tụ kính yêu. Bên ngoài lăng là những hàng tre xanh bát ngát. Lăng chủ tích mở cửa vào sáng thứ 3,4,5,7 và chủ nhật. Khi vào viếng lăng Bác, bạn chú ý ăn mặc chỉnh tề, không đem theo các thiết bị điện tử ghi hành và giữ trật tự trong lăng.Quảng trường Ba Đình là quảng trường lớn nhất Việt Nam, nằm trên đường Hùng Vương và trước Lăng Chủ tịch Hồ Chí Minh. Quảng trường này còn là nơi ghi nhận nhiều dấu ấn quan trọng trong lịch sử Việt Nam. Đặc biệt, vào ngày 2 tháng 9 năm 1945, Chủ tịch Chính phủ Cách mạng lâm thời Việt Nam Dân chủ Cộng hòa Hồ Chí Minh đã đọc bản Tuyên ngôn độc lập khai sinh ra nước Việt Nam Dân chủ Cộng hòa. Đây cũng là nơi diễn ra các cuộc diễu hành nhân dịp các ngày lễ lớn của Việt Nam, và cũng là một địa điểm tham quan, vui chơi, dạo mát của du khách và người dân Hà Nội.",
+                "code": "110101",
+                "img": [
+                  "Database/img/11010101.png",
+                  "Database/img/11010102.png",
+                  "Database/img/11010103.png",
+                  "Database/img/11010104.png"
+                ]
+              },
+              "codeCurrent": "110102"
             }
           ]
         },
@@ -1596,7 +1612,23 @@
           "code": "1102",
           "travel": [
             {
-              "codeCurrent": "110201"
+              "110201": {
+                "name": "Hồ Gươm",
+                "nameSlug": "HO GUOM",
+                "coord": [
+                  "21°02'B",
+                  "105°85'Đ"
+                ],
+                "description": "Hồ Gươm hay hồ Hoàn Kiếm là một trong những nơi nên đến ở Hà Nội khi du lịch thủ đô. Nằm ở giữa trung tâm, Hồ Gươm được ví như trái tim của thành phố ngàn năm tuổi này.. Mặt hồ như tấm gương lớn soi bóng những cây cổ thụ, những rặng liễu thướt tha tóc rủ, những mái đền, chùa cổ kính, tháp cũ rêu phong, các toà nhà mới cao tầng vươn lên trời xanh.Buổi sáng những người dân Hà Nội thường đến Hồ Gươm để tập thể dục như một nét văn hoá riêng đặc trưng của Thủ đô. Ảnh: Đinh Tuấn Văn\nMột trải nghiệm thú vị dành cho khách du lịch là đi bộ một vòng hồ, bạn sẽ được thấy một Hà Nội cổ kính nhưng vẫn đầy hiện đại hiện lên thật rõ ràng. Bên cạnh hồ là những công trình kiến trúc như tháp Bút, đài Nghiên, cầu Thê Húc dẫn vào đền Ngọc Sơn, đền vua Lê Thái Tổ, tháp Hoà Phong,…",
+                "code": "110201",
+                "img": [
+                  "Database/img/11020101.png",
+                  "Database/img/11020102.png",
+                  "Database/img/11020103.png",
+                  "Database/img/11020104.png"
+                ]
+              },
+              "codeCurrent": "110202"
             }
           ]
         },
@@ -1640,7 +1672,23 @@
           "code": "1106",
           "travel": [
             {
-              "codeCurrent": "110601"
+              "110601": {
+                "name": "Văn Miếu – Quốc Tử Giám",
+                "nameSlug": "VAN MIEU – QUOC TU GIAM",
+                "coord": [
+                  "21°02'Đ",
+                  "105°83'Đ"
+                ],
+                "description": "Nếu kể tên các địa điểm du lịch Hà Nội bậc nhất xưa và nay có lẽ ai cũng sẽ nghĩ ngay đến Văn Miếu Quốc Tử Giám. Đây là một quần thể kiến trúc văn hoá hàng đầu và là niềm tự hào của người dân Thủ đô khi nhắc đến truyền thống ngàn năm văn hiến của Thăng Long – Đông Đô – Hà Nội.Văn Miếu Quốc Tử Giám được xem là biểu tượng của tri thức, của nền giáo dục Việt Nam. Đây là nơi thờ phụng các bậc Tiên thánh, Tiên sư của đạo Nho và Tư nghiệp Quốc Tử Giám Chu Văn An – người thầy tiêu biểu về đạo cao, đức trọng của nền giáo dục Việt Nam. \n",
+                "code": "110601",
+                "img": [
+                  "Database/img/11060101.png",
+                  "Database/img/11060102.png",
+                  "Database/img/11060103.png",
+                  "Database/img/11060104.png"
+                ]
+              },
+              "codeCurrent": "110602"
             }
           ]
         },
@@ -2002,7 +2050,23 @@
           "code": "1208",
           "travel": [
             {
-              "codeCurrent": "120801"
+              "120801": {
+                "name": "Du lịch SaPa ",
+                "nameSlug": "DU LICH SAPA ",
+                "coord": [
+                  "22°33'B",
+                  "103°84'Đ"
+                ],
+                "description": "Sapa là thị trấn thuộc tỉnh Lào Cai, Việt Nam, đây là một điểm du lịch nổi tiếng từ đầu thế kỉ 20 đến nay. Tạo hóa thiên nhiên ưu ái ban tặng Sapa một bức tranh phong cảnh vừa lãng mạn vừa hùng vĩ, bao la với những rặng núi trùng điệp vờn mây đón gió, những thửa ruộng bậc thang ngút tầm mắt, ngắm nhìn những hàng thông đứng trầm lặng chứng kiến bao câu chuyện từ thuở Đông Dương trong lòng thị trấn,…\nKhí hậu Sapa quanh năm mát mẻ cùng những dấu ấn bản địa độc đáo – trong đó phải kể đến nhất là văn hóa của hai dân tộc thiếu số lớn tại Sa Pa là người Mông và người Dao – kết hợp với không gian kiến trúc châu Âu cổ điển. Tất cả các yếu tố trên đã tạo nên sức hấp dẫn đặc biệt cho các du khách muốn khám phá vùng đất này.",
+                "code": "120801",
+                "img": [
+                  "Database/img/12080101.png",
+                  "Database/img/12080102.png",
+                  "Database/img/12080103.png",
+                  "Database/img/12080104.png"
+                ]
+              },
+              "codeCurrent": "120802"
             }
           ]
         },
@@ -2045,7 +2109,23 @@
           "code": "1302",
           "travel": [
             {
-              "codeCurrent": "130201"
+              "130201": {
+                "name": "Khu du lịch Vinh Sang",
+                "nameSlug": "KHU DU LICH VINH SANG",
+                "coord": [
+                  "10°27'B",
+                  "105°95'Đ"
+                ],
+                "description": "Nếu hỏi một địa điểm vui chơi tập thể tại Vĩnh Long, có lẽ rất nhiều người sẽ chỉ cho bạn tới khu du lịch sinh thái Vinh Sang. Trang trại Vinh Sang có dạng hình tam giác mà có điểm đắc địa là một cạnh nằm cặp theo bờ sông Cổ Chiên, đối diện thành phố Vĩnh Long.Có lẽ không ở đâu ngoài khu du lịch này cho bạn cơ hội chiêm ngưỡng nhiều động vật quý hiếm như: gấu, dê, bồ nông, trăn, càng đước, hươu sao, heo tộc, vượn má hồng, khỉ, công, gà sao… Đặc biệt tại Vinh Sang, khu vực nuôi cá sấu khoảng 200m2 sẽ là thiên đường với những ai ưa cảm giác mạnh.Sở hữu những điểm độc đáo như vậy nhưng khu du lịch vẫn tạo cảm giác vô cùng gần gũi như một miệt vườn Nam Bộ thứ thiệt. Không gian thoáng đãng rộng rãi vô cùng thích hợp cho những cuộc vui “nổ trời”: trượt cỏ, thử tài bắn súng, đá gà, ném banh, bịt mắt gắn lông đà điểu, câu cá trúng thưởng… Nếu không ưa ồn ào, khách du lịch đi một mình có thể tận hưởng cảm giác an yên trong những chòi câu cá.",
+                "code": "130201",
+                "img": [
+                  "Database/img/13020101.png",
+                  "Database/img/13020102.png",
+                  "Database/img/13020103.png",
+                  "Database/img/13020104.png"
+                ]
+              },
+              "codeCurrent": "130202"
             }
           ]
         },
@@ -2132,7 +2212,23 @@
           "code": "1401",
           "travel": [
             {
-              "codeCurrent": "140101"
+              "140101": {
+                "name": "Thung Lũng Tình Yêu",
+                "nameSlug": "THUNG LUNG TINH YEU",
+                "coord": [
+                  "11°97'B",
+                  "108°44'Đ"
+                ],
+                "description": "Được thiên nhiên và núi rừng ưu ái. Thung Lũng Tình Yêu khoác trên mình một một vùng khí hậu mát mẽ dễ chịu. Một không gian xanh tươi đầy hoa và cây cối. Đây là nơi thừa hưởng đầy đủ mọi yếu tố địa hình lẫn không gian. Vô cùng lý tưởng, từ sông suối, núi rừng, cây cảnh và hoa tươi. Đây quả thật là một địa điểm nghỉ dưỡng lý tưởng cho bạn và gia đình.",
+                "code": "140101",
+                "img": [
+                  "Database/img/14010101.png",
+                  "Database/img/14010102.png",
+                  "Database/img/14010103.png",
+                  "Database/img/14010104.png"
+                ]
+              },
+              "codeCurrent": "140102"
             }
           ]
         },
@@ -2274,7 +2370,23 @@
           "code": "1501",
           "travel": [
             {
-              "codeCurrent": "150101"
+              "150101": {
+                "name": "Cù Lao Xanh",
+                "nameSlug": "CU LAO XANH",
+                "coord": [
+                  "13°92'B",
+                  "109°34'Đ"
+                ],
+                "description": "ột món quà vô giá mà thiên nhiên đã ban tặng cho mảnh đất Bình Định. Cù Lao Xanh nằm trên xã đảo Nhơn Châu cách thành phố nha trang 20km.Du khách sẽ mê mẩn ngắm nhìn khung cảnh thiên nhiên đẹp bất tận nước biển xanh mát, ngắm hoàng hôn và bình minh là điều thú nhất mà nhiều du khách hào hứng chờ đợi khoảnh khắc check in.",
+                "code": "150101",
+                "img": [
+                  "Database/img/15010101.png",
+                  "Database/img/15010102.png",
+                  "Database/img/15010103.png",
+                  "Database/img/15010104.png"
+                ]
+              },
+              "codeCurrent": "150102"
             }
           ]
         },
@@ -2416,7 +2528,23 @@
           "code": "1602",
           "travel": [
             {
-              "codeCurrent": "160201"
+              "160201": {
+                "name": "Đảo Lan Châu",
+                "nameSlug": "DAO LAN CHAU",
+                "coord": [
+                  "18°82'B",
+                  "105°72'Đ"
+                ],
+                "description": "Đây đích thị là đảo đẹp nhất Cửa Lò với khung cảnh có chút gì đó rất cổ kính, rất tĩnh lặng và nên thơ. Đảo Lan Châu với con đường đá cùng hải đăng Lan Châu tuy không quá lộng lẫy như những ngọn hải đăng khác trên các miền đất nước nhưng vẫn sở hữu nét đẹp bình yên giữa một Lan Châu mê đắm lòng người.\nThời gian gần đây, Lan Châu nổi lên như một điểm đến hấp dẫn mới nên các dịch vụ du lịch ở đây cũng đang được nâng cấp để đáp ứng nhu cầu tham quan và du lịch của du khách mọi miền. Đến đây, bạn sẽ có cơ hội thưởng thức hải sản tươi ngon, các du thuyền đưa bạn tham quan đảo cũng như các môn thể thao dưới nước đang dần hoàn thiện hơn.",
+                "code": "160201",
+                "img": [
+                  "Database/img/16020101.png",
+                  "Database/img/16020102.png",
+                  "Database/img/16020103.png",
+                  "Database/img/16020104.png"
+                ]
+              },
+              "codeCurrent": "160202"
             }
           ]
         },
@@ -2767,7 +2895,23 @@
           "code": "1712",
           "travel": [
             {
-              "codeCurrent": "171201"
+              "171201": {
+                "name": "Quần đảo An Thới – Phú Quốc",
+                "nameSlug": "QUAN DAO AN THOI – PHU QUOC",
+                "coord": [
+                  "9°96'B",
+                  "104°00'Đ"
+                ],
+                "description": "Nằm ở phía Nam của Phú Quốc, từ thị trấn An Thới, du khách có thể khám phá nhiều hòn đảo xinh đẹp với cái tên gọi chung là “quần đảo An Thới”. Các hòn đảo này được du khách ưu ái đặt biệt danh là “Vịnh Hạ Long của miền Tây”. Điều này cho thấy sự xinh đẹp và thú vị của quần đảo An Thới trong lòng của du khách.",
+                "code": "171201",
+                "img": [
+                  "Database/img/17120101.png",
+                  "Database/img/17120102.png",
+                  "Database/img/17120103.png",
+                  "Database/img/17120104.png"
+                ]
+              },
+              "codeCurrent": "171202"
             }
           ]
         },
@@ -2832,7 +2976,23 @@
           "code": "1802",
           "travel": [
             {
-              "codeCurrent": "180201"
+              "180201": {
+                "name": "Cột cờ Lũng Cú",
+                "nameSlug": "COT CO LUNG CU",
+                "coord": [
+                  "23°36'B",
+                  "105°31'Đ"
+                ],
+                "description": "Từ dinh thự họ Vương, bạn quay trở lại ngã 3 rẽ đi qua Phố Là, Ma Lé để đến cột cờ Lũng Cú – nơi đặt nét bút đầu tiên trên bản đồ hình chữ S. Ngay trên đường từ Ma Lé vào Lũng Cú sẽ thấy một cánh đồng tam giác mạch lớn trên sườn đồi. Đây là nơi trồng nhiều tam giác mạch nhất cho đến hiện tại. Lũng Cú ở trên độ cao 2000 m so với mực nước biển, Lũng Cú là nơi duy nhất có người Lô Lô sinh sống. Đứng trên cột cờ Lũng Cú, nhìn lá cờ Tổ quốc phấp phới bay trong gió, tận mắt thấy điểm đầu tiên đặt nét bút vẽ nên bản đồ hình chữ S là lúc lòng tự hào dân tộc và tình yêu quê hương đất nước dâng tràn. Đứng trên cột cờ Lũng Cú ngắm hoàng hôn, sau đó quay xuống thị trấn Đồng Văn nghỉ lại Đồng Văn một tối. Bởi người ta thường truyền tai nhau rằng, lên Hà Giang mà không ngủ lại Đồng Văn thì chưa gọi là đi Hà Giang.",
+                "code": "180201",
+                "img": [
+                  "Database/img/18020101.png",
+                  "Database/img/18020102.png",
+                  "Database/img/18020103.png",
+                  "Database/img/18020104.png"
+                ]
+              },
+              "codeCurrent": "180202"
             }
           ]
         },
@@ -2952,7 +3112,23 @@
           "code": "1901",
           "travel": [
             {
-              "codeCurrent": "190101"
+              "190101": {
+                "name": "Kè chắn sóng Xóm Rớ",
+                "nameSlug": "KE CHAN SONG XOM RO",
+                "coord": [
+                  "13°06'B",
+                  "1098°34'Đ"
+                ],
+                "description": "Kè chắn sóng Xóm Rớ nổi lên như một địa điểm du lịch Phú Yên mới từ đầu năm nay, nơi những kè chắn sóng, triều cường bỗng nhiên phủ đầy rêu xanh tạo nên một cảnh quan tuyệt vời. Khi thủy triều xuống, những chiếc kè nổi lên xanh mướt, óng ánh dưới ánh nắng mặt trời, một khung cảnh khiến nhiều người đam mê chụp ảnh không thể làm ngơ.Du khách muốn đến khu vực kè chắn sóng đặc biệt này phải đi từ trung tâm thành phố về hướng Nam, qua cầu Hùng Vương đến ngã tư có đèn giao thông thì rẽ trái, sau đó đi thêm một đoạn ra hướng biển là đến được Xóm Rớ.",
+                "code": "190101",
+                "img": [
+                  "Database/img/19010101.png",
+                  "Database/img/19010102.png",
+                  "Database/img/19010103.png",
+                  "Database/img/19010104.png"
+                ]
+              },
+              "codeCurrent": "190102"
             }
           ]
         },
@@ -3061,7 +3237,23 @@
           "code": "2001",
           "travel": [
             {
-              "codeCurrent": "200101"
+              "200101": {
+                "name": "Chùa - động Tam Thanh",
+                "nameSlug": "CHUA - DONG TAM THANH",
+                "coord": [
+                  "21°85'B",
+                  "106°47'Đ"
+                ],
+                "description": "Quần thể chùa Tam Thanh nổi tiếng là địa điểm du lịch Lạng Sơn hấp dẫn và kì bí với hệ thống 3 hang động lớn. Trong đó, hang động Tam Thanh là lớn nhất và đẹp nhất. Bên trong hang động là những lớp thạch nhũ với hình thù đa dạng, sinh động như cây Ngô Đồng, Tiên Ông... cùng vòm động cao, thoáng đãng.\nSâu hơn nữa trong động Tam Thanh là hồ Âm Ty, nơi du khách có thể chiêm ngưỡng vẻ đẹp tự nhiên của hồ nước trong vắt, không bao giờ cạn. Động Tam Thanh còn mang đến nhiều kiệt tác thiên nhiên khác như cửa thông thiên, cổng trời...vô cùng đẹp và huyền ảo.",
+                "code": "200101",
+                "img": [
+                  "Database/img/20010101.png",
+                  "Database/img/20010102.png",
+                  "Database/img/20010103.png",
+                  "Database/img/20010104.png"
+                ]
+              },
+              "codeCurrent": "200102"
             }
           ]
         },
@@ -3258,7 +3450,23 @@
           "code": "2107",
           "travel": [
             {
-              "codeCurrent": "210701"
+              "210701": {
+                "name": "Vườn hoa Le Jardin D’Amour",
+                "nameSlug": "VUON HOA LE JARDIN D’AMOUR",
+                "coord": [
+                  "15°99'B",
+                  "107°99'Đ"
+                ],
+                "description": "Nằm trong khu du lịch Bà Nà Hill, Le Jardin D’Amour được mệnh danh là vườn hoa tình yêu với muôn sắc hoa đẹp rực rỡ. Khu vườn mê hoặc du khách bởi vẻ đẹp lãng mạn, nên thơ của hàng trăm loài hoa nằm trải dài trên diện tích 21 000m2 rộng lớn. Với 9 khu mang 9 lối kiến trúc riêng biệt được sắp đặt đầy nghệ thuật, nơi đây là địa điểm du lịch Đà Nẵng tuyệt đẹp thu hút du khách khắp mọi nơi. ",
+                "code": "210701",
+                "img": [
+                  "Database/img/21070101.png",
+                  "Database/img/21070102.png",
+                  "Database/img/21070103.png",
+                  "Database/img/21070104.png"
+                ]
+              },
+              "codeCurrent": "210702"
             }
           ]
         },
@@ -3345,7 +3553,23 @@
           "code": "2207",
           "travel": [
             {
-              "codeCurrent": "220701"
+              "220701": {
+                "name": "Rừng thông Bản Áng",
+                "nameSlug": "RUNG THONG BAN ANG",
+                "coord": [
+                  "20°82'B",
+                  "104°63'Đ"
+                ],
+                "description": "Khu du lịch bản Áng, hồ rừng thông đang được quy hoạch với quy mô 62 ha. Phục vụ nhu cầu vui chơi giải trí, du lịch cuối tuần và các dịch vụ khác. Huyện Mộc Châu đang kêu gọi các công ty, tổ chức cùng hợp sức và có những chính sách khuyến khích các nhà đầu tư phát triển du lịch. Hứa hẹn tương lai khu du lịch bản Áng, hồ rừng thông sẽ trở nên hấp dẫn, nhiều khách du lịch Mộc Châu hơn nữa.",
+                "code": "220701",
+                "img": [
+                  "Database/img/22070101.png",
+                  "Database/img/22070102.png",
+                  "Database/img/22070103.png",
+                  "Database/img/22070104.png"
+                ]
+              },
+              "codeCurrent": "220702"
             }
           ]
         },
@@ -3421,7 +3645,23 @@
           "code": "2301",
           "travel": [
             {
-              "codeCurrent": "230101"
+              "230101": {
+                "name": "Núi Bà Đen",
+                "nameSlug": "NUI BA DEN",
+                "coord": [
+                  "11°38'B",
+                  "106°17'Đ"
+                ],
+                "description": "Núi Bà Đen là điểm du lịch gần với trung tâm thành phố Tây Ninh, chỉ cách khoảng hơn 10km. Với những du khách yêu trải nghiệm và du lịch núi thì đây chắc chắn sẽ là địa điểm du lịch ở Tây Ninh không thể bỏ lỡ. \nBạn cũng sẽ không cần phải băn khoăn Tây Ninh có gì chơi khi điểm du lịch Núi Bà Đen sẽ mang đến cho bạn nhiều trải nghiệm. Cụ thể du khách có thể chiêm ngưỡng ngọn núi cao nhất miền Nam với chiều cao lên tới 986m. \nDu khách có thể sử dụng dịch vụ cáp treo từ chân núi lên đỉnh núi để chiêm ngưỡng vẻ đẹp bao la của đất trời nơi đây. Nếu đi thành đoàn đông người, bạn có thể cắm trại trên đỉnh núi, săn mây – những trải nghiệm này hứa hẹn sẽ mang đến cho bạn một chuyến đi khó quên. ",
+                "code": "230101",
+                "img": [
+                  "Database/img/23010101.png",
+                  "Database/img/23010102.png",
+                  "Database/img/23010103.png",
+                  "Database/img/23010104.png"
+                ]
+              },
+              "codeCurrent": "230102"
             }
           ]
         },
@@ -3607,7 +3847,23 @@
           "code": "2408",
           "travel": [
             {
-              "codeCurrent": "240801"
+              "240801": {
+                "name": "Vương Cung Thánh Đường Phú Nhai ",
+                "nameSlug": "VUONG CUNG THANH DUONG PHU NHAI ",
+                "coord": [
+                  "20°30'B",
+                  "106°36'Đ"
+                ],
+                "description": "Vương cung thánh đường Phú Nhai là nhà thờ Công giáo Rôma thuộc Giáo phận Bùi Chu. Nhà thờ gốc có phong cách kiến trúc Gothic đậm dấu ấn Tây Ban Nha. Sau được xây lại theo phong cách kiến trúc Gothic nước Pháp. Khi khách tham quan đứng trên ngọn tháp cao của nhà thờ Phú Nhai sẽ được chiêm ngưỡng được toàn cảnh của Huyện Xuân Trường.",
+                "code": "240801",
+                "img": [
+                  "Database/img/24080101.png",
+                  "Database/img/24080102.png",
+                  "Database/img/24080103.png",
+                  "Database/img/24080104.png"
+                ]
+              },
+              "codeCurrent": "240802"
             }
           ]
         },
@@ -3661,7 +3917,24 @@
           "code": "2502",
           "travel": [
             {
-              "codeCurrent": "250201"
+              "250201": {
+                "name": "Phan Xi Păng",
+                "nameSlug": "PHAN XI PANG",
+                "coord": [
+                  "22°30'B",
+                  "103°77'Đ"
+                ],
+                "description": "Cách thị trấn Sapa ở Lào Cai khoảng 9km về phía Tây Nam, thuộc dãy Hoàng Liên Sơn, Phan Xi Păng từ lâu đã trở thành điểm đến thu hút đông đảo du khách trong và ngoài nước đến đây trải nghiệm. Với độ cao 3143m, đây là đỉnh núi cao nhất Việt Nam và toàn khu vực Đông Dương. \nTrước đây để đến với đỉnh Fansipan bạn sẽ phải leo núi ít nhất từ 2 -3 ngày. Chuyến đi bộ sẽ rất tuyệt vời khi bạn được hòa mình hoàn toàn vào khung cảnh thiên nhiên ngoạn mục của Dãy Hoàng Liên Sơn. Tuy nhiên để leo núi, bạn sẽ cần có một sức khỏe tốt. \nTừ tháng 2 năm 2016 tuyến cáp treo Fansipan đã được chính thức đưa vào hoạt động, giúp việc di chuyển và chinh phục đỉnh Fansipan trở nên dễ dàng hơn rất nhiều.\nTrải nghiệm cáp treo Fansipan: Với chặng đường 1400m và di chuyển trong vòng 15 phút. Ngồi trong cáp treo, du khách có thể chiêm ngưỡng vẻ đẹp của cảnh quan thiên nhiên tươi đẹp như rừng nguyên sinh Hoàng Liên Sơn, Mường Hoa thơ mộng hay dãy Hoàng Liên Sơn kỳ vĩ,...\nĐỉnh Fansipan: Với độ cao 3.143m, nơi đây được mệnh danh là nóc nhà của Đông Dương. Từ đỉnh Fansipan du khách có thể ngắm nhìn trọn vẹn vẻ đẹp thiên nhiên hùng vĩ của nơi đây, xa xa là hãy Hoàng Liên Sơn sừng sững. Bạn cũng đừng quên chụp một vài tấm hình với cột mốc Fansipan để lưu lại hành trình chinh phục đỉnh núi này của mình nhé. \nQuần thể chùa trên đỉnh Fansipan là địa điểm không thể bỏ qua trên con đường chinh phục đỉnh Fansipan. Đến đây bạn có thể viết sớ, cầu bình an cho gia đình. Bên cạnh đó, cảnh đẹp của chùa cũng như không gian xung quanh chắc chắn sẽ làm say lòng du khách. \nCổng trời Sapa: Từ cổng trời, bạn sẽ được chiêm ngưỡng thung lũng Ngòi Đùng ở phía Đông, thung lũng Mường Hoa ở phía Tây hay vẻ đẹp hùng vĩ của Thác Bạc. Đặc biệt bạn có thể phóng tầm mắt ra toàn cảnh núi Fansipan. \nHướng mắt về phía dưới bạn sẽ thấy một loạt các khu rừng nguyên sinh rộng lớn và những vực sâu thăm thẳm xuống núi. Đứng tại đây bạn còn có thể check - in lưu lại khung cảnh hùng vĩ mà thiên nhiên đã ban tặng cho nơi đây.\nThành phố trên mây - Fansipan Legend là một điểm tham quan mới thu hút được rất nhiều du khách khi đã chinh phục được đỉnh núi Fansipan. Nơi đây sở hữu nhiều công trình kiến trúc tuyệt đẹp như Bảo An Thiền Tự, Bích Vân Thiền Tự hay khám phá vườn tre, các nhà hàng, trung tâm mua sắm,...",
+                "code": "250201",
+                "img": [
+                  "Database/img/25020101.png",
+                  "Database/img/25020102.png",
+                  "Database/img/25020103.png",
+                  "Database/img/25020104.png",
+                  "Database/img/25020105.png"
+                ]
+              },
+              "codeCurrent": "250202"
             }
           ]
         },
@@ -3759,7 +4032,23 @@
           "code": "2602",
           "travel": [
             {
-              "codeCurrent": "260201"
+              "260201": {
+                "name": "Cồn Phụng",
+                "nameSlug": "CON PHUNG",
+                "coord": [
+                  "10°33'B",
+                  "106°36'Đ"
+                ],
+                "description": "Được bình chọn là khu du lịch tiêu biểu ở Đồng bằng sông Cửu Long, Cồn Phụng được thiết kế theo lối kiến trúc mở và hòa mình vào thiên nhiên. Cồn Phụng được ví như một ốc đảo xanh nổi trên Sông Tiền mà đến đây bạn sẽ được khám phá cuộc sống miệt vườn dân dã của người dân nơi đây.Ngoài ra, bạn cũng có thể trải nghiệm thú vui câu cá, be mương bắt cá, chèo thuyền, tắm sông, đi xe ngựa, tham quan những miệt vườn trái cây và chiêm ngưỡng sức hút dân dã của miền đất Tứ Linh. Bên cạnh đó, Cồn Phụng còn sở hữu khu di tích Đạo Dừa rộng khoảng 1.500 m² cũng là địa điểm được nhiều du khách đến tham quan.",
+                "code": "260201",
+                "img": [
+                  "Database/img/26020101.png",
+                  "Database/img/26020102.png",
+                  "Database/img/26020103.png",
+                  "Database/img/26020104.png"
+                ]
+              },
+              "codeCurrent": "260202"
             }
           ]
         },
@@ -3857,7 +4146,23 @@
           "code": "2701",
           "travel": [
             {
-              "codeCurrent": "270101"
+              "270101": {
+                "name": "Bãi Biển Nhũ Tiên",
+                "nameSlug": "BAI BIEN NHU TIEN",
+                "coord": [
+                  "12°17'B",
+                  "109°20'Đ"
+                ],
+                "description": "Bãi biển Nhũ Tiên Nha Trang nằm tại eo biển khép kín, khuất gió được bao bọc bởi những dãy núi cao hùng vĩ. Hiện nay, bãi biển vẫn giữ được nét hoang sơ vốn có. Đến với bãi biển, khách du lịch sẽ có cơ hội được hòa mình vào dòng nước xanh mát, cảm nhận hương vị của biển khơi. Đắm chìm vào dòng nước xanh mát, bạn sẽ hoàn toàn cảm thấy thư thái, thoải mái.",
+                "code": "270101",
+                "img": [
+                  "Database/img/27010101.png",
+                  "Database/img/27010102.png",
+                  "Database/img/27010103.png",
+                  "Database/img/27010104.png"
+                ]
+              },
+              "codeCurrent": "270102"
             }
           ]
         },
@@ -3966,7 +4271,23 @@
           "code": "2801",
           "travel": [
             {
-              "codeCurrent": "280101"
+              "280101": {
+                "name": "Công Viên Đồi Dương Bình Thuận",
+                "nameSlug": "CONG VIEN DOI DUONG BINH THUAN",
+                "coord": [
+                  "10°92'B",
+                  "108°11'Đ"
+                ],
+                "description": "Công Viên Đồi Dương Phan Thiết là một bãi tắm nằm ngay trung tâm thành phố biển, hấp dẫn khách du lịch bởi những bãi cát trắng xen lẫn đồi đất thấp, thoải dần hướng ra biển. Với đặc điểm bờ biển nông, cát thoải, sóng êm dịu, làn nước trong xanh sẽ khiến bạn thật sự bị ấn tượng và cuốn hút ngay khi đến thành phố biển xinh đẹp.",
+                "code": "280101",
+                "img": [
+                  "Database/img/28010101.png",
+                  "Database/img/28010102.png",
+                  "Database/img/28010103.png",
+                  "Database/img/28010104.png"
+                ]
+              },
+              "codeCurrent": "280102"
             }
           ]
         },
@@ -4130,7 +4451,22 @@
           "code": "2905",
           "travel": [
             {
-              "codeCurrent": "290501"
+              "290501": {
+                "name": "Di tích Pác Bó – suối Lê Nin",
+                "nameSlug": "DI TICH PAC BO – SUOI LE NIN",
+                "coord": [
+                  "22°97'B",
+                  "106°04'Đ"
+                ],
+                "description": "Suối Lê-nin nằm trong quần thể di tích lịch sử Pác Bó. Mang ý nghĩa lịch sử cách mạng, suối Lê-nin dường như không dành được sự quan tâm quá nhiều của các bạn trẻ vốn đang say mê hướng về những địa danh nổi tiếng đậm chất phiêu lưu. Tuy nhiên, nếu đã đặt chân đến đây 1 lần thì du khách sẽ không hối hận về quyết định của mình đâu đấy!",
+                "code": "290501",
+                "img": [
+                  "Database/img/29050101.png",
+                  "Database/img/29050102.png",
+                  "Database/img/29050103.png"
+                ]
+              },
+              "codeCurrent": "290502"
             }
           ]
         },
@@ -4382,7 +4718,23 @@
           "code": "3014",
           "travel": [
             {
-              "codeCurrent": "301401"
+              "301401": {
+                "name": "Đảo Cát Bà",
+                "nameSlug": "DAO CAT BA",
+                "coord": [
+                  "20°79'B",
+                  "106°99'Đ"
+                ],
+                "description": "Cát Bà là một huyện đảo cách trung tâm thành phố Hải Phòng khoảng 9km. Trong những dịp hè, lượng du khách đến tham quan khu du lịch Hải Phòng này rất đông. Thời điểm này, du khách có thể thỏa sức vui chơi dưới làn nước trong lành, thiên nhiên tươi mát. Cát Bà được thiên nhiên ưu ái với thời tiết mát mẻ quanh năm. Vì vậy đây cũng là điểm đến lý tưởng trong các điểm du lịch Hải Phòng được du khách quan tâm khi đến với thành phố này. Tại đảo Cát Bà, du khách có thể tham quan nhiều điểm đến khác nhau như: Vịnh Lan Hạ, Đảo Khỉ, vườn quốc gia Cát Bà… Bên cạnh đó, bạn cũng có thể thỏa sức thưởng thức nhiều món ăn ẩm thực hấp dẫn như: Bề bề rang muối, tu hài, sam trứng nướng… Huyện đảo Cát Bà được đánh giá là một trong các điểm du lịch Hải Phòng lý tưởng nhất. Các tour du lịch Hải Phòng cũng luôn ưu ái lựa chọn điểm đến này trong lịch trình của mình.  ",
+                "code": "301401",
+                "img": [
+                  "Database/img/30140101.png",
+                  "Database/img/30140102.png",
+                  "Database/img/30140103.png",
+                  "Database/img/30140104.png"
+                ]
+              },
+              "codeCurrent": "301402"
             }
           ]
         },
@@ -4938,7 +5290,23 @@
           "code": "3501",
           "travel": [
             {
-              "codeCurrent": "350101"
+              "350101": {
+                "name": "Bãi Sau Vũng Tàu Bà Rịa Vũng Tàu",
+                "nameSlug": "BAI SAU VUNG TAU BA RIA VUNG TAU",
+                "coord": [
+                  "10°33'B",
+                  "107°09'Đ"
+                ],
+                "description": "Bãi Sau mang trong mình vẻ đẹp hài hòa màu sắc với màu trắng của những đồi cát trải dài nối tiếp, màu xanh của rừng phi lao cổ thụ, rừng dương ngút ngàn, hàng dừa rợp bóng, cùng với màu xanh trong vắt mát lành của biển.\nThấp thoáng dưới rừng dương là dãy nhà nghỉ bằng gỗ được thiết kế theo kiểu nhà rông, đơn sơ giản dị nhưng lại vô cùng tao nhã, thanh lịch, quyện mình cùng cảnh đẹp xung quanh.",
+                "code": "350101",
+                "img": [
+                  "Database/img/35010101.png",
+                  "Database/img/35010102.png",
+                  "Database/img/35010103.png",
+                  "Database/img/35010104.png"
+                ]
+              },
+              "codeCurrent": "350102"
             }
           ]
         },
@@ -5903,7 +6271,24 @@
           "code": "4305",
           "travel": [
             {
-              "codeCurrent": "430501"
+              "430501": {
+                "name": "Tam Đảo",
+                "nameSlug": "TAM DAO",
+                "coord": [
+                  "21°45'B",
+                  "105°64'Đ"
+                ],
+                "description": "Sở dĩ là Tam Đảo là vì nơi đây được hình thành từ 3 ngọn núi cao trên 1000m so với mực nước biển là Thiên Thị, Thạch Bàn và Phù Nghĩa. Nơi đây chính là điểm đến hấp dẫn nhất Vĩnh Phúc, là vùng đất tuyệt đẹp với khung cảnh thơ mộng, mây mù bao phủ quanh năm được ví như “Đà Lạt của miền Bắc” ”, là “Sapa thứ hai” của Việt Nam.Không chỉ sở hữu vẻ hoang sơ hùng vĩ, huyền ảo giữa mây trời, Tam Đảo còn trải trên mình một thảm thực vật rộng lớn, phong phú là lá phổi xanh điều hòa khí hậu cho Thủ đô và các khu vực lân cận. Từ thời Pháp thuộc, Tam Đảo đã được quy hoạch để được xây dựng thành khu du lịch nghỉ dưỡng với nhiều resort, khách sạn sang trọng. Những ngôi biệt thự cổ nằm rải rác trên các sườn núi tạo nên một cảnh quan vô cùng đặc biệt.Hòa quyện với vẻ đẹp huyền bí giữa mây trời Tam Đảo, nơi đây còn là điểm du lịch tâm linh gắn với địa danh Đền Bà Chúa Thượng Ngàn. Cách đó không xa là đền thờ Quốc Mẫu Âu Cơ, chùa Vàng tạo thành một cụm tâm linh Phật - Thánh đầy linh thiêng giữa chốn núi rừng đầy mộng mơ, quanh năm sương trắng",
+                "code": "430501",
+                "img": [
+                  "Database/img/43050101.png",
+                  "Database/img/43050102.png",
+                  "Database/img/43050103.png",
+                  "Database/img/43050104.png",
+                  "Database/img/43050105.png"
+                ]
+              },
+              "codeCurrent": "430502"
             }
           ]
         },
@@ -7834,7 +8219,24 @@
           "code": "5601",
           "travel": [
             {
-              "codeCurrent": "560101"
+              "560101": {
+                "name": "Vịnh Hạ Long",
+                "nameSlug": "VINH HA LONG",
+                "coord": [
+                  "20°92'B",
+                  "107°18'Đ"
+                ],
+                "description": "Hạ Long thuộc tỉnh Quảng Ninh, cách Hà Nội khoảng 180km, được mệnh danh là thiên đường du lịch phía Bắc. Nhờ vị trí thuận lợi cùng cơ sở hạ tầng, hệ thống giao thông phát triển, mỗi năm, Hạ Long thu hút hàng chục triệu lượt khách du lịch trong nước và quốc tế. \nVịnh Hạ Long có diện tích 1.553km2 bao gồm 1.900 hòn đảo đá vôi lớn nhỏ mang những hình thù hết sức sinh động. Vịnh đã nhiều lần được UNESCO bình chọn là kỳ quan thiên nhiên thế giới, được mệnh danh là địa điểm nhất định phải đến 1 lần trong đời.",
+                "code": "560101",
+                "img": [
+                  "Database/img/56010101.png",
+                  "Database/img/56010102.png",
+                  "Database/img/56010103.png",
+                  "Database/img/56010104.png",
+                  "Database/img/56010105.png"
+                ]
+              },
+              "codeCurrent": "560102"
             }
           ]
         },
@@ -8195,7 +8597,23 @@
           "code": "5805",
           "travel": [
             {
-              "codeCurrent": "580501"
+              "580501": {
+                "name": "Động Phong Nha",
+                "nameSlug": "DONG PHONG NHA",
+                "coord": [
+                  "17°58'B",
+                  "106°28'Đ"
+                ],
+                "description": "Động Phong Nha là điểm đến hàng đầu cho du khách lần đầu đến Quảng Bình. Động Phong Nha được khai thác du lịch từ rất sớm, từ năm 1991 động Phong Nha đã được đưa vào khai thác du lịch.  Được đánh giá với 7 tiêu chí nổi bật, động Phong Nha thực sự làm du khách choáng ngợp với hệ thống thạch nhũ mà thiên nhiên ban tặng cho Quảng Bình. Để đến được động Phong Nha du khách ngược thuyền trên dòng Sông son tầm 30 phút. Khoảng thời gian 30 phút này bạn sẽ được thấy cuộc sống bà con khu vực phong nha.",
+                "code": "580501",
+                "img": [
+                  "Database/img/58050101.png",
+                  "Database/img/58050102.png",
+                  "Database/img/58050103.png",
+                  "Database/img/58050104.png"
+                ]
+              },
+              "codeCurrent": "580502"
             }
           ]
         },

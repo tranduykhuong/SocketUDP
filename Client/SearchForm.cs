@@ -175,9 +175,7 @@ namespace Client
         {
             optionDistrict.Text = "";
             optionProvince.Text = "";
-            diadiem.Text = "Nhập địa điểm du lịch";
-            diadiem.ForeColor = Color.Gray;
-            diadiem_Leave(sender, e);
+            diadiem.Text = "";
             dataTable.Items.Clear();
             filterBtn_Click(sender, e);
         }
