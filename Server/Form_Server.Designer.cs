@@ -128,6 +128,7 @@
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(51, 17);
             this.checkBox1.TabIndex = 5;
+            this.checkBox1.TabStop = false;
             this.checkBox1.Text = "Auto ";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
@@ -142,6 +143,7 @@
             this.Stop.Name = "Stop";
             this.Stop.Size = new System.Drawing.Size(84, 25);
             this.Stop.TabIndex = 6;
+            this.Stop.TabStop = false;
             this.Stop.Text = "Stop";
             this.Stop.UseVisualStyleBackColor = true;
             this.Stop.Click += new System.EventHandler(this.Stop_Click);
@@ -156,6 +158,7 @@
             this.Restart.Name = "Restart";
             this.Restart.Size = new System.Drawing.Size(84, 26);
             this.Restart.TabIndex = 7;
+            this.Restart.TabStop = false;
             this.Restart.Text = "Restart";
             this.Restart.UseVisualStyleBackColor = true;
             this.Restart.Click += new System.EventHandler(this.Restart_Click);
@@ -181,10 +184,12 @@
             // consoleServer
             // 
             this.consoleServer.Cursor = System.Windows.Forms.Cursors.No;
+            this.consoleServer.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.consoleServer.Location = new System.Drawing.Point(3, 138);
             this.consoleServer.Name = "consoleServer";
             this.consoleServer.Size = new System.Drawing.Size(380, 121);
             this.consoleServer.TabIndex = 8;
+            this.consoleServer.TabStop = false;
             this.consoleServer.Text = "";
             // 
             // panel2
@@ -206,6 +211,7 @@
             this.clientStatus.Name = "clientStatus";
             this.clientStatus.Size = new System.Drawing.Size(349, 234);
             this.clientStatus.TabIndex = 2;
+            this.clientStatus.TabStop = false;
             this.clientStatus.Text = "";
             // 
             // label3

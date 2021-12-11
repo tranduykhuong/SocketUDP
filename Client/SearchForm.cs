@@ -69,7 +69,6 @@ namespace Client
             foreach (var item in client.places)
             {
                 JObject itemObj = JObject.Parse(item.ToString());
-                //MessageBox.Show(itemObj["name"].ToString());
 
                 Item[0] = itemObj["code"].ToString();
                 Item[1] = itemObj["name"].ToString();
@@ -87,11 +86,10 @@ namespace Client
         {
             optionDistrict.Items.Clear();
             optionDistrict.Text = "";
-            if (optionProvince.Text == "") return;
+            if (optionProvince.Text == "" || !client.provinces.ContainsKey(optionProvince.Text)) return;
             string codeT = client.provinces[optionProvince.Text];
             client.requestOption_Districts(codeT);
             client.ReceiveResponse();
-            //MessageBox.Show("huyen");
 
             foreach (var district in client.districts)
             {
@@ -102,6 +100,7 @@ namespace Client
         private void filterBtn_Click(object sender, System.EventArgs e)
         {
             string codeP = "0";
+            
             if (optionProvince.Text != "")
                 codeP = client.provinces[optionProvince.Text];
 
@@ -119,7 +118,6 @@ namespace Client
             foreach (var item in client.places)
             {
                 JObject itemObj = JObject.Parse(item.ToString());
-                //MessageBox.Show(itemObj["name"].ToString());
 
                 Item[0] = itemObj["code"].ToString();
                 Item[1] = itemObj["name"].ToString();
@@ -171,7 +169,6 @@ namespace Client
                     this.Top = 0;
                 }
             }
-            //MessageBox.Show(selected);
         }
 
         private void pictureresetBox_Click(object sender, EventArgs e)
@@ -182,6 +179,7 @@ namespace Client
             diadiem.ForeColor = Color.Gray;
             diadiem_Leave(sender, e);
             dataTable.Items.Clear();
+            filterBtn_Click(sender, e);
         }
 
         private void pictureresetBox_MouseHover(object sender, System.EventArgs e)

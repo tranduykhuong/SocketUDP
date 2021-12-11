@@ -148,6 +148,7 @@ namespace Client
             this.tendiadiem.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tendiadiem.ForeColor = System.Drawing.Color.Indigo;
             this.tendiadiem.Location = new System.Drawing.Point(26, 31);
+            this.tendiadiem.MaximumSize = new System.Drawing.Size(380, 50);
             this.tendiadiem.Name = "tendiadiem";
             this.tendiadiem.Size = new System.Drawing.Size(96, 23);
             this.tendiadiem.TabIndex = 1;

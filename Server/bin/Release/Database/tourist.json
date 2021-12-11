@@ -39,7 +39,23 @@
           "code": "0102",
           "travel": [
             {
-              "codeCurrent": "010201"
+              "010201": {
+                "name": "Du lịch Núi Sam ",
+                "nameSlug": "DU LICH NUI SAM ",
+                "coord": [
+                  "10°67'B",
+                  "105°07'Đ"
+                ],
+                "description": "Núi Sam là một trong những ngọn núi của vùng Bảy Núi nổi tiếng ở An Giang. Tọa lạc ở vùng đồng bằng sông Cửu Long nên xung quanh Núi Sam có rất nhiều đồng lúa và kênh rạch chằng chịt. Đứng từ trên cao nhìn xuống, sẽ là một khung cảnh thiên nhiên không thể tuyệt vời hơn! Có đến gần 200 ngôi đền, chùa, am, miếu rải rác xung quanh Núi Sam từ chân núi, sườn núi cho đến đỉnh núi. Tuy nhiên, với độ cao khoảng 284m, đường mòn lên núi chỉ dốc thoai thoải và có rất nhiều bóng cây. Do đó, bạn không phải tốn quá nhiều sức để leo núi. Và nhớ cầm theo máy ảnh, điện thoại để chụp hình. Khung cảnh hai bên triền núi rất thơ mộng và nên thơ đấy!",
+                "code": "010201",
+                "img": [
+                  "Database/img/01020101.png",
+                  "Database/img/01020102.png",
+                  "Database/img/01020103.png",
+                  "Database/img/01020104.png"
+                ]
+              },
+              "codeCurrent": "010202"
             }
           ]
         },
@@ -159,7 +175,23 @@
           "code": "0201",
           "travel": [
             {
-              "codeCurrent": "020101"
+              "020101": {
+                "name": "Nhà Thờ Gỗ",
+                "nameSlug": "NHA THO GO",
+                "coord": [
+                  "14°34'B",
+                  "108°01'Đ"
+                ],
+                "description": "Nhà thờ gỗ thật sự là một kiệt tác kiển trúc vô cùng độc đáo của du lịch Kon Tum mà chúng ta khó có thể tìm thấy ở nơi nào khác. Công trình này được thiết kế theo kiến trúc Roman, kết hợp hài hòa với kiểu nhà sàn của người Ba Na nên vẫn mang đậm sắc thái tín ngưỡng, văn hóa của những người dân Tây Nguyên qua từng điểm nhấn trên chất liệu cũng như những đường nét họa tiết trang trí. Nhà thờ gỗ là một công trình khép kín bao gồm: Giáo đường, nhà trưng bày các sản phẩm dân tộc và tôn giáo, nhà rông cùng với nhà tiếp khách. Ngoài ra, còn có cơ sở mộc, dệt thổ cẩm, cơ sở may và cả cô nhi viện.",
+                "code": "020101",
+                "img": [
+                  "Database/img/02010101.png",
+                  "Database/img/02010102.png",
+                  "Database/img/02010103.png",
+                  "Database/img/02010104.png"
+                ]
+              },
+              "codeCurrent": "020102"
             }
           ]
         },
@@ -290,7 +322,23 @@
           "code": "0302",
           "travel": [
             {
-              "codeCurrent": "030201"
+              "030201": {
+                "name": "Khu du lịch hồ Tà Đùng",
+                "nameSlug": "KHU DU LICH HO TA DUNG",
+                "coord": [
+                  "11°87'B",
+                  "107°97'Đ"
+                ],
+                "description": "Khu du lịch hồ Tà Đùng nằm trong khu bảo tồn sinh thái Tà Đùng thuộc địa phận của hai xã Đắk Som và Đắk P’Lao với diện tích hơn 5000m2 và hơn 45 đảo lớn nhỏ khác nhau. Nơi đây được ví von như một Vịnh Hạ Long thu nhỏ bởi nếu như bạn đã một lần ghé đến nơi đây chắc chắn bạn sẽ phải trầm trồ bởi vẻ đẹp như tranh vẻ của nó.\nTà Đùng còn hoang sơ và còn chưa được chú trọng nhiều để đầu tư vào du lịch bởi nếu như có một tour chèo thuyền khám phá mọi ngõ ngách của Tà Đùng hay một cáp treo từ bên này qua bên kia thì chắc chắn sẽ thú vị hơn nhiều.",
+                "code": "030201",
+                "img": [
+                  "Database/img/03020101.png",
+                  "Database/img/03020102.png",
+                  "Database/img/03020103.png",
+                  "Database/img/03020104.png"
+                ]
+              },
+              "codeCurrent": "030202"
             }
           ]
         },
@@ -432,7 +480,23 @@
           "code": "0406",
           "travel": [
             {
-              "codeCurrent": "040601"
+              "040601": {
+                "name": "Bảo tàng Khmer",
+                "nameSlug": "BAO TANG KHMER",
+                "coord": [
+                  "9°60'B",
+                  "105°97'Đ"
+                ],
+                "description": "Nếu có dịp đến với Sóc Trăng thì nhất định đừng bỏ qua nơi này, ghé thăm nơi đây bạn sẽ phần nào hiểu được về nét đẹp văn hóa của dân tộc Khmer.Bảo tàng Khmer có vị trí ở phường 6, thị xã Sóc Trăng, tỉnh Sóc Trăng. Đây là một công trình được xây dựng theo kiến trúc của chùa Khmer và phía bên trong thì chứa nhiều hiện vật phản ánh đời sống tinh thần cũng như đời sống thường nhật phong phú, đặc sắc của đồng bào dân tộc Khmer. Ngoài ra nơi đây còn trưng bày các các loại trang phục, nhạc cụ,…cực kì đặc sắc.Nếu bạn là một người ưa thích khám phá những giá trị văn hóa hay đơn giản là chưa có hiểu biết gì đối với dân tộc Khmer thì đây là nơi bạn nên ghé qua.",
+                "code": "040601",
+                "img": [
+                  "Database/img/04060101.png",
+                  "Database/img/04060102.png",
+                  "Database/img/04060103.png",
+                  "Database/img/04060104.png"
+                ]
+              },
+              "codeCurrent": "040602"
             }
           ]
         },
@@ -596,7 +660,22 @@
           "code": "0509",
           "travel": [
             {
-              "codeCurrent": "050901"
+              "050901": {
+                "name": "Trảng cỏ Bù Lạch",
+                "nameSlug": "TRANG CO BU LACH",
+                "coord": [
+                  "11°81'B",
+                  "107°35'Đ"
+                ],
+                "description": "Đây là trảng cỏ lớn rộng với diện tích khoảng 500ha bao gồm gần 20 trảng cỏ lớn nhỏ khác nhau. Đến với Trảng cỏ bù lạch du khách sẽ phải trầm trồ, ngạc nhiên trước vẻ đẹp kì diệu mà tạo hóa ban tặng. Đó là những bãi cỏ kim mọc đan xen với các loại hoa, càng khiến cho khung cảnh nơi đây đẹp nên gấp vạn lần đầy sự mê hoặc xung quanh còn có cả một rừng nguyên sinh bao bọc. Đứng nhìn thôi đã thấy thích mắt lắm rồi, tới đây mọi người có thể xua tan đi mọi muộn phiền, mệt mỏi mà cảm giác được thiên nhiên nơi đây bao bọc. Một cảm giác thật là tuyệt vời.  Có thể nói là trảng cỏ bù lạch là điểm du lịch ở Bình Phước có bãi cỏ lớn nhất ở đây. Trong thời gian sắp tới Trảng Cỏ Bù Lạch sẽ được quy hoạch thành một khu du lịch sinh thái kết hợp với khung trường. Do đó bạn hãy tranh thủ bớt chút thời gian ra để đến đây khám phá những vẻ đẹp  thiên nhiên nơi đây nhé.",
+                "code": "050901",
+                "img": [
+                  "Database/img/05090101.png",
+                  "Database/img/05090102.png",
+                  "Database/img/05090103.png"
+                ]
+              },
+              "codeCurrent": "050902"
             }
           ]
         },
@@ -705,7 +784,23 @@
           "code": "0607",
           "travel": [
             {
-              "codeCurrent": "060701"
+              "060701": {
+                "name": "Đền Chử Đồng Tử ",
+                "nameSlug": "DEN CHU DONG TU ",
+                "coord": [
+                  "20°88'B",
+                  "105°92'Đ"
+                ],
+                "description": "Đền Chử Đồng Tử là ngôi đền nằm trong truyền thuyết văn lang từ đời Hùng Vương thứ 18. Đến nay, ngôi đền này là minh chứng cho đạo Phật xuất hiện ở Việt Nam từ xưa. Và là điểm đến tâm linh thú vị nhất cho du khách thập phương.",
+                "code": "060701",
+                "img": [
+                  "Database/img/06070101.png",
+                  "Database/img/06070102.png",
+                  "Database/img/06070103.png",
+                  "Database/img/06070104.png"
+                ]
+              },
+              "codeCurrent": "060702"
             }
           ]
         },
@@ -781,7 +876,23 @@
           "code": "0703",
           "travel": [
             {
-              "codeCurrent": "070301"
+              "070301": {
+                "name": "Du lịch Sầm Sơn",
+                "nameSlug": "DU LICH SAM SON",
+                "coord": [
+                  "19°76'B",
+                  "105°89'Đ"
+                ],
+                "description": "Cách trung tâm thành phố Thanh Hóa chỉ 16km, mỗi dịp hè về, Sầm Sơn đều đón chào rất nhiều du khách trong và ngoài nước tới đây vui chơi, nghỉ dưỡng. Bãi tắm Sầm Sơn rộng, sóng to, cát trắng mịn, nhiều điểm giải trí hấp dẫn chính là những lý do khiến nơi đây được yêu thích.\nDu lịch Sầm Sơn Thanh Hóa, bạn không những được tắm biển thỏa thích, tham gia các trò chơi dưới nước như dù bay, mô tô nước... mà còn có thể ngắm cảnh bình minh hay hoàng hôn đẹp chất ngất trên biển. Đơn giản hơn là đi dạo bờ biển về đêm để tận hưởng trọn vẹn sự lãng mạn của biển cả, đạp xe đạp đôi quanh những con đường ven biển xinh xinh hoặc tham gia kéo lưới cùng với dân chài vào buổi sớm…\nTại Sầm Sơn còn có rất nhiều điểm tham quan, vui chơi thú vị bạn nên ghé thăm như: Thủy Tiên Cung (nằm dưới chân núi Trường Lệ), chùa Độc Cước, hòn Trống Mái, chùa Cô Tiên...Đặc biệt, bạn sẽ rất ấn tượng với con đường đi lên chùa Cô Tiên, các bạn nhớ trải nghiệm cung đường đầy màu xanh của cây rừng xen vào đó những tia nắng xuyên qua lá quá đỗi sinh động cùng cung đường lên dốc quanh co, mang lại cảm giác thoải mái, gần gũi thiên nhiên. Và đừng quên lưu lại những bức hình xinh xắn khi đặt chân nơi này nhé! ",
+                "code": "070301",
+                "img": [
+                  "Database/img/07030101.png",
+                  "Database/img/07030102.png",
+                  "Database/img/07030103.png",
+                  "Database/img/07030104.png"
+                ]
+              },
+              "codeCurrent": "070302"
             }
           ]
         },
@@ -1110,7 +1221,23 @@
           "code": "0805",
           "travel": [
             {
-              "codeCurrent": "080501"
+              "080501": {
+                "name": "Đảo Cồn Cỏ",
+                "nameSlug": "DAO CON CO",
+                "coord": [
+                  "17°16'B",
+                  "107°34'Đ"
+                ],
+                "description": "Từ Cửa Tùng, bạn đi về phía Tây sẽ thấy một hòn đảo xinh đẹp hiện lên giữa biển Vĩnh Linh, đó chính là đảo Cồn Cỏ. Hòn đảo này nằm ở độ cao từ 5-30m so với mực nước biển và chỉ cách đất liền chưa đến 30km. Đây là một hòn đảo gắn với những sự kiện lịch sử của nước nhà trong cuộc kháng chiến chống Mỹ.Ngày nay, Cồn Cỏ đã được nâng cấp rất nhiều để thu hút số lượng lớn hơn khách đến tham quan điểm du lịch ở Quảng Trị bằng các dịch vụ du lịch hấp dẫn hay mở ra các phương tiện di chuyển dễ dàng hơn cho du khách tiếp cận. Đến thăm Cồn Cỏ, bạn sẽ thực sự được đắm mình trong không gian yên bình, hoang sơ của thiên nhiên.",
+                "code": "080501",
+                "img": [
+                  "Database/img/08050101.png",
+                  "Database/img/08050102.png",
+                  "Database/img/08050103.png",
+                  "Database/img/08050104.png"
+                ]
+              },
+              "codeCurrent": "080502"
             }
           ]
         },
@@ -1197,7 +1324,23 @@
           "code": "0903",
           "travel": [
             {
-              "codeCurrent": "090301"
+              "090301": {
+                "name": "Hồ Na Hang",
+                "nameSlug": "HO NA HANG",
+                "coord": [
+                  "22°36'B",
+                  "105°39'Đ"
+                ],
+                "description": "Hồ Na Hang là một trong những nơi còn giữ được vẻ đẹp hoang sơ nguyên thủy của mình. Đây là nơi hội tụ của 2 con sông lớn Năng và Gâm. Đặc biệt con hồ này được bao quanh bởi 99 ngọn núi to nhỏ khác nhau. Hình ảnh thác nước chảy tuôn trào trông thật đẹp và ấn tượng. Nhiều người khi tới đây thường có chung một cảm nghĩ đó là toàn cảnh hồ Na Hang đẹp như một bức tranh thủy mặc rất nên thơ và hữu tình.\nCó thể nói Tuyên Quang có gì đẹp sẽ không thể thiếu một địa điểm hấp dẫn như hồ Na Hang trong danh sách này? Khi tới đây, bạn sẽ được ngồi trên một con thuyền nhỏ và chiêm ngưỡng toàn bộ cảnh sắc tuyệt đẹp mà Na Hang được thiên nhiên ưu ái ban tặng\nNgoài ra, có một điều nữa khiến khiến du khách cảm thấy yêu thích nơi đây đó chính là ngoài việc được ngắm cảnh, bạn còn được giao lưu và tìm hiểu kỹ hơn về cuộc sống của người dân nơi đây. Hình ảnh những cô gái miền sơn cước thật xinh xắn và duyên dáng sẽ in sâu trong tâm trí của bạn.\nĐặc biệt xung quanh địa điểm du lịch Tuyên Quang này còn có rất nhiều ngọn thác nổi tiếng để bạn lên kế hoạch đi tham quan như Khuổi Sung, Pắc Ban hay Khuổi Nhi. Đây đều là những ngọn thác có khung cảnh thiên nhiên tươi đẹp, dịu mát nên rất thích hợp để bạn có thể tới khám phá và tham quan.",
+                "code": "090301",
+                "img": [
+                  "Database/img/09030101.png",
+                  "Database/img/09030102.png",
+                  "Database/img/09030103.png",
+                  "Database/img/09030104.png"
+                ]
+              },
+              "codeCurrent": "090302"
             }
           ]
         },
@@ -1262,7 +1405,23 @@
           "code": "1001",
           "travel": [
             {
-              "codeCurrent": "100101"
+              "100101": {
+                "name": "Bãi biển Mỹ Khê",
+                "nameSlug": "BAI BIEN MY KHE",
+                "coord": [
+                  "16°06'B",
+                  "108°24'Đ"
+                ],
+                "description": "Bãi biển Mỹ Khê cũng không còn là cái tên lạ lẫm gì khi mà nơi đây từng liên tục xuất hiện “nhẵn mặt” trên các báo đài trong và ngoài nước với danh hiệu một trong số những bãi biển quyến rũ nhất hành tinh. Từ thị xã Quảng Ngãi, du khách đi theo quốc lộ 24B tầm 15km là sẽ đến địa phận thôn Cổ Lũy, từ đây bạn có thể dễ dàng đến bãi biển Mỹ Khê bằng cách hỏi người dân địa phương.Những năm gần đây, biển Mỹ Khê thu hút rất đông đảo khách du lịch từ nước ngoài, đặc biệt là các nước khu vực châu Á như Hàn Quốc, Nhật Bản, Trung Quốc, Singapore,…Nơi đây có rất nhiều khách sạn view nhìn ra biển, rất thích hợp để bạn dành trọn kỳ nghỉ của mình cùng người thân \n",
+                "code": "100101",
+                "img": [
+                  "Database/img/10010101.png",
+                  "Database/img/10010102.png",
+                  "Database/img/10010103.png",
+                  "Database/img/10010104.png"
+                ]
+              },
+              "codeCurrent": "100102"
             }
           ]
         },
